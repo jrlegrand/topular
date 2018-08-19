@@ -1,0 +1,21 @@
+<?php
+/* @var $this SourceController */
+/* @var $model Source */
+$this->pageTitle = 'Topular | Submit Source';
+?>
+
+<?php $this->widget('bootstrap.widgets.TbAlert', array(
+        'block'=>true, // display a larger alert block?
+        'fade'=>true, // use transitions?
+        'closeText'=>false, // close link text - if set to false, no close link is displayed
+        'alerts'=>array( // configurations per alert type
+            'success'=>array('block'=>true, 'fade'=>true), // success, info, warning, error or danger
+            'info'=>array('block'=>true, 'fade'=>true), // success, info, warning, error or danger
+        ),
+    )); ?>
+
+<div class="col-xs-12">
+	<h1>Submit Source</h1>
+
+	<?php echo $this->renderPartial('_form', array('model'=>$model)); ?>
+</div>

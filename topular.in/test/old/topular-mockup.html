@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Topular Mockup</title>
+	<link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" href="chosen/chosen.css">
+	<script src="chosen/chosen.jquery.js" type="text/javascript"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(function() {  
+		    $("#bt").click(function() {  
+		        $(".wrap").toggleClass("wrap-change");		       
+		        return false;  
+		    });  
+		});  
+			</script>
+	<script type="text/javascript">
+		$(function() {  
+		    $("#bt2").click(function() {  
+		        $(".wrap").toggleClass("wrap-change"); 
+		        return false;   
+		    });  
+		}); 
+		
+	</script>
+	<script type="text/javascript">
+
+			function DropDown(el) {
+				this.dd = el;
+				this.initEvents();
+			}
+			DropDown.prototype = {
+				initEvents : function() {
+					var obj = this;
+
+					obj.dd.on('click', function(event){
+						$(this).toggleClass('active');
+						event.stopPropagation();
+					});	
+				}
+			}
+
+			$(function() {
+
+				var dd = new DropDown( $('#dd') );
+
+				$(document).click(function() {
+					// all dropdowns
+					$('.wrapper-dropdown-5').removeClass('active');
+				});
+
+			});
+
+		</script>
+		
+	<link href='http://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Droid+Sans+Mono' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div id="pagewrap" class="wrap">
+		<div class="menu">
+			<div class="menu-inner">
+				<a href="#" id="bt" class="logo">Topular</a>
+				<a href="#" id="bt2" class="menu-toggle">show/hide</a>
+				<select id="city-sel" class="chosen-select city-sel">
+					<option value="chi" class="chi">Chicago</option>
+					<option value="ind" class="ind">Indianapolis</option>
+					<option value="nyc" class="nyc">New York</option>
+					<option value="stl" class="stl">St. Louis</option>
+				</select>
+				<select multiple data-placeholder="Category..." id="cat-sel" class="chosen-select cat-sel">
+					<option value="" class="">Advice</option>
+					<option value="" class="">Animals</option> 
+					<option value="" class="">Architecture</option>
+					<option value="" class="">Arts & Culture</option>
+					<option value="" class="">Business and Legal</option>
+					<option value="" class="">Community</option> 
+					<option value="" class="">Crime & Courts</option> 
+					<option value="" class="">Design</option> 
+					<option value="" class="">Education</option> 
+					<option value="" class="">Entertainment</option> 
+					<option value="" class="">Environment</option> 
+					<option value="" class="">Family</option> 
+					<option value="" class="">Film</option> 
+					<option value="" class="">Food & Drink</option> 
+					<option value="" class="">General</option> 
+					<option value="" class="">Health</option> 
+					<option value="" class="">Humor</option> 
+					<option value="" class="">Lifestyle</option> 
+					<option value="" class="">Music</option> 
+					<option value="" class="">News</option> 
+					<option value="" class="">Nightlife</option> 
+					<option value="" class="">Nonprofits</option> 
+					<option value="" class="">Opinion</option> 
+					<option value="" class="">Outdoors</option> 
+					<option value="" class="">Photography</option> 
+					<option value="" class="">Politics & Government</option> 
+					<option value="" class="">Real Estate</option> 
+					<option value="" class="">Religion</option> 
+					<option value="" class="">Sex and Relationships</option> 
+					<option value="" class="">Sports</option> 
+					<option value="" class="">Startups</option> 
+					<option value="" class="">Stories</option> 
+					<option value="" class="">Style</option> 
+					<option value="" class="">Technology</option> 
+					<option value="" class="">Transportation</option>  				
+				</select>
+			</div>
+			
+		</div>
+		<div id="articles">
+		<div class="articles-inner">
+		
+			<div class="single-hold">
+				<div class="score">
+					<div class="score-inner">
+						<span class="overall">1.6K</span>
+						<span class="fb scr">937</span>
+						<span class="tw scr">520</span>
+						<span class="li scr">89</span>
+						<span class="tp scr">129</span>
+					</div>
+				</div>
+					<div class="text">
+					<h1>County Barbeque is smoking something</h1>
+					<h3>Chicago Reader</h3>
+			An ersatz barbecue shack from the DMK group by Mike Sula It didn't take long for a perspicacious 14-year-old acquaintance of mine to sit down and absorb the vibe in County Barbeque before she declared, "It's so fake." I'm guessing Michael Kornick and David Morton are hoping UIC underclassmen are less world-weary.… [ Read more ] [ Subscribe to the comments on this story ]...
+					
+					</div>
+			</div>
+			<div class="single-hold">
+				<div class="score">
+					<div class="score-inner">
+						<span class="overall">1.5K</span>
+						<span class="fb scr">937</span>
+						<span class="tw scr">520</span>
+						<span class="li scr">89</span>
+						<span class="tp scr">129</span>
+					</div>
+				</div>
+					<div class="text">
+					<h1>Cocktail Challenge: Essence of Dirty Streisand</h1>
+					<h3>Chicago Reader</h3>
+					<div class="text-hold">
+			Clark Street Ale House barkeep David Hermach tackles a mixological mystery, the Dirty Streisand. by Kate Schmidt "I have an unorthodox request for the ingredient," said Jason Cevallos, who tends bar at the Office, the private lounge in the basement of the Aviary. Instead of an ingredient per se, Cevallos wanted to challenge David Hermach, a barkeep at Clark Street Ale House, with what might be called the essence of a cocktail—specifically, the Dirty Streisa...
+					</div>
+						<!--<div class="img-hold">
+							<img src="http://www.chicagoreader.com/binary/b286/CC-ClarkStAleHouse-teaser.jpg" width="100" height="100">
+						</div>-->
+						<div class="clear"></div>
+					</div>
+					
+			</div>
+			<div class="single-hold">
+				<div class="score">
+					<div class="score-inner">
+						<span class="overall">367</span>
+						<span class="fb scr">937</span>
+						<span class="tw scr">520</span>
+						<span class="li scr">89</span>
+						<span class="tp scr">129</span>
+					</div>
+				</div>
+					<div class="text">
+					<h1>Great America to get world’s fastest wooden roller coaster</h1>
+					<h3>CLTV</h3>
+			There will soon be a new roller coaster at Great America. The new ride is called Goliath. It will be the fastest wooden roller coaster, reaching top speeds of 72 miles-per-hour. The ride will also have the tallest drop of …
+					</div>
+			</div>
+			<div class="single-hold">
+				<div class="score">
+					<div class="score-inner">
+						<span class="overall">119</span>
+					</div>
+				</div>
+					<div class="text">
+					<h1>Lorem Ipsum Dolor Sit Amet</h1>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, nam, a, recusandae, eaque totam ut quae ea consequuntur et adipisci optio deserunt magni similique harum temporibus voluptatem ipsa repellendus hic.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, doloribus, nihil, nostrum perferendis placeat ab possimus distinctio vero veniam assumenda atque dolore commodi! Tempore, obcaecati eius iure perspiciatis perferendis quae.
+					</div>
+			</div>
+			<div class="single-hold">
+				<div class="score">
+					<div class="score-inner">
+						<span class="overall">98</span>
+					</div>
+				</div>
+					<div class="text">
+					<h1>Lorem Ipsum Dolor Sit Amet</h1>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, nam, a, recusandae, eaque totam ut quae ea consequuntur et adipisci optio deserunt magni similique harum temporibus voluptatem ipsa repellendus hic.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, doloribus, nihil, nostrum perferendis placeat ab possimus distinctio vero veniam assumenda atque dolore commodi! Tempore, obcaecati eius iure perspiciatis perferendis quae.
+					</div>
+			</div>
+			<div class="single-hold">
+				<div class="score">
+					<div class="score-inner">
+						<span class="overall">53</span>
+					</div>
+				</div>
+					<div class="text">
+					<h1>Lorem Ipsum Dolor Sit Amet</h1>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, nam, a, recusandae, eaque totam ut quae ea consequuntur et adipisci optio deserunt magni similique harum temporibus voluptatem ipsa repellendus hic.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, doloribus, nihil, nostrum perferendis placeat ab possimus distinctio vero veniam assumenda atque dolore commodi! Tempore, obcaecati eius iure perspiciatis perferendis quae.
+					</div>
+			</div>
+			<div class="single-hold">
+				<div class="score">
+					<div class="score-inner">
+						<span class="overall">22</span>
+					</div>
+				</div>
+					<div class="text">
+					<h1>Lorem Ipsum Dolor Sit Amet</h1>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, nam, a, recusandae, eaque totam ut quae ea consequuntur et adipisci optio deserunt magni similique harum temporibus voluptatem ipsa repellendus hic.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, doloribus, nihil, nostrum perferendis placeat ab possimus distinctio vero veniam assumenda atque dolore commodi! Tempore, obcaecati eius iure perspiciatis perferendis quae.
+					</div>
+			</div>
+			<div class="single-hold">
+				<div class="score">
+					<div class="score-inner">
+						<span class="overall">8</span>
+					</div>
+				</div>
+					<div class="text">
+					<h1>Lorem Ipsum Dolor Sit Amet</h1>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, nam, a, recusandae, eaque totam ut quae ea consequuntur et adipisci optio deserunt magni similique harum temporibus voluptatem ipsa repellendus hic.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, doloribus, nihil, nostrum perferendis placeat ab possimus distinctio vero veniam assumenda atque dolore commodi! Tempore, obcaecati eius iure perspiciatis perferendis quae.
+					</div>
+			</div>
+			
+			</div>
+		<div id="profile">
+			<div id="dd" class="wrapper-dropdown-5" tabindex="1">
+						<ul class="dropdown">
+							<li><a href="#" class="icon">​y</option>
+							<li><a href="#" class="icon">D</option>
+							<li><a href="#" class="icon">C</option>
+							<li><a href="#" class="icon">X</option>
+						</ul>
+					</div>
+		</div>
+	</div>
+
+  <script src="chosen/chosen.jquery.js" type="text/javascript"></script>
+  <script src="chosen/docsupport/prism.js" type="text/javascript" charset="utf-8"></script>
+ <script type="text/javascript">	
+	 $(".chosen-select").chosen()
+ </script>
+	<script type="text/javascript">
+    var config = {
+      '.chosen-select'           : {},
+      '.chosen-select-deselect'  : {allow_single_deselect:true},
+      '.chosen-select-no-single' : {disable_search_threshold:10},
+      '.chosen-select-no-results': {no_results_text:'Oops, nothing found!'},
+      '.chosen-select-width'     : {width:"95%"}
+    }
+    for (var selector in config) {
+      $(selector).chosen(config[selector]);
+    }
+    </script>
+  </body>
+</html>

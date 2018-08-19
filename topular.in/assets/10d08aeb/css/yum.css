@@ -1,0 +1,16 @@
+div.form .tooltip { display: none; background-color:#EFFDFF; border:1px solid #79B4DC; padding: 10px; width: 300px; }
+.avatar {float:left; margin-right: 5px;}
+.yumwarning{background-color: red;color:white;padding:5px;}
+label { display: inline }
+.checkbox { float: left; margin-right: 5px; }
+.listbox { display: inline; } 
+.membership { float: left;margin: 5px; }
+.info {background-color: lightgray; padding: 10px; margin:10px; border: 1px dotted black;}
+.new_messages td { border-bottom: 1px solid;} 
+.tooltip { display: none; padding: 5px; margin: 5px; background-color: #ffa;border: 1px solid #cc9; border-radius: 5px;}
+.view_user {float:left; margin:5px;}
+.profile_field_selection { float: right; margin: 5px;}
+.table_profile_fields { width: 50%; }
+.profilefieldlabel { float: left; margin-right: 5px; width: 100px;}
+.friend { margin: 5px; } 
+a.social { text-decoration: none; }

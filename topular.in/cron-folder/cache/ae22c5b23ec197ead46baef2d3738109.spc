@@ -1,0 +1,1 @@
+a:3:{s:3:"url";s:100:"http://www.ediblecommunities.com/indy/component/option,com_ninjarsssyndicator/feed_id,1/format,raw/l";s:8:"feed_url";s:29:"http://edibleindy.com/feed/?#";s:5:"build";s:14:"20130725002037";}

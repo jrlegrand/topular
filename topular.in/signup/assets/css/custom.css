@@ -1,0 +1,208 @@
+@font-face {
+	font-family: 'Lobster Two';
+	font-style: normal;
+	font-weight: 700;
+	src: local('Lobster Two Bold'), local('LobsterTwo-Bold'), url(http://themes.googleusercontent.com/static/fonts/lobstertwo/v4/bmdxOflBqMqjEC0-kGsIiDqR_3kx9_hJXbbyU8S6IN0.woff) format('woff');
+}
+@font-face {
+	font-weight: 400;
+	font-style: normal;
+	font-family: 'Droid Sans';
+	src: local('Droid Sans'), local('DroidSans'), url(http://themes.googleusercontent.com/static/fonts/droidsans/v3/s-BiyweUPV0v-yRb-cjciBsxEYwM7FgeyaSgU71cLG0.woff) format('woff');
+}
+@font-face {
+	font-weight: 700;
+	font-style: normal;
+	font-family: 'Droid Sans';
+	src: local('Droid Sans Bold'), local('DroidSans-Bold'), url(http://themes.googleusercontent.com/static/fonts/droidsans/v3/EFpQQyG9GqCrobXxL-KRMQFhaRv2pGgT5Kf0An0s4MM.woff) format('woff');
+}
+@font-face {
+	font-weight: 700;
+	font-style: normal;
+	font-family: 'Droid Serif';
+	src: local('Droid Serif Bold'), local('DroidSerif-Bold'), url(http://themes.googleusercontent.com/static/fonts/droidserif/v3/QQt14e8dY39u-eYBZmppwTqR_3kx9_hJXbbyU8S6IN0.woff) format('woff');
+}
+@font-face {
+	font-weight: 400;
+	font-style: normal;
+	font-family: 'Droid Serif';
+	src: local('Droid Serif'), local('DroidSerif'), url(http://themes.googleusercontent.com/static/fonts/droidserif/v3/0AKsP294HTD-nvJgucYTaIbN6UDyHWBl620a-IRfuBk.woff) format('woff');
+}
+
+::-moz-selection {
+background: #fff;
+color: #7E7E7E;
+text-shadow: none;
+}
+::selection {
+	background: #fff;
+	color: #7E7E7E;
+	text-shadow: none;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: #7E7E7E;
+	font-family: 'Droid Serif', serif;
+}
+hr.soften {
+	margin: 20px 0;
+	height: 1px;
+	border: 0;
+	background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+	background-image: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+	background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+	background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+}
+.social {
+	background-color: #F5F5F5;
+	border-bottom: 1px solid #DDDDDD;
+	border-top: 1px solid #FFFFFF;
+	padding: 15px 0;
+	text-align: center;
+}
+.jumbotron {
+	position: relative;
+	background: url(../img/bg4.png) repeat-x;
+	-webkit-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+	-moz-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+	box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+	color: #fff;
+	text-align: center;
+	text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
+}
+/* Custom container */
+.container-narrow {
+	margin: 10px auto;
+	max-width: 1200px;
+	text-align: center
+}
+.container-narrow > hr {
+	margin: 10px 0;
+}
+.container-narrow p.lead {
+	padding: 10px 0px;
+}
+.jumbotron {
+	padding: 20px 0;
+	text-align: center
+}
+.jumbotron h1 {
+	color: #fff;
+	line-height: 1;
+	font-weight: normal;
+	font-family: 'Lobster Two', cursive;
+	font-weight: 700;
+	font-size: 95px
+}
+.signupPlaceholder {
+	margin: 20px auto;
+}
+.signupPlaceholder a img {
+	position: relative
+}
+.applyform {
+	margin-top: 30px
+}
+input[type="email"].input {
+	width: 210px;
+	padding: 11px 8px;
+	font-size: 1em;
+	border: none;
+	background: #f6f6f6;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	-webkit-transition: background-color 0.2s ease;
+	-moz-transition: background-color 0.2s ease;
+	-o-transition: background-color 0.2s ease;
+	transition: background-color 0.2s ease
+}
+.jumbotron .btn {
+	font-weight: 700;
+	border-radius: 3px;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.7);
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+	color: #7E7E7E !important;
+	background-color: #ffffff;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#f7f7f7));
+	background: -webkit-linear-gradient(top, #ffffff 0%, #f7f7f7 100%) !important;
+	background: -moz-linear-gradient(top, #ffffff 0%, #f7f7f7 100%);
+	background: -ms-linear-gradient(top, #ffffff, #f7f7f7);
+	background: -o-linear-gradient(top, #ffffff, #f7f7f7);
+	border: 1px solid #d1d1d1;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.06);
+	text-shadow: 0 1px 0 #fff;
+}
+.jumbotron .btn:hover {
+	background-color: #f8f8f8;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f8f8f8), to(#ececec));
+	background: -webkit-linear-gradient(top, #f8f8f8 0%, #ececec 100%) !important;
+	background: -moz-linear-gradient(top, #f8f8f8 0%, #ececec 100%);
+	background: -ms-linear-gradient(top, #f8f8f8, #ececec);
+	background: -o-linear-gradient(top, #f8f8f8, #ececec);
+	border: 1px solid #bdbdbd;
+	color: #333333 !important;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+.jumbotron .btn:active {
+	background-color: #b7b7b7;
+	background: -webkit-gradient(linear, left top, left bottom, from(#b7b7b7), to(#bdbdbd));
+	background: -webkit-linear-gradient(top, #b7b7b7 0%, #bdbdbd 100%) !important;
+	background: -moz-linear-gradient(top, #b7b7b7 0%, #bdbdbd 100%);
+	background: -ms-linear-gradient(top, #b7b7b7, #bdbdbd);
+	background: -o-linear-gradient(top, #b7b7b7, #bdbdbd);
+	border: 1px solid #878787;
+	color: #333333 !important;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.17);
+}
+p.lead {
+	font-style: normal;
+	font-family: 'Droid Serif', serif;
+}
+/* Supporting marketing content */
+.marketing {
+	margin: 30px 0;
+}
+.marketing p + h4 {
+	margin-top: 28px;
+}
+.featuredicons {
+	color: #1069DB;
+	font-size: 40px;
+}
+.thankyouicon {
+	color: #1069DB;
+	Font-size: 90px;
+	margin: 25px 25px;
+	}
+.signupshare {
+	font-size: 30px;
+	color: #1069DB;
+	}
+.elusive-facebook {
+	color: #1069DB;
+	}
+.elusive-twitter {
+	color: #1069DB;
+	}
+.row {
+margin-top: 30px;
+}
+@media (max-width: 767px) {
+  	.container-narrow {
+    	padding-right: 20px;
+    	padding-left: 20px;
+  		}
+  	.btn {
+  		margin-top:20px;  margin-left:0px;
+  		}
+	.input-large {
+		padding:18px 14px;
+		}
+	.jumbotron {
+		padding: 1px 0;
+		text-align: center
+		}

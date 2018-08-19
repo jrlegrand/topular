@@ -1,0 +1,1108 @@
+2013/11/05 07:42:05 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`topular`.`collection`, CONSTRAINT `collection_ibfk_2` FOREIGN KEY (`city_id`) REFERENCES `city` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE). The SQL statement executed was: INSERT INTO `collection` (`date_updated`, `title`, `description`, `city_id`, `category_ids`, `user_id`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5). Bound with :yp0='0000-00-00 00:00:00', :yp1='Test', :yp2='Dummy', :yp3='', :yp4='8,21', :yp5='6'.
+2013/11/05 07:42:05 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`topular`.`collection`, CONSTRAINT `collection_ibfk_2` FOREIGN KEY (`city_id`) REFERENCES `city` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE). The SQL statement executed was: INSERT INTO `collection` (`date_updated`, `title`, `description`, `city_id`, `category_ids`, `user_id`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5). Bound with :yp0='0000-00-00 00:00:00', :yp1='Test', :yp2='Dummy', :yp3='', :yp4='8,21', :yp5='6'' in /home/topular/framework/db/CDbCommand.php:357
+Stack trace:
+#0 /home/topular/framework/db/ar/CActiveRecord.php(1023): CDbCommand->execute()
+#1 /home/topular/framework/db/ar/CActiveRecord.php(795): CActiveRecord->insert(NULL)
+#2 /home/topular/protected-development/controllers/CollectionController.php(79): CActiveRecord->save()
+#3 /home/topular/framework/web/actions/CInlineAction.php(49): CollectionController->actionCreate()
+#4 /home/topular/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/topular/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /home/topular/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /home/topular/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /home/topular/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /home/topular/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /home/topular/framework/web/CController.php(291): CFilterChain->run()
+#11 /home/topular/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /home/topular/framework/web/CWebApplication.php(282): CController->run('create')
+#13 /home/topular/framework/web/CWebApplication.php(141): CWebApplication->runController('collection/crea...')
+#14 /home/topular/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#15 /home/topular/topular.in/index-test.php(15): CApplication->run()
+#16 {main}
+REQUEST_URI=/index-test.php/collection/create
+HTTP_REFERER=http://topular.in/index-test.php/collection/create
+---
+2013/11/05 07:42:06 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`topular`.`collection`, CONSTRAINT `collection_ibfk_2` FOREIGN KEY (`city_id`) REFERENCES `city` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE). The SQL statement executed was: INSERT INTO `collection` (`date_updated`, `title`, `description`, `city_id`, `category_ids`, `user_id`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5). Bound with :yp0='0000-00-00 00:00:00', :yp1='Test', :yp2='Dummy', :yp3='', :yp4='8,21,25', :yp5='6'.
+2013/11/05 07:42:06 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`topular`.`collection`, CONSTRAINT `collection_ibfk_2` FOREIGN KEY (`city_id`) REFERENCES `city` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE). The SQL statement executed was: INSERT INTO `collection` (`date_updated`, `title`, `description`, `city_id`, `category_ids`, `user_id`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5). Bound with :yp0='0000-00-00 00:00:00', :yp1='Test', :yp2='Dummy', :yp3='', :yp4='8,21,25', :yp5='6'' in /home/topular/framework/db/CDbCommand.php:357
+Stack trace:
+#0 /home/topular/framework/db/ar/CActiveRecord.php(1023): CDbCommand->execute()
+#1 /home/topular/framework/db/ar/CActiveRecord.php(795): CActiveRecord->insert(NULL)
+#2 /home/topular/protected-development/controllers/CollectionController.php(79): CActiveRecord->save()
+#3 /home/topular/framework/web/actions/CInlineAction.php(49): CollectionController->actionCreate()
+#4 /home/topular/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/topular/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /home/topular/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /home/topular/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /home/topular/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /home/topular/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /home/topular/framework/web/CController.php(291): CFilterChain->run()
+#11 /home/topular/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /home/topular/framework/web/CWebApplication.php(282): CController->run('create')
+#13 /home/topular/framework/web/CWebApplication.php(141): CWebApplication->runController('collection/crea...')
+#14 /home/topular/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#15 /home/topular/topular.in/index-test.php(15): CApplication->run()
+#16 {main}
+REQUEST_URI=/index-test.php/collection/create
+HTTP_REFERER=http://topular.in/index-test.php/collection/create
+---
+2013/11/05 07:42:40 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`topular`.`collection`, CONSTRAINT `collection_ibfk_2` FOREIGN KEY (`city_id`) REFERENCES `city` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE). The SQL statement executed was: INSERT INTO `collection` (`date_updated`, `title`, `description`, `city_id`, `category_ids`, `user_id`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5). Bound with :yp0='0000-00-00 00:00:00', :yp1='Test', :yp2='Dummy', :yp3='', :yp4='8,21,25', :yp5='6'.
+2013/11/05 07:42:40 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`topular`.`collection`, CONSTRAINT `collection_ibfk_2` FOREIGN KEY (`city_id`) REFERENCES `city` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE). The SQL statement executed was: INSERT INTO `collection` (`date_updated`, `title`, `description`, `city_id`, `category_ids`, `user_id`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5). Bound with :yp0='0000-00-00 00:00:00', :yp1='Test', :yp2='Dummy', :yp3='', :yp4='8,21,25', :yp5='6'' in /home/topular/framework/db/CDbCommand.php:357
+Stack trace:
+#0 /home/topular/framework/db/ar/CActiveRecord.php(1023): CDbCommand->execute()
+#1 /home/topular/framework/db/ar/CActiveRecord.php(795): CActiveRecord->insert(NULL)
+#2 /home/topular/protected-development/controllers/CollectionController.php(79): CActiveRecord->save()
+#3 /home/topular/framework/web/actions/CInlineAction.php(49): CollectionController->actionCreate()
+#4 /home/topular/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/topular/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /home/topular/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /home/topular/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /home/topular/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /home/topular/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /home/topular/framework/web/CController.php(291): CFilterChain->run()
+#11 /home/topular/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /home/topular/framework/web/CWebApplication.php(282): CController->run('create')
+#13 /home/topular/framework/web/CWebApplication.php(141): CWebApplication->runController('collection/crea...')
+#14 /home/topular/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#15 /home/topular/topular.in/index-test.php(15): CApplication->run()
+#16 {main}
+REQUEST_URI=/index-test.php/collection/create
+HTTP_REFERER=http://topular.in/index-test.php/collection/create
+---
+2013/11/05 07:43:22 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`topular`.`collection`, CONSTRAINT `collection_ibfk_2` FOREIGN KEY (`city_id`) REFERENCES `city` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE). The SQL statement executed was: INSERT INTO `collection` (`date_updated`, `title`, `description`, `city_id`, `category_ids`, `user_id`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5). Bound with :yp0='0000-00-00 00:00:00', :yp1='A', :yp2='', :yp3='', :yp4='', :yp5='6'.
+2013/11/05 07:43:22 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`topular`.`collection`, CONSTRAINT `collection_ibfk_2` FOREIGN KEY (`city_id`) REFERENCES `city` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE). The SQL statement executed was: INSERT INTO `collection` (`date_updated`, `title`, `description`, `city_id`, `category_ids`, `user_id`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5). Bound with :yp0='0000-00-00 00:00:00', :yp1='A', :yp2='', :yp3='', :yp4='', :yp5='6'' in /home/topular/framework/db/CDbCommand.php:357
+Stack trace:
+#0 /home/topular/framework/db/ar/CActiveRecord.php(1023): CDbCommand->execute()
+#1 /home/topular/framework/db/ar/CActiveRecord.php(795): CActiveRecord->insert(NULL)
+#2 /home/topular/protected-development/controllers/CollectionController.php(79): CActiveRecord->save()
+#3 /home/topular/framework/web/actions/CInlineAction.php(49): CollectionController->actionCreate()
+#4 /home/topular/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/topular/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /home/topular/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /home/topular/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /home/topular/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /home/topular/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /home/topular/framework/web/CController.php(291): CFilterChain->run()
+#11 /home/topular/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /home/topular/framework/web/CWebApplication.php(282): CController->run('create')
+#13 /home/topular/framework/web/CWebApplication.php(141): CWebApplication->runController('collection/crea...')
+#14 /home/topular/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#15 /home/topular/topular.in/index-test.php(15): CApplication->run()
+#16 {main}
+REQUEST_URI=/index-test.php/collection/create
+HTTP_REFERER=http://topular.in/index-test.php/collection/create
+---
+2013/11/05 07:43:23 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`topular`.`collection`, CONSTRAINT `collection_ibfk_2` FOREIGN KEY (`city_id`) REFERENCES `city` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE). The SQL statement executed was: INSERT INTO `collection` (`date_updated`, `title`, `description`, `city_id`, `category_ids`, `user_id`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5). Bound with :yp0='0000-00-00 00:00:00', :yp1='A', :yp2='B', :yp3='', :yp4='', :yp5='6'.
+2013/11/05 07:43:23 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`topular`.`collection`, CONSTRAINT `collection_ibfk_2` FOREIGN KEY (`city_id`) REFERENCES `city` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE). The SQL statement executed was: INSERT INTO `collection` (`date_updated`, `title`, `description`, `city_id`, `category_ids`, `user_id`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5). Bound with :yp0='0000-00-00 00:00:00', :yp1='A', :yp2='B', :yp3='', :yp4='', :yp5='6'' in /home/topular/framework/db/CDbCommand.php:357
+Stack trace:
+#0 /home/topular/framework/db/ar/CActiveRecord.php(1023): CDbCommand->execute()
+#1 /home/topular/framework/db/ar/CActiveRecord.php(795): CActiveRecord->insert(NULL)
+#2 /home/topular/protected-development/controllers/CollectionController.php(79): CActiveRecord->save()
+#3 /home/topular/framework/web/actions/CInlineAction.php(49): CollectionController->actionCreate()
+#4 /home/topular/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/topular/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /home/topular/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /home/topular/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /home/topular/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /home/topular/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /home/topular/framework/web/CController.php(291): CFilterChain->run()
+#11 /home/topular/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /home/topular/framework/web/CWebApplication.php(282): CController->run('create')
+#13 /home/topular/framework/web/CWebApplication.php(141): CWebApplication->runController('collection/crea...')
+#14 /home/topular/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#15 /home/topular/topular.in/index-test.php(15): CApplication->run()
+#16 {main}
+REQUEST_URI=/index-test.php/collection/create
+HTTP_REFERER=http://topular.in/index-test.php/collection/create
+---
+2013/11/05 07:46:45 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`topular`.`collection`, CONSTRAINT `collection_ibfk_2` FOREIGN KEY (`city_id`) REFERENCES `city` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE). The SQL statement executed was: INSERT INTO `collection` (`date_updated`, `title`, `description`, `city_id`, `category_ids`, `user_id`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5). Bound with :yp0='0000-00-00 00:00:00', :yp1='Tes', :yp2='', :yp3='', :yp4='', :yp5='6'.
+2013/11/05 07:46:45 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`topular`.`collection`, CONSTRAINT `collection_ibfk_2` FOREIGN KEY (`city_id`) REFERENCES `city` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE). The SQL statement executed was: INSERT INTO `collection` (`date_updated`, `title`, `description`, `city_id`, `category_ids`, `user_id`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5). Bound with :yp0='0000-00-00 00:00:00', :yp1='Tes', :yp2='', :yp3='', :yp4='', :yp5='6'' in /home/topular/framework/db/CDbCommand.php:357
+Stack trace:
+#0 /home/topular/framework/db/ar/CActiveRecord.php(1023): CDbCommand->execute()
+#1 /home/topular/framework/db/ar/CActiveRecord.php(795): CActiveRecord->insert(NULL)
+#2 /home/topular/protected-development/controllers/CollectionController.php(79): CActiveRecord->save()
+#3 /home/topular/framework/web/actions/CInlineAction.php(49): CollectionController->actionCreate()
+#4 /home/topular/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/topular/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /home/topular/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /home/topular/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /home/topular/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /home/topular/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /home/topular/framework/web/CController.php(291): CFilterChain->run()
+#11 /home/topular/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /home/topular/framework/web/CWebApplication.php(282): CController->run('create')
+#13 /home/topular/framework/web/CWebApplication.php(141): CWebApplication->runController('collection/crea...')
+#14 /home/topular/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#15 /home/topular/topular.in/index-test.php(15): CApplication->run()
+#16 {main}
+REQUEST_URI=/index-test.php/collection/create
+HTTP_REFERER=http://topular.in/index-test.php/collection/create
+---
+2013/11/05 07:46:46 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`topular`.`collection`, CONSTRAINT `collection_ibfk_2` FOREIGN KEY (`city_id`) REFERENCES `city` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE). The SQL statement executed was: INSERT INTO `collection` (`date_updated`, `title`, `description`, `city_id`, `category_ids`, `user_id`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5). Bound with :yp0='0000-00-00 00:00:00', :yp1='Tes', :yp2='', :yp3='', :yp4='', :yp5='6'.
+2013/11/05 07:46:46 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`topular`.`collection`, CONSTRAINT `collection_ibfk_2` FOREIGN KEY (`city_id`) REFERENCES `city` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE). The SQL statement executed was: INSERT INTO `collection` (`date_updated`, `title`, `description`, `city_id`, `category_ids`, `user_id`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5). Bound with :yp0='0000-00-00 00:00:00', :yp1='Tes', :yp2='', :yp3='', :yp4='', :yp5='6'' in /home/topular/framework/db/CDbCommand.php:357
+Stack trace:
+#0 /home/topular/framework/db/ar/CActiveRecord.php(1023): CDbCommand->execute()
+#1 /home/topular/framework/db/ar/CActiveRecord.php(795): CActiveRecord->insert(NULL)
+#2 /home/topular/protected-development/controllers/CollectionController.php(79): CActiveRecord->save()
+#3 /home/topular/framework/web/actions/CInlineAction.php(49): CollectionController->actionCreate()
+#4 /home/topular/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/topular/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /home/topular/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /home/topular/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /home/topular/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /home/topular/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /home/topular/framework/web/CController.php(291): CFilterChain->run()
+#11 /home/topular/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /home/topular/framework/web/CWebApplication.php(282): CController->run('create')
+#13 /home/topular/framework/web/CWebApplication.php(141): CWebApplication->runController('collection/crea...')
+#14 /home/topular/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#15 /home/topular/topular.in/index-test.php(15): CApplication->run()
+#16 {main}
+REQUEST_URI=/index-test.php/collection/create
+HTTP_REFERER=http://topular.in/index-test.php/collection/create
+---
+2013/11/05 07:46:46 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`topular`.`collection`, CONSTRAINT `collection_ibfk_2` FOREIGN KEY (`city_id`) REFERENCES `city` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE). The SQL statement executed was: INSERT INTO `collection` (`date_updated`, `title`, `description`, `city_id`, `category_ids`, `user_id`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5). Bound with :yp0='0000-00-00 00:00:00', :yp1='Test', :yp2='', :yp3='', :yp4='', :yp5='6'.
+2013/11/05 07:46:46 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`topular`.`collection`, CONSTRAINT `collection_ibfk_2` FOREIGN KEY (`city_id`) REFERENCES `city` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE). The SQL statement executed was: INSERT INTO `collection` (`date_updated`, `title`, `description`, `city_id`, `category_ids`, `user_id`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5). Bound with :yp0='0000-00-00 00:00:00', :yp1='Test', :yp2='', :yp3='', :yp4='', :yp5='6'' in /home/topular/framework/db/CDbCommand.php:357
+Stack trace:
+#0 /home/topular/framework/db/ar/CActiveRecord.php(1023): CDbCommand->execute()
+#1 /home/topular/framework/db/ar/CActiveRecord.php(795): CActiveRecord->insert(NULL)
+#2 /home/topular/protected-development/controllers/CollectionController.php(79): CActiveRecord->save()
+#3 /home/topular/framework/web/actions/CInlineAction.php(49): CollectionController->actionCreate()
+#4 /home/topular/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/topular/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /home/topular/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /home/topular/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /home/topular/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /home/topular/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /home/topular/framework/web/CController.php(291): CFilterChain->run()
+#11 /home/topular/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /home/topular/framework/web/CWebApplication.php(282): CController->run('create')
+#13 /home/topular/framework/web/CWebApplication.php(141): CWebApplication->runController('collection/crea...')
+#14 /home/topular/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#15 /home/topular/topular.in/index-test.php(15): CApplication->run()
+#16 {main}
+REQUEST_URI=/index-test.php/collection/create
+HTTP_REFERER=http://topular.in/index-test.php/collection/create
+---
+2013/11/05 07:46:47 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`topular`.`collection`, CONSTRAINT `collection_ibfk_2` FOREIGN KEY (`city_id`) REFERENCES `city` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE). The SQL statement executed was: INSERT INTO `collection` (`date_updated`, `title`, `description`, `city_id`, `category_ids`, `user_id`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5). Bound with :yp0='0000-00-00 00:00:00', :yp1='Test', :yp2='B', :yp3='', :yp4='', :yp5='6'.
+2013/11/05 07:46:47 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`topular`.`collection`, CONSTRAINT `collection_ibfk_2` FOREIGN KEY (`city_id`) REFERENCES `city` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE). The SQL statement executed was: INSERT INTO `collection` (`date_updated`, `title`, `description`, `city_id`, `category_ids`, `user_id`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5). Bound with :yp0='0000-00-00 00:00:00', :yp1='Test', :yp2='B', :yp3='', :yp4='', :yp5='6'' in /home/topular/framework/db/CDbCommand.php:357
+Stack trace:
+#0 /home/topular/framework/db/ar/CActiveRecord.php(1023): CDbCommand->execute()
+#1 /home/topular/framework/db/ar/CActiveRecord.php(795): CActiveRecord->insert(NULL)
+#2 /home/topular/protected-development/controllers/CollectionController.php(79): CActiveRecord->save()
+#3 /home/topular/framework/web/actions/CInlineAction.php(49): CollectionController->actionCreate()
+#4 /home/topular/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/topular/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /home/topular/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /home/topular/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /home/topular/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /home/topular/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /home/topular/framework/web/CController.php(291): CFilterChain->run()
+#11 /home/topular/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /home/topular/framework/web/CWebApplication.php(282): CController->run('create')
+#13 /home/topular/framework/web/CWebApplication.php(141): CWebApplication->runController('collection/crea...')
+#14 /home/topular/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#15 /home/topular/topular.in/index-test.php(15): CApplication->run()
+#16 {main}
+REQUEST_URI=/index-test.php/collection/create
+HTTP_REFERER=http://topular.in/index-test.php/collection/create
+---
+2013/11/05 07:50:11 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`topular`.`collection`, CONSTRAINT `collection_ibfk_2` FOREIGN KEY (`city_id`) REFERENCES `city` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE). The SQL statement executed was: INSERT INTO `collection` (`date_updated`, `title`, `description`, `city_id`, `category_ids`, `user_id`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5). Bound with :yp0='0000-00-00 00:00:00', :yp1='No City', :yp2='Test', :yp3='', :yp4='3,5', :yp5='6'.
+2013/11/05 07:50:11 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`topular`.`collection`, CONSTRAINT `collection_ibfk_2` FOREIGN KEY (`city_id`) REFERENCES `city` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE). The SQL statement executed was: INSERT INTO `collection` (`date_updated`, `title`, `description`, `city_id`, `category_ids`, `user_id`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5). Bound with :yp0='0000-00-00 00:00:00', :yp1='No City', :yp2='Test', :yp3='', :yp4='3,5', :yp5='6'' in /home/topular/framework/db/CDbCommand.php:357
+Stack trace:
+#0 /home/topular/framework/db/ar/CActiveRecord.php(1023): CDbCommand->execute()
+#1 /home/topular/framework/db/ar/CActiveRecord.php(795): CActiveRecord->insert(NULL)
+#2 /home/topular/protected-development/controllers/CollectionController.php(80): CActiveRecord->save()
+#3 /home/topular/framework/web/actions/CInlineAction.php(49): CollectionController->actionCreate()
+#4 /home/topular/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/topular/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /home/topular/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /home/topular/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /home/topular/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /home/topular/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /home/topular/framework/web/CController.php(291): CFilterChain->run()
+#11 /home/topular/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /home/topular/framework/web/CWebApplication.php(282): CController->run('create')
+#13 /home/topular/framework/web/CWebApplication.php(141): CWebApplication->runController('collection/crea...')
+#14 /home/topular/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#15 /home/topular/topular.in/index-test.php(15): CApplication->run()
+#16 {main}
+REQUEST_URI=/index-test.php/collection/create
+HTTP_REFERER=http://topular.in/index-test.php/collection/create
+---
+2013/11/05 07:50:57 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`topular`.`collection`, CONSTRAINT `collection_ibfk_2` FOREIGN KEY (`city_id`) REFERENCES `city` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE). The SQL statement executed was: INSERT INTO `collection` (`date_updated`, `title`, `description`, `city_id`, `category_ids`, `user_id`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5). Bound with :yp0='0000-00-00 00:00:00', :yp1='dfs', :yp2='sdfs', :yp3='', :yp4='8', :yp5='6'.
+2013/11/05 07:50:57 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`topular`.`collection`, CONSTRAINT `collection_ibfk_2` FOREIGN KEY (`city_id`) REFERENCES `city` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE). The SQL statement executed was: INSERT INTO `collection` (`date_updated`, `title`, `description`, `city_id`, `category_ids`, `user_id`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5). Bound with :yp0='0000-00-00 00:00:00', :yp1='dfs', :yp2='sdfs', :yp3='', :yp4='8', :yp5='6'' in /home/topular/framework/db/CDbCommand.php:357
+Stack trace:
+#0 /home/topular/framework/db/ar/CActiveRecord.php(1023): CDbCommand->execute()
+#1 /home/topular/framework/db/ar/CActiveRecord.php(795): CActiveRecord->insert(NULL)
+#2 /home/topular/protected-development/controllers/CollectionController.php(80): CActiveRecord->save()
+#3 /home/topular/framework/web/actions/CInlineAction.php(49): CollectionController->actionCreate()
+#4 /home/topular/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/topular/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /home/topular/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /home/topular/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /home/topular/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /home/topular/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /home/topular/framework/web/CController.php(291): CFilterChain->run()
+#11 /home/topular/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /home/topular/framework/web/CWebApplication.php(282): CController->run('create')
+#13 /home/topular/framework/web/CWebApplication.php(141): CWebApplication->runController('collection/crea...')
+#14 /home/topular/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#15 /home/topular/topular.in/index-test.php(15): CApplication->run()
+#16 {main}
+REQUEST_URI=/index-test.php/collection/create
+HTTP_REFERER=http://topular.in/index-test.php/collection/create
+---
+2013/11/05 09:44:40 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'community' in 'where clause'. The SQL statement executed was: SELECT `t`.`id` AS `t0_c0`, `t`.`url` AS `t0_c1`, `t`.`bitly_url` AS `t0_c2`, `t`.`title` AS `t0_c3`, `t`.`summary` AS `t0_c4`, `t`.`content` AS `t0_c5`, `t`.`image_url` AS `t0_c6`, `t`.`image_width` AS `t0_c7`, `t`.`image_height` AS `t0_c8`, `t`.`word_count` AS `t0_c9`, `t`.`date_published` AS `t0_c10`, `t`.`source_id` AS `t0_c11`, `t`.`fb_likes` AS `t0_c12`, `t`.`fb_shares` AS `t0_c13`, `t`.`retweets` AS `t0_c14`, `t`.`linkedin_shares` AS `t0_c15`, `t`.`score` AS `t0_c16`, `t`.`rank` AS `t0_c17`, `t`.`category_rank` AS `t0_c18`, `t`.`movement_day` AS `t0_c19`, `t`.`movement_week` AS `t0_c20`, `t`.`movement_month` AS `t0_c21`, `t`.`trend` AS `t0_c22`, `t`.`age` AS `t0_c23`, `t`.`hidden` AS `t0_c24`, `t`.`timestamp` AS `t0_c25`, `source`.`id` AS `t1_c0`, `source`.`title` AS `t1_c1`, `source`.`url` AS `t1_c2`, `source`.`feed_url` AS `t1_c3`, `source`.`category_id` AS `t1_c4`, `source`.`type` AS `t1_c5`, `source`.`user_submitted` AS `t1_c6`, `source`.`city_id` AS `t1_c7`, `source`.`user_id` AS `t1_c8`, `source`.`score` AS `t1_c9`, `source`.`twitter_handle` AS `t1_c10`, `source`.`facebook_handle` AS `t1_c11`, `source`.`timestamp` AS `t1_c12`, `category`.`id` AS `t2_c0`, `category`.`title` AS `t2_c1`, `category`.`color` AS `t2_c2`, `city`.`id` AS `t3_c0`, `city`.`title` AS `t3_c1`, `city`.`hashtag` AS `t3_c2` FROM `article` `t`  LEFT OUTER JOIN `source` `source` ON (`t`.`source_id`=`source`.`id`) AND (user_submitted = 0)  LEFT OUTER JOIN `category` `category` ON (`source`.`category_id`=`category`.`id`)  LEFT OUTER JOIN `city` `city` ON (`source`.`city_id`=`city`.`id`)  WHERE ((hidden = 0) AND ((`category`.`title`=community) AND (DATE(date_published)=CURDATE()))) ORDER BY t.score DESC LIMIT 20.
+2013/11/05 09:44:40 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'community' in 'where clause'. The SQL statement executed was: SELECT `t`.`id` AS `t0_c0`, `t`.`url` AS `t0_c1`, `t`.`bitly_url` AS `t0_c2`, `t`.`title` AS `t0_c3`, `t`.`summary` AS `t0_c4`, `t`.`content` AS `t0_c5`, `t`.`image_url` AS `t0_c6`, `t`.`image_width` AS `t0_c7`, `t`.`image_height` AS `t0_c8`, `t`.`word_count` AS `t0_c9`, `t`.`date_published` AS `t0_c10`, `t`.`source_id` AS `t0_c11`, `t`.`fb_likes` AS `t0_c12`, `t`.`fb_shares` AS `t0_c13`, `t`.`retweets` AS `t0_c14`, `t`.`linkedin_shares` AS `t0_c15`, `t`.`score` AS `t0_c16`, `t`.`rank` AS `t0_c17`, `t`.`category_rank` AS `t0_c18`, `t`.`movement_day` AS `t0_c19`, `t`.`movement_week` AS `t0_c20`, `t`.`movement_month` AS `t0_c21`, `t`.`trend` AS `t0_c22`, `t`.`age` AS `t0_c23`, `t`.`hidden` AS `t0_c24`, `t`.`timestamp` AS `t0_c25`, `source`.`id` AS `t1_c0`, `source`.`title` AS `t1_c1`, `source`.`url` AS `t1_c2`, `source`.`feed_url` AS `t1_c3`, `source`.`category_id` AS `t1_c4`, `source`.`type` AS `t1_c5`, `source`.`user_submitted` AS `t1_c6`, `source`.`city_id` AS `t1_c7`, `source`.`user_id` AS `t1_c8`, `source`.`score` AS `t1_c9`, `source`.`twitter_handle` AS `t1_c10`, `source`.`facebook_handle` AS `t1_c11`, `source`.`timestamp` AS `t1_c12`, `category`.`id` AS `t2_c0`, `category`.`title` AS `t2_c1`, `category`.`color` AS `t2_c2`, `city`.`id` AS `t3_c0`, `city`.`title` AS `t3_c1`, `city`.`hashtag` AS `t3_c2` FROM `article` `t`  LEFT OUTER JOIN `source` `source` ON (`t`.`source_id`=`source`.`id`) AND (user_submitted = 0)  LEFT OUTER JOIN `category` `category` ON (`source`.`category_id`=`category`.`id`)  LEFT OUTER JOIN `city` `city` ON (`source`.`city_id`=`city`.`id`)  WHERE ((hidden = 0) AND ((`category`.`title`=community) AND (DATE(date_published)=CURDATE()))) ORDER BY t.score DESC LIMIT 20' in /home/topular/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /home/topular/framework/db/CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /home/topular/framework/db/ar/CActiveFinder.php(761): CDbCommand->queryAll()
+#2 /home/topular/framework/db/ar/CActiveFinder.php(422): CJoinElement->runQuery(Object(CJoinQuery))
+#3 /home/topular/framework/db/ar/CActiveFinder.php(68): CJoinElement->find(Object(CDbCriteria))
+#4 /home/topular/framework/db/ar/CActiveRecord.php(1302): CActiveFinder->query(Object(CDbCriteria), true)
+#5 /home/topular/framework/db/ar/CActiveRecord.php(1416): CActiveRecord->query(Object(CDbCriteria), true)
+#6 /home/topular/protected-development/models/Article.php(145): CActiveRecord->findAll(Object(CDbCriteria))
+#7 /home/topular/protected-development/controllers/ArticleController.php(247): Article->getArticles()
+#8 [internal function]: ArticleController->actionIndex(NULL, 'community')
+#9 /home/topular/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(ArticleController), Array)
+#10 /home/topular/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ArticleController), Object(ReflectionMethod), Array)
+#11 /home/topular/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#12 /home/topular/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#13 /home/topular/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#14 /home/topular/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#15 /home/topular/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#16 /home/topular/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#17 /home/topular/framework/web/CController.php(291): CFilterChain->run()
+#18 /home/topular/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 /home/topular/framework/web/CWebApplication.php(282): CController->run('index')
+#20 /home/topular/framework/web/CWebApplication.php(141): CWebApplication->runController('article/index')
+#21 /home/topular/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#22 /home/topular/topular.in/index-test.php(15): CApplication->run()
+#23 {main}
+REQUEST_URI=/index-test.php/community
+---
+2013/11/05 09:45:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "food-&-drink".' in /home/topular/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/topular/framework/web/CWebApplication.php(141): CWebApplication->runController('food-&-drink')
+#1 /home/topular/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/topular/topular.in/index-test.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/index-test.php/food-&-drink
+HTTP_REFERER=http://topular.in/index-test.php/chicago
+---
+2013/11/06 18:49:10 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /home/topular/framework/web/CController.php:336
+Stack trace:
+#0 /home/topular/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /home/topular/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /home/topular/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/topular/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /home/topular/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /home/topular/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /home/topular/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/topular/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/topular/framework/web/CWebApplication.php(282): CController->run('view')
+#9 /home/topular/framework/web/CWebApplication.php(141): CWebApplication->runController('article/view/<b...')
+#10 /home/topular/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /home/topular/topular.in/index-test.php(15): CApplication->run()
+#12 {main}
+REQUEST_URI=/index-test.php/article/view/%3Cbr%20/%3E%3Cb%3EFatal%20error%3C/b%3E:%20%20Call%20to%20a%20member%20function%20getUrl()%20on%20a%20non-object%20in%20%3Cb%3E/home/topular/protected-development/views/article/articles.php%3C/b%3E%20on%20line%20%3Cb%3E26%3C/b%3E%3Cbr%20/%3E%3C!--%20start%20log%20messages%20--%3E%3Ctable%20class=
+HTTP_REFERER=http://topular.in/index-test.php/article/view/319560
+---
+2013/11/06 19:00:03 [error] [php] Invalid argument supplied for foreach() (/home/topular/protected-development/views/article/articles.php:1)
+Stack trace:
+#0 /home/topular/framework/web/CController.php(869): ArticleController->renderFile()
+#1 /home/topular/protected-development/views/article/view.php(9): ArticleController->renderPartial()
+#2 /home/topular/framework/web/CBaseController.php(126): require()
+#3 /home/topular/framework/web/CBaseController.php(95): ArticleController->renderInternal()
+#4 /home/topular/framework/web/CController.php(869): ArticleController->renderFile()
+#5 /home/topular/framework/web/CController.php(782): ArticleController->renderPartial()
+#6 /home/topular/protected-development/controllers/ArticleController.php(61): ArticleController->render()
+#7 unknown(0): ArticleController->actionView()
+#8 /home/topular/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#9 /home/topular/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#10 /home/topular/framework/web/CController.php(308): CInlineAction->runWithParams()
+#11 /home/topular/framework/web/filters/CFilterChain.php(133): ArticleController->runAction()
+#12 /home/topular/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#13 /home/topular/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#14 /home/topular/framework/web/filters/CInlineFilter.php(58): ArticleController->filterAccessControl()
+#15 /home/topular/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#16 /home/topular/framework/web/CController.php(291): CFilterChain->run()
+#17 /home/topular/framework/web/CController.php(265): ArticleController->runActionWithFilters()
+#18 /home/topular/framework/web/CWebApplication.php(282): ArticleController->run()
+#19 /home/topular/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#20 /home/topular/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#21 /home/topular/topular.in/index-test.php(15): CWebApplication->run()
+REQUEST_URI=/index-test.php/article/view/319560
+2013/11/06 19:12:06 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'timestamp' in order clause is ambiguous. The SQL statement executed was: SELECT `articles`.`id` AS `t1_c0`, `articles`.`url` AS `t1_c1`, `articles`.`bitly_url` AS `t1_c2`, `articles`.`title` AS `t1_c3`, `articles`.`summary` AS `t1_c4`, `articles`.`content` AS `t1_c5`, `articles`.`image_url` AS `t1_c6`, `articles`.`image_width` AS `t1_c7`, `articles`.`image_height` AS `t1_c8`, `articles`.`word_count` AS `t1_c9`, `articles`.`date_published` AS `t1_c10`, `articles`.`source_id` AS `t1_c11`, `articles`.`fb_likes` AS `t1_c12`, `articles`.`fb_shares` AS `t1_c13`, `articles`.`retweets` AS `t1_c14`, `articles`.`linkedin_shares` AS `t1_c15`, `articles`.`score` AS `t1_c16`, `articles`.`rank` AS `t1_c17`, `articles`.`category_rank` AS `t1_c18`, `articles`.`movement_day` AS `t1_c19`, `articles`.`movement_week` AS `t1_c20`, `articles`.`movement_month` AS `t1_c21`, `articles`.`trend` AS `t1_c22`, `articles`.`age` AS `t1_c23`, `articles`.`hidden` AS `t1_c24`, `articles`.`timestamp` AS `t1_c25`, `source`.`id` AS `t2_c0`, `source`.`title` AS `t2_c1`, `source`.`url` AS `t2_c2`, `source`.`feed_url` AS `t2_c3`, `source`.`category_id` AS `t2_c4`, `source`.`type` AS `t2_c5`, `source`.`user_submitted` AS `t2_c6`, `source`.`city_id` AS `t2_c7`, `source`.`user_id` AS `t2_c8`, `source`.`score` AS `t2_c9`, `source`.`twitter_handle` AS `t2_c10`, `source`.`facebook_handle` AS `t2_c11`, `source`.`timestamp` AS `t2_c12`, `category`.`id` AS `t3_c0`, `category`.`title` AS `t3_c1`, `category`.`color` AS `t3_c2`, `city`.`id` AS `t4_c0`, `city`.`title` AS `t4_c1`, `city`.`hashtag` AS `t4_c2` FROM `article` `articles`  INNER JOIN `user_has_article` `articles_articles` ON (`articles_articles`.`user_id`=:ypl0) AND (`articles`.`id`=`articles_articles`.`article_id`) AND (hidden = 0) LEFT OUTER JOIN `source` `source` ON (`articles`.`source_id`=`source`.`id`) AND (user_submitted = 0)  LEFT OUTER JOIN `category` `category` ON (`source`.`category_id`=`category`.`id`)  LEFT OUTER JOIN `city` `city` ON (`source`.`city_id`=`city`.`id`)  WHERE (hidden = 0) ORDER BY timestamp LIMIT 3. Bound with :ypl0='6'.
+2013/11/06 19:12:06 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'timestamp' in order clause is ambiguous. The SQL statement executed was: SELECT `articles`.`id` AS `t1_c0`, `articles`.`url` AS `t1_c1`, `articles`.`bitly_url` AS `t1_c2`, `articles`.`title` AS `t1_c3`, `articles`.`summary` AS `t1_c4`, `articles`.`content` AS `t1_c5`, `articles`.`image_url` AS `t1_c6`, `articles`.`image_width` AS `t1_c7`, `articles`.`image_height` AS `t1_c8`, `articles`.`word_count` AS `t1_c9`, `articles`.`date_published` AS `t1_c10`, `articles`.`source_id` AS `t1_c11`, `articles`.`fb_likes` AS `t1_c12`, `articles`.`fb_shares` AS `t1_c13`, `articles`.`retweets` AS `t1_c14`, `articles`.`linkedin_shares` AS `t1_c15`, `articles`.`score` AS `t1_c16`, `articles`.`rank` AS `t1_c17`, `articles`.`category_rank` AS `t1_c18`, `articles`.`movement_day` AS `t1_c19`, `articles`.`movement_week` AS `t1_c20`, `articles`.`movement_month` AS `t1_c21`, `articles`.`trend` AS `t1_c22`, `articles`.`age` AS `t1_c23`, `articles`.`hidden` AS `t1_c24`, `articles`.`timestamp` AS `t1_c25`, `source`.`id` AS `t2_c0`, `source`.`title` AS `t2_c1`, `source`.`url` AS `t2_c2`, `source`.`feed_url` AS `t2_c3`, `source`.`category_id` AS `t2_c4`, `source`.`type` AS `t2_c5`, `source`.`user_submitted` AS `t2_c6`, `source`.`city_id` AS `t2_c7`, `source`.`user_id` AS `t2_c8`, `source`.`score` AS `t2_c9`, `source`.`twitter_handle` AS `t2_c10`, `source`.`facebook_handle` AS `t2_c11`, `source`.`timestamp` AS `t2_c12`, `category`.`id` AS `t3_c0`, `category`.`title` AS `t3_c1`, `category`.`color` AS `t3_c2`, `city`.`id` AS `t4_c0`, `city`.`title` AS `t4_c1`, `city`.`hashtag` AS `t4_c2` FROM `article` `articles`  INNER JOIN `user_has_article` `articles_articles` ON (`articles_articles`.`user_id`=:ypl0) AND (`articles`.`id`=`articles_articles`.`article_id`) AND (hidden = 0) LEFT OUTER JOIN `source` `source` ON (`articles`.`source_id`=`source`.`id`) AND (user_submitted = 0)  LEFT OUTER JOIN `category` `category` ON (`source`.`category_id`=`category`.`id`)  LEFT OUTER JOIN `city` `city` ON (`source`.`city_id`=`city`.`id`)  WHERE (hidden = 0) ORDER BY timestamp LIMIT 3. Bound with :ypl0='6'' in /home/topular/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /home/topular/framework/db/CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /home/topular/framework/db/ar/CActiveFinder.php(761): CDbCommand->queryAll()
+#2 /home/topular/framework/db/ar/CActiveFinder.php(489): CJoinElement->runQuery(Object(CJoinQuery))
+#3 /home/topular/framework/db/ar/CActiveFinder.php(163): CJoinElement->lazyFind(Object(User))
+#4 /home/topular/framework/db/ar/CActiveRecord.php(272): CActiveFinder->lazyFind(Object(User))
+#5 /home/topular/framework/db/ar/CActiveRecord.php(215): CActiveRecord->getRelated('articles', false, Array)
+#6 /home/topular/protected-development/views/user/view.php(43): CActiveRecord->__call('articles', Array)
+#7 /home/topular/protected-development/views/user/view.php(43): User->articles(Array)
+#8 /home/topular/framework/web/CBaseController.php(126): require('/home/topular/p...')
+#9 /home/topular/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/topular/p...', Array, true)
+#10 /home/topular/framework/web/CController.php(869): CBaseController->renderFile('/home/topular/p...', Array, true)
+#11 /home/topular/framework/web/CController.php(782): CController->renderPartial('view', Array, true)
+#12 /home/topular/protected-development/controllers/UserController.php(65): CController->render('view', Array)
+#13 [internal function]: UserController->actionView(NULL)
+#14 /home/topular/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(UserController), Array)
+#15 /home/topular/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(UserController), Object(ReflectionMethod), Array)
+#16 /home/topular/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#17 /home/topular/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 /home/topular/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#19 /home/topular/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 /home/topular/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 /home/topular/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 /home/topular/framework/web/CController.php(291): CFilterChain->run()
+#23 /home/topular/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 /home/topular/framework/web/CWebApplication.php(282): CController->run('view')
+#25 /home/topular/framework/web/CWebApplication.php(141): CWebApplication->runController('user/view')
+#26 /home/topular/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#27 /home/topular/topular.in/index-test.php(15): CApplication->run()
+#28 {main}
+REQUEST_URI=/index-test.php/user/view
+---
+2013/11/06 19:13:02 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'timestamp' in order clause is ambiguous. The SQL statement executed was: SELECT `articles`.`id` AS `t1_c0`, `articles`.`url` AS `t1_c1`, `articles`.`bitly_url` AS `t1_c2`, `articles`.`title` AS `t1_c3`, `articles`.`summary` AS `t1_c4`, `articles`.`content` AS `t1_c5`, `articles`.`image_url` AS `t1_c6`, `articles`.`image_width` AS `t1_c7`, `articles`.`image_height` AS `t1_c8`, `articles`.`word_count` AS `t1_c9`, `articles`.`date_published` AS `t1_c10`, `articles`.`source_id` AS `t1_c11`, `articles`.`fb_likes` AS `t1_c12`, `articles`.`fb_shares` AS `t1_c13`, `articles`.`retweets` AS `t1_c14`, `articles`.`linkedin_shares` AS `t1_c15`, `articles`.`score` AS `t1_c16`, `articles`.`rank` AS `t1_c17`, `articles`.`category_rank` AS `t1_c18`, `articles`.`movement_day` AS `t1_c19`, `articles`.`movement_week` AS `t1_c20`, `articles`.`movement_month` AS `t1_c21`, `articles`.`trend` AS `t1_c22`, `articles`.`age` AS `t1_c23`, `articles`.`hidden` AS `t1_c24`, `articles`.`timestamp` AS `t1_c25`, `source`.`id` AS `t2_c0`, `source`.`title` AS `t2_c1`, `source`.`url` AS `t2_c2`, `source`.`feed_url` AS `t2_c3`, `source`.`category_id` AS `t2_c4`, `source`.`type` AS `t2_c5`, `source`.`user_submitted` AS `t2_c6`, `source`.`city_id` AS `t2_c7`, `source`.`user_id` AS `t2_c8`, `source`.`score` AS `t2_c9`, `source`.`twitter_handle` AS `t2_c10`, `source`.`facebook_handle` AS `t2_c11`, `source`.`timestamp` AS `t2_c12`, `category`.`id` AS `t3_c0`, `category`.`title` AS `t3_c1`, `category`.`color` AS `t3_c2`, `city`.`id` AS `t4_c0`, `city`.`title` AS `t4_c1`, `city`.`hashtag` AS `t4_c2` FROM `article` `articles`  INNER JOIN `user_has_article` `articles_articles` ON (`articles_articles`.`user_id`=:ypl0) AND (`articles`.`id`=`articles_articles`.`article_id`) AND (hidden = 0) LEFT OUTER JOIN `source` `source` ON (`articles`.`source_id`=`source`.`id`) AND (user_submitted = 0)  LEFT OUTER JOIN `category` `category` ON (`source`.`category_id`=`category`.`id`)  LEFT OUTER JOIN `city` `city` ON (`source`.`city_id`=`city`.`id`)  WHERE (hidden = 0) ORDER BY timestamp LIMIT 3. Bound with :ypl0='6'.
+2013/11/06 19:13:02 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'timestamp' in order clause is ambiguous. The SQL statement executed was: SELECT `articles`.`id` AS `t1_c0`, `articles`.`url` AS `t1_c1`, `articles`.`bitly_url` AS `t1_c2`, `articles`.`title` AS `t1_c3`, `articles`.`summary` AS `t1_c4`, `articles`.`content` AS `t1_c5`, `articles`.`image_url` AS `t1_c6`, `articles`.`image_width` AS `t1_c7`, `articles`.`image_height` AS `t1_c8`, `articles`.`word_count` AS `t1_c9`, `articles`.`date_published` AS `t1_c10`, `articles`.`source_id` AS `t1_c11`, `articles`.`fb_likes` AS `t1_c12`, `articles`.`fb_shares` AS `t1_c13`, `articles`.`retweets` AS `t1_c14`, `articles`.`linkedin_shares` AS `t1_c15`, `articles`.`score` AS `t1_c16`, `articles`.`rank` AS `t1_c17`, `articles`.`category_rank` AS `t1_c18`, `articles`.`movement_day` AS `t1_c19`, `articles`.`movement_week` AS `t1_c20`, `articles`.`movement_month` AS `t1_c21`, `articles`.`trend` AS `t1_c22`, `articles`.`age` AS `t1_c23`, `articles`.`hidden` AS `t1_c24`, `articles`.`timestamp` AS `t1_c25`, `source`.`id` AS `t2_c0`, `source`.`title` AS `t2_c1`, `source`.`url` AS `t2_c2`, `source`.`feed_url` AS `t2_c3`, `source`.`category_id` AS `t2_c4`, `source`.`type` AS `t2_c5`, `source`.`user_submitted` AS `t2_c6`, `source`.`city_id` AS `t2_c7`, `source`.`user_id` AS `t2_c8`, `source`.`score` AS `t2_c9`, `source`.`twitter_handle` AS `t2_c10`, `source`.`facebook_handle` AS `t2_c11`, `source`.`timestamp` AS `t2_c12`, `category`.`id` AS `t3_c0`, `category`.`title` AS `t3_c1`, `category`.`color` AS `t3_c2`, `city`.`id` AS `t4_c0`, `city`.`title` AS `t4_c1`, `city`.`hashtag` AS `t4_c2` FROM `article` `articles`  INNER JOIN `user_has_article` `articles_articles` ON (`articles_articles`.`user_id`=:ypl0) AND (`articles`.`id`=`articles_articles`.`article_id`) AND (hidden = 0) LEFT OUTER JOIN `source` `source` ON (`articles`.`source_id`=`source`.`id`) AND (user_submitted = 0)  LEFT OUTER JOIN `category` `category` ON (`source`.`category_id`=`category`.`id`)  LEFT OUTER JOIN `city` `city` ON (`source`.`city_id`=`city`.`id`)  WHERE (hidden = 0) ORDER BY timestamp LIMIT 3. Bound with :ypl0='6'' in /home/topular/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /home/topular/framework/db/CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /home/topular/framework/db/ar/CActiveFinder.php(761): CDbCommand->queryAll()
+#2 /home/topular/framework/db/ar/CActiveFinder.php(489): CJoinElement->runQuery(Object(CJoinQuery))
+#3 /home/topular/framework/db/ar/CActiveFinder.php(163): CJoinElement->lazyFind(Object(User))
+#4 /home/topular/framework/db/ar/CActiveRecord.php(272): CActiveFinder->lazyFind(Object(User))
+#5 /home/topular/framework/db/ar/CActiveRecord.php(215): CActiveRecord->getRelated('articles', false, Array)
+#6 /home/topular/protected-development/views/user/view.php(43): CActiveRecord->__call('articles', Array)
+#7 /home/topular/protected-development/views/user/view.php(43): User->articles(Array)
+#8 /home/topular/framework/web/CBaseController.php(126): require('/home/topular/p...')
+#9 /home/topular/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/topular/p...', Array, true)
+#10 /home/topular/framework/web/CController.php(869): CBaseController->renderFile('/home/topular/p...', Array, true)
+#11 /home/topular/framework/web/CController.php(782): CController->renderPartial('view', Array, true)
+#12 /home/topular/protected-development/controllers/UserController.php(65): CController->render('view', Array)
+#13 [internal function]: UserController->actionView(NULL)
+#14 /home/topular/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(UserController), Array)
+#15 /home/topular/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(UserController), Object(ReflectionMethod), Array)
+#16 /home/topular/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#17 /home/topular/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 /home/topular/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#19 /home/topular/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 /home/topular/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 /home/topular/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 /home/topular/framework/web/CController.php(291): CFilterChain->run()
+#23 /home/topular/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 /home/topular/framework/web/CWebApplication.php(282): CController->run('view')
+#25 /home/topular/framework/web/CWebApplication.php(141): CWebApplication->runController('user/view')
+#26 /home/topular/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#27 /home/topular/topular.in/index-test.php(15): CApplication->run()
+#28 {main}
+REQUEST_URI=/index-test.php/user/view
+---
+2013/11/06 19:13:12 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'timestamp' in order clause is ambiguous. The SQL statement executed was: SELECT `articles`.`id` AS `t1_c0`, `articles`.`url` AS `t1_c1`, `articles`.`bitly_url` AS `t1_c2`, `articles`.`title` AS `t1_c3`, `articles`.`summary` AS `t1_c4`, `articles`.`content` AS `t1_c5`, `articles`.`image_url` AS `t1_c6`, `articles`.`image_width` AS `t1_c7`, `articles`.`image_height` AS `t1_c8`, `articles`.`word_count` AS `t1_c9`, `articles`.`date_published` AS `t1_c10`, `articles`.`source_id` AS `t1_c11`, `articles`.`fb_likes` AS `t1_c12`, `articles`.`fb_shares` AS `t1_c13`, `articles`.`retweets` AS `t1_c14`, `articles`.`linkedin_shares` AS `t1_c15`, `articles`.`score` AS `t1_c16`, `articles`.`rank` AS `t1_c17`, `articles`.`category_rank` AS `t1_c18`, `articles`.`movement_day` AS `t1_c19`, `articles`.`movement_week` AS `t1_c20`, `articles`.`movement_month` AS `t1_c21`, `articles`.`trend` AS `t1_c22`, `articles`.`age` AS `t1_c23`, `articles`.`hidden` AS `t1_c24`, `articles`.`timestamp` AS `t1_c25`, `source`.`id` AS `t2_c0`, `source`.`title` AS `t2_c1`, `source`.`url` AS `t2_c2`, `source`.`feed_url` AS `t2_c3`, `source`.`category_id` AS `t2_c4`, `source`.`type` AS `t2_c5`, `source`.`user_submitted` AS `t2_c6`, `source`.`city_id` AS `t2_c7`, `source`.`user_id` AS `t2_c8`, `source`.`score` AS `t2_c9`, `source`.`twitter_handle` AS `t2_c10`, `source`.`facebook_handle` AS `t2_c11`, `source`.`timestamp` AS `t2_c12`, `category`.`id` AS `t3_c0`, `category`.`title` AS `t3_c1`, `category`.`color` AS `t3_c2`, `city`.`id` AS `t4_c0`, `city`.`title` AS `t4_c1`, `city`.`hashtag` AS `t4_c2` FROM `article` `articles`  INNER JOIN `user_has_article` `articles_articles` ON (`articles_articles`.`user_id`=:ypl0) AND (`articles`.`id`=`articles_articles`.`article_id`) AND (hidden = 0) LEFT OUTER JOIN `source` `source` ON (`articles`.`source_id`=`source`.`id`) AND (user_submitted = 0)  LEFT OUTER JOIN `category` `category` ON (`source`.`category_id`=`category`.`id`)  LEFT OUTER JOIN `city` `city` ON (`source`.`city_id`=`city`.`id`)  WHERE (hidden = 0) ORDER BY timestamp DESC LIMIT 3. Bound with :ypl0='6'.
+2013/11/06 19:13:12 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'timestamp' in order clause is ambiguous. The SQL statement executed was: SELECT `articles`.`id` AS `t1_c0`, `articles`.`url` AS `t1_c1`, `articles`.`bitly_url` AS `t1_c2`, `articles`.`title` AS `t1_c3`, `articles`.`summary` AS `t1_c4`, `articles`.`content` AS `t1_c5`, `articles`.`image_url` AS `t1_c6`, `articles`.`image_width` AS `t1_c7`, `articles`.`image_height` AS `t1_c8`, `articles`.`word_count` AS `t1_c9`, `articles`.`date_published` AS `t1_c10`, `articles`.`source_id` AS `t1_c11`, `articles`.`fb_likes` AS `t1_c12`, `articles`.`fb_shares` AS `t1_c13`, `articles`.`retweets` AS `t1_c14`, `articles`.`linkedin_shares` AS `t1_c15`, `articles`.`score` AS `t1_c16`, `articles`.`rank` AS `t1_c17`, `articles`.`category_rank` AS `t1_c18`, `articles`.`movement_day` AS `t1_c19`, `articles`.`movement_week` AS `t1_c20`, `articles`.`movement_month` AS `t1_c21`, `articles`.`trend` AS `t1_c22`, `articles`.`age` AS `t1_c23`, `articles`.`hidden` AS `t1_c24`, `articles`.`timestamp` AS `t1_c25`, `source`.`id` AS `t2_c0`, `source`.`title` AS `t2_c1`, `source`.`url` AS `t2_c2`, `source`.`feed_url` AS `t2_c3`, `source`.`category_id` AS `t2_c4`, `source`.`type` AS `t2_c5`, `source`.`user_submitted` AS `t2_c6`, `source`.`city_id` AS `t2_c7`, `source`.`user_id` AS `t2_c8`, `source`.`score` AS `t2_c9`, `source`.`twitter_handle` AS `t2_c10`, `source`.`facebook_handle` AS `t2_c11`, `source`.`timestamp` AS `t2_c12`, `category`.`id` AS `t3_c0`, `category`.`title` AS `t3_c1`, `category`.`color` AS `t3_c2`, `city`.`id` AS `t4_c0`, `city`.`title` AS `t4_c1`, `city`.`hashtag` AS `t4_c2` FROM `article` `articles`  INNER JOIN `user_has_article` `articles_articles` ON (`articles_articles`.`user_id`=:ypl0) AND (`articles`.`id`=`articles_articles`.`article_id`) AND (hidden = 0) LEFT OUTER JOIN `source` `source` ON (`articles`.`source_id`=`source`.`id`) AND (user_submitted = 0)  LEFT OUTER JOIN `category` `category` ON (`source`.`category_id`=`category`.`id`)  LEFT OUTER JOIN `city` `city` ON (`source`.`city_id`=`city`.`id`)  WHERE (hidden = 0) ORDER BY timestamp DESC LIMIT 3. Bound with :ypl0='6'' in /home/topular/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /home/topular/framework/db/CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /home/topular/framework/db/ar/CActiveFinder.php(761): CDbCommand->queryAll()
+#2 /home/topular/framework/db/ar/CActiveFinder.php(489): CJoinElement->runQuery(Object(CJoinQuery))
+#3 /home/topular/framework/db/ar/CActiveFinder.php(163): CJoinElement->lazyFind(Object(User))
+#4 /home/topular/framework/db/ar/CActiveRecord.php(272): CActiveFinder->lazyFind(Object(User))
+#5 /home/topular/framework/db/ar/CActiveRecord.php(215): CActiveRecord->getRelated('articles', false, Array)
+#6 /home/topular/protected-development/views/user/view.php(43): CActiveRecord->__call('articles', Array)
+#7 /home/topular/protected-development/views/user/view.php(43): User->articles(Array)
+#8 /home/topular/framework/web/CBaseController.php(126): require('/home/topular/p...')
+#9 /home/topular/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/topular/p...', Array, true)
+#10 /home/topular/framework/web/CController.php(869): CBaseController->renderFile('/home/topular/p...', Array, true)
+#11 /home/topular/framework/web/CController.php(782): CController->renderPartial('view', Array, true)
+#12 /home/topular/protected-development/controllers/UserController.php(65): CController->render('view', Array)
+#13 [internal function]: UserController->actionView(NULL)
+#14 /home/topular/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(UserController), Array)
+#15 /home/topular/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(UserController), Object(ReflectionMethod), Array)
+#16 /home/topular/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#17 /home/topular/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 /home/topular/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#19 /home/topular/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 /home/topular/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 /home/topular/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 /home/topular/framework/web/CController.php(291): CFilterChain->run()
+#23 /home/topular/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 /home/topular/framework/web/CWebApplication.php(282): CController->run('view')
+#25 /home/topular/framework/web/CWebApplication.php(141): CWebApplication->runController('user/view')
+#26 /home/topular/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#27 /home/topular/topular.in/index-test.php(15): CApplication->run()
+#28 {main}
+REQUEST_URI=/index-test.php/user/view
+---
+2013/11/06 19:22:42 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'city.id' in 'where clause'. The SQL statement executed was: SELECT * FROM `article` `t` WHERE (hidden = 0) AND (((`city`.`id` IN (1)) AND (`category`.`id` IN (5,6,7,29,37,39,46))) AND (DATE(date_published)=CURDATE())) ORDER BY t.score DESC LIMIT 20.
+2013/11/06 19:22:42 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'city.id' in 'where clause'. The SQL statement executed was: SELECT * FROM `article` `t` WHERE (hidden = 0) AND (((`city`.`id` IN (1)) AND (`category`.`id` IN (5,6,7,29,37,39,46))) AND (DATE(date_published)=CURDATE())) ORDER BY t.score DESC LIMIT 20' in /home/topular/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /home/topular/framework/db/CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /home/topular/framework/db/ar/CActiveRecord.php(1297): CDbCommand->queryAll()
+#2 /home/topular/framework/db/ar/CActiveRecord.php(1416): CActiveRecord->query(Object(CDbCriteria), true)
+#3 /home/topular/protected-development/models/Article.php(148): CActiveRecord->findAll(Object(CDbCriteria))
+#4 /home/topular/protected-development/controllers/ArticleController.php(272): Article->getArticles(NULL, NULL, Object(Collection))
+#5 [internal function]: ArticleController->actionIndex(NULL, NULL)
+#6 /home/topular/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(ArticleController), Array)
+#7 /home/topular/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ArticleController), Object(ReflectionMethod), Array)
+#8 /home/topular/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /home/topular/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#10 /home/topular/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#11 /home/topular/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#12 /home/topular/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 /home/topular/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#14 /home/topular/framework/web/CController.php(291): CFilterChain->run()
+#15 /home/topular/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 /home/topular/framework/web/CWebApplication.php(282): CController->run('index')
+#17 /home/topular/framework/web/CWebApplication.php(141): CWebApplication->runController('article/index')
+#18 /home/topular/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#19 /home/topular/topular.in/index-test.php(15): CApplication->run()
+#20 {main}
+REQUEST_URI=/index-test.php/article/index
+HTTP_REFERER=http://topular.in/index-test.php/article/view/313267
+---
+2013/11/08 12:02:34 [error] [php] Invalid argument supplied for foreach() (/home/topular/protected-development/views/article/index.php:31)
+Stack trace:
+#0 /home/topular/framework/web/CController.php(869): ArticleController->renderFile()
+#1 /home/topular/framework/web/CController.php(782): ArticleController->renderPartial()
+#2 /home/topular/protected-development/controllers/ArticleController.php(93): ArticleController->render()
+#3 unknown(0): ArticleController->actionIndex()
+#4 /home/topular/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#5 /home/topular/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 /home/topular/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /home/topular/framework/web/filters/CFilterChain.php(133): ArticleController->runAction()
+#8 /home/topular/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#9 /home/topular/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#10 /home/topular/framework/web/filters/CInlineFilter.php(58): ArticleController->filterAccessControl()
+#11 /home/topular/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#12 /home/topular/framework/web/CController.php(291): CFilterChain->run()
+#13 /home/topular/framework/web/CController.php(265): ArticleController->runActionWithFilters()
+#14 /home/topular/framework/web/CWebApplication.php(282): ArticleController->run()
+#15 /home/topular/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#16 /home/topular/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#17 /home/topular/topular.in/index-test.php(15): CWebApplication->run()
+REQUEST_URI=/index-test.php/article/index
+2013/11/08 12:02:54 [error] [php] Invalid argument supplied for foreach() (/home/topular/protected-development/views/article/articles.php:1)
+Stack trace:
+#0 /home/topular/framework/web/CController.php(869): ArticleController->renderFile()
+#1 /home/topular/protected-development/views/article/index.php(42): ArticleController->renderPartial()
+#2 /home/topular/framework/web/CBaseController.php(126): require()
+#3 /home/topular/framework/web/CBaseController.php(95): ArticleController->renderInternal()
+#4 /home/topular/framework/web/CController.php(869): ArticleController->renderFile()
+#5 /home/topular/framework/web/CController.php(782): ArticleController->renderPartial()
+#6 /home/topular/protected-development/controllers/ArticleController.php(93): ArticleController->render()
+#7 unknown(0): ArticleController->actionIndex()
+#8 /home/topular/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#9 /home/topular/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#10 /home/topular/framework/web/CController.php(308): CInlineAction->runWithParams()
+#11 /home/topular/framework/web/filters/CFilterChain.php(133): ArticleController->runAction()
+#12 /home/topular/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#13 /home/topular/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#14 /home/topular/framework/web/filters/CInlineFilter.php(58): ArticleController->filterAccessControl()
+#15 /home/topular/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#16 /home/topular/framework/web/CController.php(291): CFilterChain->run()
+#17 /home/topular/framework/web/CController.php(265): ArticleController->runActionWithFilters()
+#18 /home/topular/framework/web/CWebApplication.php(282): ArticleController->run()
+#19 /home/topular/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#20 /home/topular/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#21 /home/topular/topular.in/index-test.php(15): CWebApplication->run()
+REQUEST_URI=/index-test.php/article/index
+2013/11/08 12:25:39 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))) AND (DATE(date_published)=CURDATE())) ORDER BY t.score DESC LIMIT 20' at line 1. The SQL statement executed was: SELECT `t`.`id` AS `t0_c0`, `t`.`url` AS `t0_c1`, `t`.`bitly_url` AS `t0_c2`, `t`.`title` AS `t0_c3`, `t`.`summary` AS `t0_c4`, `t`.`content` AS `t0_c5`, `t`.`image_url` AS `t0_c6`, `t`.`image_width` AS `t0_c7`, `t`.`image_height` AS `t0_c8`, `t`.`word_count` AS `t0_c9`, `t`.`date_published` AS `t0_c10`, `t`.`source_id` AS `t0_c11`, `t`.`fb_likes` AS `t0_c12`, `t`.`fb_shares` AS `t0_c13`, `t`.`retweets` AS `t0_c14`, `t`.`linkedin_shares` AS `t0_c15`, `t`.`score` AS `t0_c16`, `t`.`rank` AS `t0_c17`, `t`.`category_rank` AS `t0_c18`, `t`.`movement_day` AS `t0_c19`, `t`.`movement_week` AS `t0_c20`, `t`.`movement_month` AS `t0_c21`, `t`.`trend` AS `t0_c22`, `t`.`age` AS `t0_c23`, `t`.`hidden` AS `t0_c24`, `t`.`timestamp` AS `t0_c25`, `source`.`id` AS `t1_c0`, `source`.`title` AS `t1_c1`, `source`.`url` AS `t1_c2`, `source`.`feed_url` AS `t1_c3`, `source`.`category_id` AS `t1_c4`, `source`.`type` AS `t1_c5`, `source`.`user_submitted` AS `t1_c6`, `source`.`city_id` AS `t1_c7`, `source`.`user_id` AS `t1_c8`, `source`.`score` AS `t1_c9`, `source`.`twitter_handle` AS `t1_c10`, `source`.`facebook_handle` AS `t1_c11`, `source`.`timestamp` AS `t1_c12`, `category`.`id` AS `t2_c0`, `category`.`title` AS `t2_c1`, `category`.`color` AS `t2_c2`, `city`.`id` AS `t3_c0`, `city`.`title` AS `t3_c1`, `city`.`hashtag` AS `t3_c2` FROM `article` `t`  LEFT OUTER JOIN `source` `source` ON (`t`.`source_id`=`source`.`id`) AND (user_submitted = 0)  LEFT OUTER JOIN `category` `category` ON (`source`.`category_id`=`category`.`id`)  LEFT OUTER JOIN `city` `city` ON (`source`.`city_id`=`city`.`id`)  WHERE (((hidden = 0) AND (`city`.`id` IN ())) AND (DATE(date_published)=CURDATE())) ORDER BY t.score DESC LIMIT 20.
+2013/11/08 12:25:39 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))) AND (DATE(date_published)=CURDATE())) ORDER BY t.score DESC LIMIT 20' at line 1. The SQL statement executed was: SELECT `t`.`id` AS `t0_c0`, `t`.`url` AS `t0_c1`, `t`.`bitly_url` AS `t0_c2`, `t`.`title` AS `t0_c3`, `t`.`summary` AS `t0_c4`, `t`.`content` AS `t0_c5`, `t`.`image_url` AS `t0_c6`, `t`.`image_width` AS `t0_c7`, `t`.`image_height` AS `t0_c8`, `t`.`word_count` AS `t0_c9`, `t`.`date_published` AS `t0_c10`, `t`.`source_id` AS `t0_c11`, `t`.`fb_likes` AS `t0_c12`, `t`.`fb_shares` AS `t0_c13`, `t`.`retweets` AS `t0_c14`, `t`.`linkedin_shares` AS `t0_c15`, `t`.`score` AS `t0_c16`, `t`.`rank` AS `t0_c17`, `t`.`category_rank` AS `t0_c18`, `t`.`movement_day` AS `t0_c19`, `t`.`movement_week` AS `t0_c20`, `t`.`movement_month` AS `t0_c21`, `t`.`trend` AS `t0_c22`, `t`.`age` AS `t0_c23`, `t`.`hidden` AS `t0_c24`, `t`.`timestamp` AS `t0_c25`, `source`.`id` AS `t1_c0`, `source`.`title` AS `t1_c1`, `source`.`url` AS `t1_c2`, `source`.`feed_url` AS `t1_c3`, `source`.`category_id` AS `t1_c4`, `source`.`type` AS `t1_c5`, `source`.`user_submitted` AS `t1_c6`, `source`.`city_id` AS `t1_c7`, `source`.`user_id` AS `t1_c8`, `source`.`score` AS `t1_c9`, `source`.`twitter_handle` AS `t1_c10`, `source`.`facebook_handle` AS `t1_c11`, `source`.`timestamp` AS `t1_c12`, `category`.`id` AS `t2_c0`, `category`.`title` AS `t2_c1`, `category`.`color` AS `t2_c2`, `city`.`id` AS `t3_c0`, `city`.`title` AS `t3_c1`, `city`.`hashtag` AS `t3_c2` FROM `article` `t`  LEFT OUTER JOIN `source` `source` ON (`t`.`source_id`=`source`.`id`) AND (user_submitted = 0)  LEFT OUTER JOIN `category` `category` ON (`source`.`category_id`=`category`.`id`)  LEFT OUTER JOIN `city` `city` ON (`source`.`city_id`=`city`.`id`)  WHERE (((hidden = 0) AND (`city`.`id` IN ())) AND (DATE(date_published)=CURDATE())) ORDER BY t.score DESC LIMIT 20' in /home/topular/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /home/topular/framework/db/CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /home/topular/framework/db/ar/CActiveFinder.php(761): CDbCommand->queryAll()
+#2 /home/topular/framework/db/ar/CActiveFinder.php(422): CJoinElement->runQuery(Object(CJoinQuery))
+#3 /home/topular/framework/db/ar/CActiveFinder.php(68): CJoinElement->find(Object(CDbCriteria))
+#4 /home/topular/framework/db/ar/CActiveRecord.php(1302): CActiveFinder->query(Object(CDbCriteria), true)
+#5 /home/topular/framework/db/ar/CActiveRecord.php(1416): CActiveRecord->query(Object(CDbCriteria), true)
+#6 /home/topular/protected-development/controllers/ArticleController.php(89): CActiveRecord->findAll(Object(CDbCriteria))
+#7 [internal function]: ArticleController->actionIndex(NULL, 'news', NULL, NULL)
+#8 /home/topular/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(ArticleController), Array)
+#9 /home/topular/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ArticleController), Object(ReflectionMethod), Array)
+#10 /home/topular/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /home/topular/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 /home/topular/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#13 /home/topular/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 /home/topular/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 /home/topular/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 /home/topular/framework/web/CController.php(291): CFilterChain->run()
+#17 /home/topular/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /home/topular/framework/web/CWebApplication.php(282): CController->run('index')
+#19 /home/topular/framework/web/CWebApplication.php(141): CWebApplication->runController('article/index')
+#20 /home/topular/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#21 /home/topular/topular.in/index-test.php(15): CApplication->run()
+#22 {main}
+REQUEST_URI=/index-test.php/news
+HTTP_REFERER=http://topular.in/index-test.php/san-francisco
+---
+2013/11/08 12:26:41 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))) AND (DATE(date_published)=CURDATE())) ORDER BY t.score DESC LIMIT 20' at line 1. The SQL statement executed was: SELECT `t`.`id` AS `t0_c0`, `t`.`url` AS `t0_c1`, `t`.`bitly_url` AS `t0_c2`, `t`.`title` AS `t0_c3`, `t`.`summary` AS `t0_c4`, `t`.`content` AS `t0_c5`, `t`.`image_url` AS `t0_c6`, `t`.`image_width` AS `t0_c7`, `t`.`image_height` AS `t0_c8`, `t`.`word_count` AS `t0_c9`, `t`.`date_published` AS `t0_c10`, `t`.`source_id` AS `t0_c11`, `t`.`fb_likes` AS `t0_c12`, `t`.`fb_shares` AS `t0_c13`, `t`.`retweets` AS `t0_c14`, `t`.`linkedin_shares` AS `t0_c15`, `t`.`score` AS `t0_c16`, `t`.`rank` AS `t0_c17`, `t`.`category_rank` AS `t0_c18`, `t`.`movement_day` AS `t0_c19`, `t`.`movement_week` AS `t0_c20`, `t`.`movement_month` AS `t0_c21`, `t`.`trend` AS `t0_c22`, `t`.`age` AS `t0_c23`, `t`.`hidden` AS `t0_c24`, `t`.`timestamp` AS `t0_c25`, `source`.`id` AS `t1_c0`, `source`.`title` AS `t1_c1`, `source`.`url` AS `t1_c2`, `source`.`feed_url` AS `t1_c3`, `source`.`category_id` AS `t1_c4`, `source`.`type` AS `t1_c5`, `source`.`user_submitted` AS `t1_c6`, `source`.`city_id` AS `t1_c7`, `source`.`user_id` AS `t1_c8`, `source`.`score` AS `t1_c9`, `source`.`twitter_handle` AS `t1_c10`, `source`.`facebook_handle` AS `t1_c11`, `source`.`timestamp` AS `t1_c12`, `category`.`id` AS `t2_c0`, `category`.`title` AS `t2_c1`, `category`.`color` AS `t2_c2`, `city`.`id` AS `t3_c0`, `city`.`title` AS `t3_c1`, `city`.`hashtag` AS `t3_c2` FROM `article` `t`  LEFT OUTER JOIN `source` `source` ON (`t`.`source_id`=`source`.`id`) AND (user_submitted = 0)  LEFT OUTER JOIN `category` `category` ON (`source`.`category_id`=`category`.`id`)  LEFT OUTER JOIN `city` `city` ON (`source`.`city_id`=`city`.`id`)  WHERE (((hidden = 0) AND (`city`.`id` IN ())) AND (DATE(date_published)=CURDATE())) ORDER BY t.score DESC LIMIT 20.
+2013/11/08 12:26:41 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))) AND (DATE(date_published)=CURDATE())) ORDER BY t.score DESC LIMIT 20' at line 1. The SQL statement executed was: SELECT `t`.`id` AS `t0_c0`, `t`.`url` AS `t0_c1`, `t`.`bitly_url` AS `t0_c2`, `t`.`title` AS `t0_c3`, `t`.`summary` AS `t0_c4`, `t`.`content` AS `t0_c5`, `t`.`image_url` AS `t0_c6`, `t`.`image_width` AS `t0_c7`, `t`.`image_height` AS `t0_c8`, `t`.`word_count` AS `t0_c9`, `t`.`date_published` AS `t0_c10`, `t`.`source_id` AS `t0_c11`, `t`.`fb_likes` AS `t0_c12`, `t`.`fb_shares` AS `t0_c13`, `t`.`retweets` AS `t0_c14`, `t`.`linkedin_shares` AS `t0_c15`, `t`.`score` AS `t0_c16`, `t`.`rank` AS `t0_c17`, `t`.`category_rank` AS `t0_c18`, `t`.`movement_day` AS `t0_c19`, `t`.`movement_week` AS `t0_c20`, `t`.`movement_month` AS `t0_c21`, `t`.`trend` AS `t0_c22`, `t`.`age` AS `t0_c23`, `t`.`hidden` AS `t0_c24`, `t`.`timestamp` AS `t0_c25`, `source`.`id` AS `t1_c0`, `source`.`title` AS `t1_c1`, `source`.`url` AS `t1_c2`, `source`.`feed_url` AS `t1_c3`, `source`.`category_id` AS `t1_c4`, `source`.`type` AS `t1_c5`, `source`.`user_submitted` AS `t1_c6`, `source`.`city_id` AS `t1_c7`, `source`.`user_id` AS `t1_c8`, `source`.`score` AS `t1_c9`, `source`.`twitter_handle` AS `t1_c10`, `source`.`facebook_handle` AS `t1_c11`, `source`.`timestamp` AS `t1_c12`, `category`.`id` AS `t2_c0`, `category`.`title` AS `t2_c1`, `category`.`color` AS `t2_c2`, `city`.`id` AS `t3_c0`, `city`.`title` AS `t3_c1`, `city`.`hashtag` AS `t3_c2` FROM `article` `t`  LEFT OUTER JOIN `source` `source` ON (`t`.`source_id`=`source`.`id`) AND (user_submitted = 0)  LEFT OUTER JOIN `category` `category` ON (`source`.`category_id`=`category`.`id`)  LEFT OUTER JOIN `city` `city` ON (`source`.`city_id`=`city`.`id`)  WHERE (((hidden = 0) AND (`city`.`id` IN ())) AND (DATE(date_published)=CURDATE())) ORDER BY t.score DESC LIMIT 20' in /home/topular/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /home/topular/framework/db/CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /home/topular/framework/db/ar/CActiveFinder.php(761): CDbCommand->queryAll()
+#2 /home/topular/framework/db/ar/CActiveFinder.php(422): CJoinElement->runQuery(Object(CJoinQuery))
+#3 /home/topular/framework/db/ar/CActiveFinder.php(68): CJoinElement->find(Object(CDbCriteria))
+#4 /home/topular/framework/db/ar/CActiveRecord.php(1302): CActiveFinder->query(Object(CDbCriteria), true)
+#5 /home/topular/framework/db/ar/CActiveRecord.php(1416): CActiveRecord->query(Object(CDbCriteria), true)
+#6 /home/topular/protected-development/controllers/ArticleController.php(89): CActiveRecord->findAll(Object(CDbCriteria))
+#7 [internal function]: ArticleController->actionIndex(NULL, '23', NULL, NULL)
+#8 /home/topular/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(ArticleController), Array)
+#9 /home/topular/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ArticleController), Object(ReflectionMethod), Array)
+#10 /home/topular/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /home/topular/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 /home/topular/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#13 /home/topular/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 /home/topular/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 /home/topular/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 /home/topular/framework/web/CController.php(291): CFilterChain->run()
+#17 /home/topular/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /home/topular/framework/web/CWebApplication.php(282): CController->run('index')
+#19 /home/topular/framework/web/CWebApplication.php(141): CWebApplication->runController('article/index')
+#20 /home/topular/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#21 /home/topular/topular.in/index-test.php(15): CApplication->run()
+#22 {main}
+REQUEST_URI=/index-test.php/news
+---
+2013/11/08 12:26:42 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))) AND (DATE(date_published)=CURDATE())) ORDER BY t.score DESC LIMIT 20' at line 1. The SQL statement executed was: SELECT `t`.`id` AS `t0_c0`, `t`.`url` AS `t0_c1`, `t`.`bitly_url` AS `t0_c2`, `t`.`title` AS `t0_c3`, `t`.`summary` AS `t0_c4`, `t`.`content` AS `t0_c5`, `t`.`image_url` AS `t0_c6`, `t`.`image_width` AS `t0_c7`, `t`.`image_height` AS `t0_c8`, `t`.`word_count` AS `t0_c9`, `t`.`date_published` AS `t0_c10`, `t`.`source_id` AS `t0_c11`, `t`.`fb_likes` AS `t0_c12`, `t`.`fb_shares` AS `t0_c13`, `t`.`retweets` AS `t0_c14`, `t`.`linkedin_shares` AS `t0_c15`, `t`.`score` AS `t0_c16`, `t`.`rank` AS `t0_c17`, `t`.`category_rank` AS `t0_c18`, `t`.`movement_day` AS `t0_c19`, `t`.`movement_week` AS `t0_c20`, `t`.`movement_month` AS `t0_c21`, `t`.`trend` AS `t0_c22`, `t`.`age` AS `t0_c23`, `t`.`hidden` AS `t0_c24`, `t`.`timestamp` AS `t0_c25`, `source`.`id` AS `t1_c0`, `source`.`title` AS `t1_c1`, `source`.`url` AS `t1_c2`, `source`.`feed_url` AS `t1_c3`, `source`.`category_id` AS `t1_c4`, `source`.`type` AS `t1_c5`, `source`.`user_submitted` AS `t1_c6`, `source`.`city_id` AS `t1_c7`, `source`.`user_id` AS `t1_c8`, `source`.`score` AS `t1_c9`, `source`.`twitter_handle` AS `t1_c10`, `source`.`facebook_handle` AS `t1_c11`, `source`.`timestamp` AS `t1_c12`, `category`.`id` AS `t2_c0`, `category`.`title` AS `t2_c1`, `category`.`color` AS `t2_c2`, `city`.`id` AS `t3_c0`, `city`.`title` AS `t3_c1`, `city`.`hashtag` AS `t3_c2` FROM `article` `t`  LEFT OUTER JOIN `source` `source` ON (`t`.`source_id`=`source`.`id`) AND (user_submitted = 0)  LEFT OUTER JOIN `category` `category` ON (`source`.`category_id`=`category`.`id`)  LEFT OUTER JOIN `city` `city` ON (`source`.`city_id`=`city`.`id`)  WHERE (((hidden = 0) AND (`city`.`id` IN ())) AND (DATE(date_published)=CURDATE())) ORDER BY t.score DESC LIMIT 20.
+2013/11/08 12:26:42 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))) AND (DATE(date_published)=CURDATE())) ORDER BY t.score DESC LIMIT 20' at line 1. The SQL statement executed was: SELECT `t`.`id` AS `t0_c0`, `t`.`url` AS `t0_c1`, `t`.`bitly_url` AS `t0_c2`, `t`.`title` AS `t0_c3`, `t`.`summary` AS `t0_c4`, `t`.`content` AS `t0_c5`, `t`.`image_url` AS `t0_c6`, `t`.`image_width` AS `t0_c7`, `t`.`image_height` AS `t0_c8`, `t`.`word_count` AS `t0_c9`, `t`.`date_published` AS `t0_c10`, `t`.`source_id` AS `t0_c11`, `t`.`fb_likes` AS `t0_c12`, `t`.`fb_shares` AS `t0_c13`, `t`.`retweets` AS `t0_c14`, `t`.`linkedin_shares` AS `t0_c15`, `t`.`score` AS `t0_c16`, `t`.`rank` AS `t0_c17`, `t`.`category_rank` AS `t0_c18`, `t`.`movement_day` AS `t0_c19`, `t`.`movement_week` AS `t0_c20`, `t`.`movement_month` AS `t0_c21`, `t`.`trend` AS `t0_c22`, `t`.`age` AS `t0_c23`, `t`.`hidden` AS `t0_c24`, `t`.`timestamp` AS `t0_c25`, `source`.`id` AS `t1_c0`, `source`.`title` AS `t1_c1`, `source`.`url` AS `t1_c2`, `source`.`feed_url` AS `t1_c3`, `source`.`category_id` AS `t1_c4`, `source`.`type` AS `t1_c5`, `source`.`user_submitted` AS `t1_c6`, `source`.`city_id` AS `t1_c7`, `source`.`user_id` AS `t1_c8`, `source`.`score` AS `t1_c9`, `source`.`twitter_handle` AS `t1_c10`, `source`.`facebook_handle` AS `t1_c11`, `source`.`timestamp` AS `t1_c12`, `category`.`id` AS `t2_c0`, `category`.`title` AS `t2_c1`, `category`.`color` AS `t2_c2`, `city`.`id` AS `t3_c0`, `city`.`title` AS `t3_c1`, `city`.`hashtag` AS `t3_c2` FROM `article` `t`  LEFT OUTER JOIN `source` `source` ON (`t`.`source_id`=`source`.`id`) AND (user_submitted = 0)  LEFT OUTER JOIN `category` `category` ON (`source`.`category_id`=`category`.`id`)  LEFT OUTER JOIN `city` `city` ON (`source`.`city_id`=`city`.`id`)  WHERE (((hidden = 0) AND (`city`.`id` IN ())) AND (DATE(date_published)=CURDATE())) ORDER BY t.score DESC LIMIT 20' in /home/topular/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /home/topular/framework/db/CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /home/topular/framework/db/ar/CActiveFinder.php(761): CDbCommand->queryAll()
+#2 /home/topular/framework/db/ar/CActiveFinder.php(422): CJoinElement->runQuery(Object(CJoinQuery))
+#3 /home/topular/framework/db/ar/CActiveFinder.php(68): CJoinElement->find(Object(CDbCriteria))
+#4 /home/topular/framework/db/ar/CActiveRecord.php(1302): CActiveFinder->query(Object(CDbCriteria), true)
+#5 /home/topular/framework/db/ar/CActiveRecord.php(1416): CActiveRecord->query(Object(CDbCriteria), true)
+#6 /home/topular/protected-development/controllers/ArticleController.php(89): CActiveRecord->findAll(Object(CDbCriteria))
+#7 [internal function]: ArticleController->actionIndex(NULL, '23', NULL, NULL)
+#8 /home/topular/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(ArticleController), Array)
+#9 /home/topular/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ArticleController), Object(ReflectionMethod), Array)
+#10 /home/topular/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /home/topular/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 /home/topular/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#13 /home/topular/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 /home/topular/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 /home/topular/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 /home/topular/framework/web/CController.php(291): CFilterChain->run()
+#17 /home/topular/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /home/topular/framework/web/CWebApplication.php(282): CController->run('index')
+#19 /home/topular/framework/web/CWebApplication.php(141): CWebApplication->runController('article/index')
+#20 /home/topular/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#21 /home/topular/topular.in/index-test.php(15): CApplication->run()
+#22 {main}
+REQUEST_URI=/index-test.php/news
+---
+2013/11/08 12:26:43 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))) AND (DATE(date_published)=CURDATE())) ORDER BY t.score DESC LIMIT 20' at line 1. The SQL statement executed was: SELECT `t`.`id` AS `t0_c0`, `t`.`url` AS `t0_c1`, `t`.`bitly_url` AS `t0_c2`, `t`.`title` AS `t0_c3`, `t`.`summary` AS `t0_c4`, `t`.`content` AS `t0_c5`, `t`.`image_url` AS `t0_c6`, `t`.`image_width` AS `t0_c7`, `t`.`image_height` AS `t0_c8`, `t`.`word_count` AS `t0_c9`, `t`.`date_published` AS `t0_c10`, `t`.`source_id` AS `t0_c11`, `t`.`fb_likes` AS `t0_c12`, `t`.`fb_shares` AS `t0_c13`, `t`.`retweets` AS `t0_c14`, `t`.`linkedin_shares` AS `t0_c15`, `t`.`score` AS `t0_c16`, `t`.`rank` AS `t0_c17`, `t`.`category_rank` AS `t0_c18`, `t`.`movement_day` AS `t0_c19`, `t`.`movement_week` AS `t0_c20`, `t`.`movement_month` AS `t0_c21`, `t`.`trend` AS `t0_c22`, `t`.`age` AS `t0_c23`, `t`.`hidden` AS `t0_c24`, `t`.`timestamp` AS `t0_c25`, `source`.`id` AS `t1_c0`, `source`.`title` AS `t1_c1`, `source`.`url` AS `t1_c2`, `source`.`feed_url` AS `t1_c3`, `source`.`category_id` AS `t1_c4`, `source`.`type` AS `t1_c5`, `source`.`user_submitted` AS `t1_c6`, `source`.`city_id` AS `t1_c7`, `source`.`user_id` AS `t1_c8`, `source`.`score` AS `t1_c9`, `source`.`twitter_handle` AS `t1_c10`, `source`.`facebook_handle` AS `t1_c11`, `source`.`timestamp` AS `t1_c12`, `category`.`id` AS `t2_c0`, `category`.`title` AS `t2_c1`, `category`.`color` AS `t2_c2`, `city`.`id` AS `t3_c0`, `city`.`title` AS `t3_c1`, `city`.`hashtag` AS `t3_c2` FROM `article` `t`  LEFT OUTER JOIN `source` `source` ON (`t`.`source_id`=`source`.`id`) AND (user_submitted = 0)  LEFT OUTER JOIN `category` `category` ON (`source`.`category_id`=`category`.`id`)  LEFT OUTER JOIN `city` `city` ON (`source`.`city_id`=`city`.`id`)  WHERE (((hidden = 0) AND (`city`.`id` IN ())) AND (DATE(date_published)=CURDATE())) ORDER BY t.score DESC LIMIT 20.
+2013/11/08 12:26:43 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))) AND (DATE(date_published)=CURDATE())) ORDER BY t.score DESC LIMIT 20' at line 1. The SQL statement executed was: SELECT `t`.`id` AS `t0_c0`, `t`.`url` AS `t0_c1`, `t`.`bitly_url` AS `t0_c2`, `t`.`title` AS `t0_c3`, `t`.`summary` AS `t0_c4`, `t`.`content` AS `t0_c5`, `t`.`image_url` AS `t0_c6`, `t`.`image_width` AS `t0_c7`, `t`.`image_height` AS `t0_c8`, `t`.`word_count` AS `t0_c9`, `t`.`date_published` AS `t0_c10`, `t`.`source_id` AS `t0_c11`, `t`.`fb_likes` AS `t0_c12`, `t`.`fb_shares` AS `t0_c13`, `t`.`retweets` AS `t0_c14`, `t`.`linkedin_shares` AS `t0_c15`, `t`.`score` AS `t0_c16`, `t`.`rank` AS `t0_c17`, `t`.`category_rank` AS `t0_c18`, `t`.`movement_day` AS `t0_c19`, `t`.`movement_week` AS `t0_c20`, `t`.`movement_month` AS `t0_c21`, `t`.`trend` AS `t0_c22`, `t`.`age` AS `t0_c23`, `t`.`hidden` AS `t0_c24`, `t`.`timestamp` AS `t0_c25`, `source`.`id` AS `t1_c0`, `source`.`title` AS `t1_c1`, `source`.`url` AS `t1_c2`, `source`.`feed_url` AS `t1_c3`, `source`.`category_id` AS `t1_c4`, `source`.`type` AS `t1_c5`, `source`.`user_submitted` AS `t1_c6`, `source`.`city_id` AS `t1_c7`, `source`.`user_id` AS `t1_c8`, `source`.`score` AS `t1_c9`, `source`.`twitter_handle` AS `t1_c10`, `source`.`facebook_handle` AS `t1_c11`, `source`.`timestamp` AS `t1_c12`, `category`.`id` AS `t2_c0`, `category`.`title` AS `t2_c1`, `category`.`color` AS `t2_c2`, `city`.`id` AS `t3_c0`, `city`.`title` AS `t3_c1`, `city`.`hashtag` AS `t3_c2` FROM `article` `t`  LEFT OUTER JOIN `source` `source` ON (`t`.`source_id`=`source`.`id`) AND (user_submitted = 0)  LEFT OUTER JOIN `category` `category` ON (`source`.`category_id`=`category`.`id`)  LEFT OUTER JOIN `city` `city` ON (`source`.`city_id`=`city`.`id`)  WHERE (((hidden = 0) AND (`city`.`id` IN ())) AND (DATE(date_published)=CURDATE())) ORDER BY t.score DESC LIMIT 20' in /home/topular/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /home/topular/framework/db/CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /home/topular/framework/db/ar/CActiveFinder.php(761): CDbCommand->queryAll()
+#2 /home/topular/framework/db/ar/CActiveFinder.php(422): CJoinElement->runQuery(Object(CJoinQuery))
+#3 /home/topular/framework/db/ar/CActiveFinder.php(68): CJoinElement->find(Object(CDbCriteria))
+#4 /home/topular/framework/db/ar/CActiveRecord.php(1302): CActiveFinder->query(Object(CDbCriteria), true)
+#5 /home/topular/framework/db/ar/CActiveRecord.php(1416): CActiveRecord->query(Object(CDbCriteria), true)
+#6 /home/topular/protected-development/controllers/ArticleController.php(89): CActiveRecord->findAll(Object(CDbCriteria))
+#7 [internal function]: ArticleController->actionIndex(NULL, '23', NULL, NULL)
+#8 /home/topular/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(ArticleController), Array)
+#9 /home/topular/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ArticleController), Object(ReflectionMethod), Array)
+#10 /home/topular/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /home/topular/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 /home/topular/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#13 /home/topular/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 /home/topular/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 /home/topular/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 /home/topular/framework/web/CController.php(291): CFilterChain->run()
+#17 /home/topular/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /home/topular/framework/web/CWebApplication.php(282): CController->run('index')
+#19 /home/topular/framework/web/CWebApplication.php(141): CWebApplication->runController('article/index')
+#20 /home/topular/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#21 /home/topular/topular.in/index-test.php(15): CApplication->run()
+#22 {main}
+REQUEST_URI=/index-test.php/news
+---
+2013/11/08 12:32:05 [error] [php] strtolower() expects parameter 1 to be string, object given (/home/topular/protected-development/models/Article.php:183)
+Stack trace:
+#0 unknown(0): ArticleController->actionIndex()
+#1 /home/topular/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#2 /home/topular/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#3 /home/topular/framework/web/CController.php(308): CInlineAction->runWithParams()
+#4 /home/topular/framework/web/filters/CFilterChain.php(133): ArticleController->runAction()
+#5 /home/topular/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /home/topular/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#7 /home/topular/framework/web/filters/CInlineFilter.php(58): ArticleController->filterAccessControl()
+#8 /home/topular/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#9 /home/topular/framework/web/CController.php(291): CFilterChain->run()
+#10 /home/topular/framework/web/CController.php(265): ArticleController->runActionWithFilters()
+#11 /home/topular/framework/web/CWebApplication.php(282): ArticleController->run()
+#12 /home/topular/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#13 /home/topular/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#14 /home/topular/topular.in/index-test.php(15): CWebApplication->run()
+REQUEST_URI=/index-test.php/article/index
+2013/11/08 12:32:25 [error] [php] strtolower() expects parameter 1 to be string, object given (/home/topular/protected-development/models/Article.php:183)
+Stack trace:
+#0 unknown(0): ArticleController->actionIndex()
+#1 /home/topular/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#2 /home/topular/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#3 /home/topular/framework/web/CController.php(308): CInlineAction->runWithParams()
+#4 /home/topular/framework/web/filters/CFilterChain.php(133): ArticleController->runAction()
+#5 /home/topular/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /home/topular/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#7 /home/topular/framework/web/filters/CInlineFilter.php(58): ArticleController->filterAccessControl()
+#8 /home/topular/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#9 /home/topular/framework/web/CController.php(291): CFilterChain->run()
+#10 /home/topular/framework/web/CController.php(265): ArticleController->runActionWithFilters()
+#11 /home/topular/framework/web/CWebApplication.php(282): ArticleController->run()
+#12 /home/topular/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#13 /home/topular/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#14 /home/topular/topular.in/index-test.php(15): CWebApplication->run()
+REQUEST_URI=/index-test.php/article/index
+2013/11/08 12:32:27 [error] [php] Object of class City could not be converted to string (/home/topular/protected-development/models/Article.php:117)
+Stack trace:
+#0 /home/topular/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#1 /home/topular/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 /home/topular/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /home/topular/framework/web/filters/CFilterChain.php(133): ArticleController->runAction()
+#4 /home/topular/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /home/topular/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#6 /home/topular/framework/web/filters/CInlineFilter.php(58): ArticleController->filterAccessControl()
+#7 /home/topular/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#8 /home/topular/framework/web/CController.php(291): CFilterChain->run()
+#9 /home/topular/framework/web/CController.php(265): ArticleController->runActionWithFilters()
+#10 /home/topular/framework/web/CWebApplication.php(282): ArticleController->run()
+#11 /home/topular/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /home/topular/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#13 /home/topular/topular.in/index-test.php(15): CWebApplication->run()
+REQUEST_URI=/index-test.php/article/index
+2013/11/08 12:32:28 [error] [php] Object of class City could not be converted to string (/home/topular/protected-development/models/Article.php:117)
+Stack trace:
+#0 /home/topular/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#1 /home/topular/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 /home/topular/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /home/topular/framework/web/filters/CFilterChain.php(133): ArticleController->runAction()
+#4 /home/topular/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /home/topular/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#6 /home/topular/framework/web/filters/CInlineFilter.php(58): ArticleController->filterAccessControl()
+#7 /home/topular/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#8 /home/topular/framework/web/CController.php(291): CFilterChain->run()
+#9 /home/topular/framework/web/CController.php(265): ArticleController->runActionWithFilters()
+#10 /home/topular/framework/web/CWebApplication.php(282): ArticleController->run()
+#11 /home/topular/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /home/topular/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#13 /home/topular/topular.in/index-test.php(15): CWebApplication->run()
+REQUEST_URI=/index-test.php/article/index
+2013/11/08 13:08:03 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /home/topular/framework/web/auth/CAccessControlFilter.php:179
+Stack trace:
+#0 /home/topular/framework/web/auth/CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /home/topular/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /home/topular/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /home/topular/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /home/topular/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /home/topular/framework/web/CController.php(291): CFilterChain->run()
+#6 /home/topular/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/topular/framework/web/CWebApplication.php(282): CController->run('set')
+#8 /home/topular/framework/web/CWebApplication.php(141): CWebApplication->runController('user/set')
+#9 /home/topular/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /home/topular/topular.in/index-test.php(15): CApplication->run()
+#11 {main}
+REQUEST_URI=/index-test.php/user/set?timespan=day
+HTTP_REFERER=http://topular.in/index-test.php/san-francisco
+---
+2013/11/08 13:18:28 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /home/topular/framework/web/CController.php:336
+Stack trace:
+#0 /home/topular/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /home/topular/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /home/topular/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/topular/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /home/topular/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /home/topular/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /home/topular/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/topular/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/topular/framework/web/CWebApplication.php(282): CController->run('timespan')
+#9 /home/topular/framework/web/CWebApplication.php(141): CWebApplication->runController('user/timespan/d...')
+#10 /home/topular/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /home/topular/topular.in/index-test.php(15): CApplication->run()
+#12 {main}
+REQUEST_URI=/index-test.php/user/timespan/day
+HTTP_REFERER=http://topular.in/index-test.php/article/index
+---
+2013/11/08 13:18:51 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /home/topular/framework/web/CController.php:336
+Stack trace:
+#0 /home/topular/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /home/topular/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /home/topular/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/topular/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /home/topular/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /home/topular/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /home/topular/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/topular/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/topular/framework/web/CWebApplication.php(282): CController->run('timespan')
+#9 /home/topular/framework/web/CWebApplication.php(141): CWebApplication->runController('user/timespan/m...')
+#10 /home/topular/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /home/topular/topular.in/index-test.php(15): CApplication->run()
+#12 {main}
+REQUEST_URI=/index-test.php/user/timespan/month
+HTTP_REFERER=http://topular.in/index-test.php/article/index
+---
+2013/11/08 14:32:34 [error] [exception.CException] exception 'CException' with message 'Article and its behaviors do not have a method or closure named "quantity".' in /home/topular/framework/base/CComponent.php:265
+Stack trace:
+#0 /home/topular/framework/db/ar/CActiveRecord.php(225): CComponent->__call('quantity', Array)
+#1 /home/topular/protected-development/controllers/ArticleController.php(104): CActiveRecord->__call('quantity', Array)
+#2 /home/topular/protected-development/controllers/ArticleController.php(104): Article->quantity(5)
+#3 [internal function]: ArticleController->actionView('313267')
+#4 /home/topular/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(ArticleController), Array)
+#5 /home/topular/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ArticleController), Object(ReflectionMethod), Array)
+#6 /home/topular/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#7 /home/topular/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#8 /home/topular/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#9 /home/topular/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 /home/topular/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 /home/topular/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 /home/topular/framework/web/CController.php(291): CFilterChain->run()
+#13 /home/topular/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 /home/topular/framework/web/CWebApplication.php(282): CController->run('view')
+#15 /home/topular/framework/web/CWebApplication.php(141): CWebApplication->runController('article/view')
+#16 /home/topular/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#17 /home/topular/topular.in/index-test.php(15): CApplication->run()
+#18 {main}
+REQUEST_URI=/index-test.php/article/view/313267
+HTTP_REFERER=http://topular.in/index-test.php/user/view
+---
+2013/11/08 14:50:22 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')) ORDER BY t.score DESC LIMIT 20' at line 1. The SQL statement executed was: SELECT `t`.`id` AS `t0_c0`, `t`.`url` AS `t0_c1`, `t`.`bitly_url` AS `t0_c2`, `t`.`title` AS `t0_c3`, `t`.`summary` AS `t0_c4`, `t`.`content` AS `t0_c5`, `t`.`image_url` AS `t0_c6`, `t`.`image_width` AS `t0_c7`, `t`.`image_height` AS `t0_c8`, `t`.`word_count` AS `t0_c9`, `t`.`date_published` AS `t0_c10`, `t`.`source_id` AS `t0_c11`, `t`.`fb_likes` AS `t0_c12`, `t`.`fb_shares` AS `t0_c13`, `t`.`retweets` AS `t0_c14`, `t`.`linkedin_shares` AS `t0_c15`, `t`.`score` AS `t0_c16`, `t`.`rank` AS `t0_c17`, `t`.`category_rank` AS `t0_c18`, `t`.`movement_day` AS `t0_c19`, `t`.`movement_week` AS `t0_c20`, `t`.`movement_month` AS `t0_c21`, `t`.`trend` AS `t0_c22`, `t`.`age` AS `t0_c23`, `t`.`hidden` AS `t0_c24`, `t`.`timestamp` AS `t0_c25`, `source`.`id` AS `t1_c0`, `source`.`title` AS `t1_c1`, `source`.`url` AS `t1_c2`, `source`.`feed_url` AS `t1_c3`, `source`.`category_id` AS `t1_c4`, `source`.`type` AS `t1_c5`, `source`.`user_submitted` AS `t1_c6`, `source`.`city_id` AS `t1_c7`, `source`.`user_id` AS `t1_c8`, `source`.`score` AS `t1_c9`, `source`.`twitter_handle` AS `t1_c10`, `source`.`facebook_handle` AS `t1_c11`, `source`.`timestamp` AS `t1_c12`, `category`.`id` AS `t2_c0`, `category`.`title` AS `t2_c1`, `category`.`color` AS `t2_c2`, `city`.`id` AS `t3_c0`, `city`.`title` AS `t3_c1`, `city`.`hashtag` AS `t3_c2` FROM `article` `t`  LEFT OUTER JOIN `source` `source` ON (`t`.`source_id`=`source`.`id`) AND (user_submitted = 0)  LEFT OUTER JOIN `category` `category` ON (`source`.`category_id`=`category`.`id`)  LEFT OUTER JOIN `city` `city` ON (`source`.`city_id`=`city`.`id`)  WHERE (((((hidden = 0) AND (`city`.`id` IN (1,2))) AND (`category`.`id` IN (1))) AND (DATE(date_published)=CURDATE())) AND ()) ORDER BY t.score DESC LIMIT 20.
+2013/11/08 14:50:22 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')) ORDER BY t.score DESC LIMIT 20' at line 1. The SQL statement executed was: SELECT `t`.`id` AS `t0_c0`, `t`.`url` AS `t0_c1`, `t`.`bitly_url` AS `t0_c2`, `t`.`title` AS `t0_c3`, `t`.`summary` AS `t0_c4`, `t`.`content` AS `t0_c5`, `t`.`image_url` AS `t0_c6`, `t`.`image_width` AS `t0_c7`, `t`.`image_height` AS `t0_c8`, `t`.`word_count` AS `t0_c9`, `t`.`date_published` AS `t0_c10`, `t`.`source_id` AS `t0_c11`, `t`.`fb_likes` AS `t0_c12`, `t`.`fb_shares` AS `t0_c13`, `t`.`retweets` AS `t0_c14`, `t`.`linkedin_shares` AS `t0_c15`, `t`.`score` AS `t0_c16`, `t`.`rank` AS `t0_c17`, `t`.`category_rank` AS `t0_c18`, `t`.`movement_day` AS `t0_c19`, `t`.`movement_week` AS `t0_c20`, `t`.`movement_month` AS `t0_c21`, `t`.`trend` AS `t0_c22`, `t`.`age` AS `t0_c23`, `t`.`hidden` AS `t0_c24`, `t`.`timestamp` AS `t0_c25`, `source`.`id` AS `t1_c0`, `source`.`title` AS `t1_c1`, `source`.`url` AS `t1_c2`, `source`.`feed_url` AS `t1_c3`, `source`.`category_id` AS `t1_c4`, `source`.`type` AS `t1_c5`, `source`.`user_submitted` AS `t1_c6`, `source`.`city_id` AS `t1_c7`, `source`.`user_id` AS `t1_c8`, `source`.`score` AS `t1_c9`, `source`.`twitter_handle` AS `t1_c10`, `source`.`facebook_handle` AS `t1_c11`, `source`.`timestamp` AS `t1_c12`, `category`.`id` AS `t2_c0`, `category`.`title` AS `t2_c1`, `category`.`color` AS `t2_c2`, `city`.`id` AS `t3_c0`, `city`.`title` AS `t3_c1`, `city`.`hashtag` AS `t3_c2` FROM `article` `t`  LEFT OUTER JOIN `source` `source` ON (`t`.`source_id`=`source`.`id`) AND (user_submitted = 0)  LEFT OUTER JOIN `category` `category` ON (`source`.`category_id`=`category`.`id`)  LEFT OUTER JOIN `city` `city` ON (`source`.`city_id`=`city`.`id`)  WHERE (((((hidden = 0) AND (`city`.`id` IN (1,2))) AND (`category`.`id` IN (1))) AND (DATE(date_published)=CURDATE())) AND ()) ORDER BY t.score DESC LIMIT 20' in /home/topular/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /home/topular/framework/db/CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /home/topular/framework/db/ar/CActiveFinder.php(761): CDbCommand->queryAll()
+#2 /home/topular/framework/db/ar/CActiveFinder.php(422): CJoinElement->runQuery(Object(CJoinQuery))
+#3 /home/topular/framework/db/ar/CActiveFinder.php(68): CJoinElement->find(Object(CDbCriteria))
+#4 /home/topular/framework/db/ar/CActiveRecord.php(1302): CActiveFinder->query(Object(CDbCriteria), true)
+#5 /home/topular/framework/db/ar/CActiveRecord.php(1416): CActiveRecord->query(Object(CDbCriteria), true)
+#6 /home/topular/protected-development/controllers/ArticleController.php(84): CActiveRecord->findAll(NULL)
+#7 [internal function]: ArticleController->actionIndex(NULL, NULL, NULL, NULL)
+#8 /home/topular/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(ArticleController), Array)
+#9 /home/topular/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ArticleController), Object(ReflectionMethod), Array)
+#10 /home/topular/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /home/topular/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 /home/topular/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#13 /home/topular/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 /home/topular/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 /home/topular/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 /home/topular/framework/web/CController.php(291): CFilterChain->run()
+#17 /home/topular/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /home/topular/framework/web/CWebApplication.php(282): CController->run('index')
+#19 /home/topular/framework/web/CWebApplication.php(141): CWebApplication->runController('article/index')
+#20 /home/topular/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#21 /home/topular/topular.in/index-test.php(15): CApplication->run()
+#22 {main}
+REQUEST_URI=/index-test.php/article/index
+HTTP_REFERER=http://topular.in/index-test.php/article/index
+---
+2013/11/11 08:07:56 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1. The SQL statement executed was: SELECT COUNT(*) FROM `collection` `t` WHERE user_id=.
+2013/11/11 08:07:56 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1. The SQL statement executed was: SELECT COUNT(*) FROM `collection` `t` WHERE user_id=' in /home/topular/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /home/topular/framework/db/CDbCommand.php(432): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 /home/topular/framework/db/ar/CActiveRecord.php(1546): CDbCommand->queryScalar()
+#2 /home/topular/protected-development/controllers/CollectionController.php(159): CActiveRecord->count(Object(CDbCriteria))
+#3 /home/topular/framework/web/actions/CInlineAction.php(49): CollectionController->actionIndex()
+#4 /home/topular/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/topular/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /home/topular/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /home/topular/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /home/topular/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /home/topular/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /home/topular/framework/web/CController.php(291): CFilterChain->run()
+#11 /home/topular/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /home/topular/framework/web/CWebApplication.php(282): CController->run('index')
+#13 /home/topular/framework/web/CWebApplication.php(141): CWebApplication->runController('collection/inde...')
+#14 /home/topular/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#15 /home/topular/topular.in/index-test.php(15): CApplication->run()
+#16 {main}
+REQUEST_URI=/index-test.php/collection/index
+HTTP_REFERER=http://topular.in/index-test.php/collection/index?page=3
+---
+2014/01/19 14:35:00 [error] [php] include(Collection.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/home/topular/framework/YiiBase.php:421)
+Stack trace:
+#0 /home/topular/protected-development/controllers/ArticleController.php(65): spl_autoload_call()
+#1 unknown(0): ArticleController->actionIndex()
+#2 /home/topular/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#3 /home/topular/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#4 /home/topular/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /home/topular/framework/web/filters/CFilterChain.php(133): ArticleController->runAction()
+#6 /home/topular/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /home/topular/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#8 /home/topular/framework/web/filters/CInlineFilter.php(58): ArticleController->filterAccessControl()
+#9 /home/topular/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#10 /home/topular/framework/web/CController.php(291): CFilterChain->run()
+#11 /home/topular/framework/web/CController.php(265): ArticleController->runActionWithFilters()
+#12 /home/topular/framework/web/CWebApplication.php(282): ArticleController->run()
+#13 /home/topular/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /home/topular/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#15 /home/topular/topular.in/index-test.php(15): CWebApplication->run()
+REQUEST_URI=/index-test.php/article/index
+2014/01/21 17:00:53 [error] [php] Object of class User could not be converted to string (/home/topular/protected-development/views/article/menu.php:173)
+Stack trace:
+#0 /home/topular/framework/web/CController.php(869): ArticleController->renderFile()
+#1 /home/topular/topular.in/themes/bootstrap-development/views/layouts/main.php(30): ArticleController->renderPartial()
+#2 /home/topular/framework/web/CBaseController.php(126): require()
+#3 /home/topular/framework/web/CBaseController.php(95): ArticleController->renderInternal()
+#4 /home/topular/framework/web/widgets/CContentDecorator.php(76): ArticleController->renderFile()
+#5 /home/topular/framework/web/widgets/CContentDecorator.php(54): CContentDecorator->decorate()
+#6 /home/topular/framework/web/widgets/COutputProcessor.php(44): CContentDecorator->processOutput()
+#7 /home/topular/framework/web/CBaseController.php(206): CContentDecorator->run()
+#8 /home/topular/framework/web/CBaseController.php(300): ArticleController->endWidget()
+#9 /home/topular/protected-development/views/layouts/column1.php(6): ArticleController->endContent()
+#10 /home/topular/framework/web/CBaseController.php(126): require()
+#11 /home/topular/framework/web/CBaseController.php(95): ArticleController->renderInternal()
+#12 /home/topular/framework/web/CController.php(784): ArticleController->renderFile()
+#13 /home/topular/protected-development/controllers/ArticleController.php(115): ArticleController->render()
+#14 unknown(0): ArticleController->actionIndex()
+#15 /home/topular/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#16 /home/topular/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#17 /home/topular/framework/web/CController.php(308): CInlineAction->runWithParams()
+#18 /home/topular/framework/web/filters/CFilterChain.php(133): ArticleController->runAction()
+#19 /home/topular/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#20 /home/topular/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#21 /home/topular/framework/web/filters/CInlineFilter.php(58): ArticleController->filterAccessControl()
+#22 /home/topular/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#23 /home/topular/framework/web/CController.php(291): CFilterChain->run()
+#24 /home/topular/framework/web/CController.php(265): ArticleController->runActionWithFilters()
+#25 /home/topular/framework/web/CWebApplication.php(282): ArticleController->run()
+#26 /home/topular/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#27 /home/topular/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#28 /home/topular/topular.in/index-test.php(15): CWebApplication->run()
+REQUEST_URI=/index-test.php/article/index
+2014/01/21 18:14:19 [error] [php] Object of class Background could not be converted to string (/home/topular/topular.in/themes/bootstrap-development/views/layouts/main.php:96)
+Stack trace:
+#0 /home/topular/framework/web/widgets/CContentDecorator.php(76): ArticleController->renderFile()
+#1 /home/topular/framework/web/widgets/CContentDecorator.php(54): CContentDecorator->decorate()
+#2 /home/topular/framework/web/widgets/COutputProcessor.php(44): CContentDecorator->processOutput()
+#3 /home/topular/framework/web/CBaseController.php(206): CContentDecorator->run()
+#4 /home/topular/framework/web/CBaseController.php(300): ArticleController->endWidget()
+#5 /home/topular/protected-development/views/layouts/column1.php(6): ArticleController->endContent()
+#6 /home/topular/framework/web/CBaseController.php(126): require()
+#7 /home/topular/framework/web/CBaseController.php(95): ArticleController->renderInternal()
+#8 /home/topular/framework/web/CController.php(784): ArticleController->renderFile()
+#9 /home/topular/protected-development/controllers/ArticleController.php(115): ArticleController->render()
+#10 unknown(0): ArticleController->actionIndex()
+#11 /home/topular/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#12 /home/topular/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#13 /home/topular/framework/web/CController.php(308): CInlineAction->runWithParams()
+#14 /home/topular/framework/web/filters/CFilterChain.php(133): ArticleController->runAction()
+#15 /home/topular/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#16 /home/topular/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#17 /home/topular/framework/web/filters/CInlineFilter.php(58): ArticleController->filterAccessControl()
+#18 /home/topular/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#19 /home/topular/framework/web/CController.php(291): CFilterChain->run()
+#20 /home/topular/framework/web/CController.php(265): ArticleController->runActionWithFilters()
+#21 /home/topular/framework/web/CWebApplication.php(282): ArticleController->run()
+#22 /home/topular/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#23 /home/topular/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#24 /home/topular/topular.in/index-test.php(15): CWebApplication->run()
+REQUEST_URI=/index-test.php/article/index
+2014/01/21 18:21:30 [error] [exception.CException] exception 'CException' with message 'Property "Background.getUrl" is not defined.' in /home/topular/framework/base/CComponent.php:130
+Stack trace:
+#0 /home/topular/framework/db/ar/CActiveRecord.php(143): CComponent->__get('getUrl')
+#1 /home/topular/topular.in/themes/bootstrap-development/views/layouts/main.php(85): CActiveRecord->__get('getUrl')
+#2 /home/topular/framework/web/CBaseController.php(126): require('/home/topular/t...')
+#3 /home/topular/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/topular/t...', Array, true)
+#4 /home/topular/framework/web/widgets/CContentDecorator.php(76): CBaseController->renderFile('/home/topular/t...', Array, true)
+#5 /home/topular/framework/web/widgets/CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 /home/topular/framework/web/widgets/COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 /home/topular/framework/web/CBaseController.php(206): COutputProcessor->run()
+#8 /home/topular/framework/web/CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 /home/topular/protected-development/views/layouts/column1.php(6): CBaseController->endContent()
+#10 /home/topular/framework/web/CBaseController.php(126): require('/home/topular/p...')
+#11 /home/topular/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/topular/p...', Array, true)
+#12 /home/topular/framework/web/CController.php(784): CBaseController->renderFile('/home/topular/p...', Array, true)
+#13 /home/topular/protected-development/controllers/ArticleController.php(115): CController->render('index', Array)
+#14 [internal function]: ArticleController->actionIndex(NULL, NULL, NULL, NULL)
+#15 /home/topular/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(ArticleController), Array)
+#16 /home/topular/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ArticleController), Object(ReflectionMethod), Array)
+#17 /home/topular/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#18 /home/topular/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#19 /home/topular/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#20 /home/topular/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#21 /home/topular/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 /home/topular/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#23 /home/topular/framework/web/CController.php(291): CFilterChain->run()
+#24 /home/topular/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 /home/topular/framework/web/CWebApplication.php(282): CController->run('index')
+#26 /home/topular/framework/web/CWebApplication.php(141): CWebApplication->runController('article/index')
+#27 /home/topular/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#28 /home/topular/topular.in/index-test.php(15): CApplication->run()
+#29 {main}
+REQUEST_URI=/index-test.php/article/index
+HTTP_REFERER=http://topular.in/index-test.php/article/index
+---
+2014/02/01 14:51:32 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /home/topular/framework/web/CController.php:1118
+Stack trace:
+#0 /home/topular/framework/web/filters/CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 /home/topular/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 /home/topular/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/topular/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /home/topular/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /home/topular/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /home/topular/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/topular/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/topular/framework/web/CWebApplication.php(282): CController->run('delete')
+#9 /home/topular/framework/web/CWebApplication.php(141): CWebApplication->runController('bundle/delete/i...')
+#10 /home/topular/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /home/topular/topular.in/index-test.php(15): CApplication->run()
+#12 {main}
+REQUEST_URI=/index-test.php/bundle/delete/id/68
+---
+2014/02/01 14:51:35 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /home/topular/framework/web/CController.php:1118
+Stack trace:
+#0 /home/topular/framework/web/filters/CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 /home/topular/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 /home/topular/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/topular/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /home/topular/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /home/topular/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /home/topular/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/topular/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/topular/framework/web/CWebApplication.php(282): CController->run('delete')
+#9 /home/topular/framework/web/CWebApplication.php(141): CWebApplication->runController('bundle/delete/i...')
+#10 /home/topular/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /home/topular/topular.in/index-test.php(15): CApplication->run()
+#12 {main}
+REQUEST_URI=/index-test.php/bundle/delete/id/68
+---
+2014/02/06 19:42:39 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user_has_article.timestamp' in 'order clause'. The SQL statement executed was: SELECT `articles`.`id` AS `t1_c0`, `articles`.`url` AS `t1_c1`, `articles`.`bitly_url` AS `t1_c2`, `articles`.`title` AS `t1_c3`, `articles`.`summary` AS `t1_c4`, `articles`.`content` AS `t1_c5`, `articles`.`image_url` AS `t1_c6`, `articles`.`image_width` AS `t1_c7`, `articles`.`image_height` AS `t1_c8`, `articles`.`word_count` AS `t1_c9`, `articles`.`date_published` AS `t1_c10`, `articles`.`source_id` AS `t1_c11`, `articles`.`fb_likes` AS `t1_c12`, `articles`.`fb_shares` AS `t1_c13`, `articles`.`retweets` AS `t1_c14`, `articles`.`linkedin_shares` AS `t1_c15`, `articles`.`score` AS `t1_c16`, `articles`.`rank` AS `t1_c17`, `articles`.`category_rank` AS `t1_c18`, `articles`.`movement_day` AS `t1_c19`, `articles`.`movement_week` AS `t1_c20`, `articles`.`movement_month` AS `t1_c21`, `articles`.`trend` AS `t1_c22`, `articles`.`age` AS `t1_c23`, `articles`.`hidden` AS `t1_c24`, `articles`.`timestamp` AS `t1_c25`, `source`.`id` AS `t2_c0`, `source`.`title` AS `t2_c1`, `source`.`url` AS `t2_c2`, `source`.`feed_url` AS `t2_c3`, `source`.`category_id` AS `t2_c4`, `source`.`type` AS `t2_c5`, `source`.`user_submitted` AS `t2_c6`, `source`.`city_id` AS `t2_c7`, `source`.`user_id` AS `t2_c8`, `source`.`score` AS `t2_c9`, `source`.`twitter_handle` AS `t2_c10`, `source`.`facebook_handle` AS `t2_c11`, `source`.`timestamp` AS `t2_c12`, `category`.`id` AS `t3_c0`, `category`.`title` AS `t3_c1`, `category`.`color` AS `t3_c2`, `city`.`id` AS `t4_c0`, `city`.`title` AS `t4_c1`, `city`.`hashtag` AS `t4_c2` FROM `article` `articles`  INNER JOIN `user_has_article` `articles_articles` ON (`articles_articles`.`user_id`=:ypl0) AND (`articles`.`id`=`articles_articles`.`article_id`) AND (hidden = 0) LEFT OUTER JOIN `source` `source` ON (`articles`.`source_id`=`source`.`id`) AND (user_submitted = 0)  LEFT OUTER JOIN `category` `category` ON (`source`.`category_id`=`category`.`id`)  LEFT OUTER JOIN `city` `city` ON (`source`.`city_id`=`city`.`id`)  WHERE (hidden = 0) ORDER BY `user_has_article`.`timestamp` DESC. Bound with :ypl0='6'.
+2014/02/06 19:42:39 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user_has_article.timestamp' in 'order clause'. The SQL statement executed was: SELECT `articles`.`id` AS `t1_c0`, `articles`.`url` AS `t1_c1`, `articles`.`bitly_url` AS `t1_c2`, `articles`.`title` AS `t1_c3`, `articles`.`summary` AS `t1_c4`, `articles`.`content` AS `t1_c5`, `articles`.`image_url` AS `t1_c6`, `articles`.`image_width` AS `t1_c7`, `articles`.`image_height` AS `t1_c8`, `articles`.`word_count` AS `t1_c9`, `articles`.`date_published` AS `t1_c10`, `articles`.`source_id` AS `t1_c11`, `articles`.`fb_likes` AS `t1_c12`, `articles`.`fb_shares` AS `t1_c13`, `articles`.`retweets` AS `t1_c14`, `articles`.`linkedin_shares` AS `t1_c15`, `articles`.`score` AS `t1_c16`, `articles`.`rank` AS `t1_c17`, `articles`.`category_rank` AS `t1_c18`, `articles`.`movement_day` AS `t1_c19`, `articles`.`movement_week` AS `t1_c20`, `articles`.`movement_month` AS `t1_c21`, `articles`.`trend` AS `t1_c22`, `articles`.`age` AS `t1_c23`, `articles`.`hidden` AS `t1_c24`, `articles`.`timestamp` AS `t1_c25`, `source`.`id` AS `t2_c0`, `source`.`title` AS `t2_c1`, `source`.`url` AS `t2_c2`, `source`.`feed_url` AS `t2_c3`, `source`.`category_id` AS `t2_c4`, `source`.`type` AS `t2_c5`, `source`.`user_submitted` AS `t2_c6`, `source`.`city_id` AS `t2_c7`, `source`.`user_id` AS `t2_c8`, `source`.`score` AS `t2_c9`, `source`.`twitter_handle` AS `t2_c10`, `source`.`facebook_handle` AS `t2_c11`, `source`.`timestamp` AS `t2_c12`, `category`.`id` AS `t3_c0`, `category`.`title` AS `t3_c1`, `category`.`color` AS `t3_c2`, `city`.`id` AS `t4_c0`, `city`.`title` AS `t4_c1`, `city`.`hashtag` AS `t4_c2` FROM `article` `articles`  INNER JOIN `user_has_article` `articles_articles` ON (`articles_articles`.`user_id`=:ypl0) AND (`articles`.`id`=`articles_articles`.`article_id`) AND (hidden = 0) LEFT OUTER JOIN `source` `source` ON (`articles`.`source_id`=`source`.`id`) AND (user_submitted = 0)  LEFT OUTER JOIN `category` `category` ON (`source`.`category_id`=`category`.`id`)  LEFT OUTER JOIN `city` `city` ON (`source`.`city_id`=`city`.`id`)  WHERE (hidden = 0) ORDER BY `user_has_article`.`timestamp` DESC. Bound with :ypl0='6'' in /home/topular/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /home/topular/framework/db/CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /home/topular/framework/db/ar/CActiveFinder.php(761): CDbCommand->queryAll()
+#2 /home/topular/framework/db/ar/CActiveFinder.php(489): CJoinElement->runQuery(Object(CJoinQuery))
+#3 /home/topular/framework/db/ar/CActiveFinder.php(163): CJoinElement->lazyFind(Object(User))
+#4 /home/topular/framework/db/ar/CActiveRecord.php(272): CActiveFinder->lazyFind(Object(User))
+#5 /home/topular/framework/db/ar/CActiveRecord.php(215): CActiveRecord->getRelated('articles', false, Array)
+#6 /home/topular/protected-development/views/user/articles.php(12): CActiveRecord->__call('articles', Array)
+#7 /home/topular/protected-development/views/user/articles.php(12): User->articles(Array)
+#8 /home/topular/framework/web/CBaseController.php(126): require('/home/topular/p...')
+#9 /home/topular/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/topular/p...', Array, true)
+#10 /home/topular/framework/web/CController.php(869): CBaseController->renderFile('/home/topular/p...', Array, true)
+#11 /home/topular/framework/web/CController.php(782): CController->renderPartial('articles', Array, true)
+#12 /home/topular/protected-development/controllers/UserController.php(122): CController->render('articles', Array)
+#13 /home/topular/framework/web/actions/CInlineAction.php(49): UserController->actionArticles()
+#14 /home/topular/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#15 /home/topular/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 /home/topular/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#17 /home/topular/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 /home/topular/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 /home/topular/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 /home/topular/framework/web/CController.php(291): CFilterChain->run()
+#21 /home/topular/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 /home/topular/framework/web/CWebApplication.php(282): CController->run('articles')
+#23 /home/topular/framework/web/CWebApplication.php(141): CWebApplication->runController('user/articles')
+#24 /home/topular/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#25 /home/topular/topular.in/index-test.php(15): CApplication->run()
+#26 {main}
+REQUEST_URI=/index-test.php/user/articles
+HTTP_REFERER=http://topular.in/index-test.php/article/index
+---
+2014/02/12 21:56:56 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'city.under_construction' in 'on clause'. The SQL statement executed was: SELECT `articles`.`id` AS `t1_c0`, `articles`.`url` AS `t1_c1`, `articles`.`bitly_url` AS `t1_c2`, `articles`.`title` AS `t1_c3`, `articles`.`summary` AS `t1_c4`, `articles`.`content` AS `t1_c5`, `articles`.`image_url` AS `t1_c6`, `articles`.`image_width` AS `t1_c7`, `articles`.`image_height` AS `t1_c8`, `articles`.`word_count` AS `t1_c9`, `articles`.`date_published` AS `t1_c10`, `articles`.`source_id` AS `t1_c11`, `articles`.`fb_likes` AS `t1_c12`, `articles`.`fb_shares` AS `t1_c13`, `articles`.`retweets` AS `t1_c14`, `articles`.`linkedin_shares` AS `t1_c15`, `articles`.`score` AS `t1_c16`, `articles`.`rank` AS `t1_c17`, `articles`.`category_rank` AS `t1_c18`, `articles`.`movement_day` AS `t1_c19`, `articles`.`movement_week` AS `t1_c20`, `articles`.`movement_month` AS `t1_c21`, `articles`.`trend` AS `t1_c22`, `articles`.`age` AS `t1_c23`, `articles`.`hidden` AS `t1_c24`, `articles`.`timestamp` AS `t1_c25`, `source`.`id` AS `t2_c0`, `source`.`title` AS `t2_c1`, `source`.`url` AS `t2_c2`, `source`.`feed_url` AS `t2_c3`, `source`.`category_id` AS `t2_c4`, `source`.`type` AS `t2_c5`, `source`.`hide_image` AS `t2_c6`, `source`.`user_submitted` AS `t2_c7`, `source`.`city_id` AS `t2_c8`, `source`.`user_id` AS `t2_c9`, `source`.`score` AS `t2_c10`, `source`.`twitter_handle` AS `t2_c11`, `source`.`facebook_handle` AS `t2_c12`, `source`.`timestamp` AS `t2_c13`, `category`.`id` AS `t3_c0`, `category`.`title` AS `t3_c1`, `category`.`color` AS `t3_c2`, `city`.`id` AS `t4_c0`, `city`.`title` AS `t4_c1`, `city`.`hashtag` AS `t4_c2`, `city`.`under_construction` AS `t4_c3` FROM `article` `articles`  INNER JOIN `user_has_article` `articles_articles` ON (`articles_articles`.`user_id`=:ypl0) AND (`articles`.`id`=`articles_articles`.`article_id`) AND (hidden = 0 AND `city`.`under_construction` = 0) LEFT OUTER JOIN `source` `source` ON (`articles`.`source_id`=`source`.`id`) AND (user_submitted = 0)  LEFT OUTER JOIN `category` `category` ON (`source`.`category_id`=`category`.`id`)  LEFT OUTER JOIN `city` `city` ON (`source`.`city_id`=`city`.`id`) AND (under_construction = 0)  WHERE (hidden = 0 AND `city`.`under_construction` = 0) ORDER BY `articles_articles`.`timestamp` DESC LIMIT 3. Bound with :ypl0='6'.
+in /home/topular/protected-production/views/user/view.php (44)
+in /home/topular/protected-production/views/user/view.php (44)
+in /home/topular/protected-production/controllers/UserController.php (80)
+2014/02/12 21:56:56 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'city.under_construction' in 'on clause'. The SQL statement executed was: SELECT `articles`.`id` AS `t1_c0`, `articles`.`url` AS `t1_c1`, `articles`.`bitly_url` AS `t1_c2`, `articles`.`title` AS `t1_c3`, `articles`.`summary` AS `t1_c4`, `articles`.`content` AS `t1_c5`, `articles`.`image_url` AS `t1_c6`, `articles`.`image_width` AS `t1_c7`, `articles`.`image_height` AS `t1_c8`, `articles`.`word_count` AS `t1_c9`, `articles`.`date_published` AS `t1_c10`, `articles`.`source_id` AS `t1_c11`, `articles`.`fb_likes` AS `t1_c12`, `articles`.`fb_shares` AS `t1_c13`, `articles`.`retweets` AS `t1_c14`, `articles`.`linkedin_shares` AS `t1_c15`, `articles`.`score` AS `t1_c16`, `articles`.`rank` AS `t1_c17`, `articles`.`category_rank` AS `t1_c18`, `articles`.`movement_day` AS `t1_c19`, `articles`.`movement_week` AS `t1_c20`, `articles`.`movement_month` AS `t1_c21`, `articles`.`trend` AS `t1_c22`, `articles`.`age` AS `t1_c23`, `articles`.`hidden` AS `t1_c24`, `articles`.`timestamp` AS `t1_c25`, `source`.`id` AS `t2_c0`, `source`.`title` AS `t2_c1`, `source`.`url` AS `t2_c2`, `source`.`feed_url` AS `t2_c3`, `source`.`category_id` AS `t2_c4`, `source`.`type` AS `t2_c5`, `source`.`hide_image` AS `t2_c6`, `source`.`user_submitted` AS `t2_c7`, `source`.`city_id` AS `t2_c8`, `source`.`user_id` AS `t2_c9`, `source`.`score` AS `t2_c10`, `source`.`twitter_handle` AS `t2_c11`, `source`.`facebook_handle` AS `t2_c12`, `source`.`timestamp` AS `t2_c13`, `category`.`id` AS `t3_c0`, `category`.`title` AS `t3_c1`, `category`.`color` AS `t3_c2`, `city`.`id` AS `t4_c0`, `city`.`title` AS `t4_c1`, `city`.`hashtag` AS `t4_c2`, `city`.`under_construction` AS `t4_c3` FROM `article` `articles`  INNER JOIN `user_has_article` `articles_articles` ON (`articles_articles`.`user_id`=:ypl0) AND (`articles`.`id`=`articles_articles`.`article_id`) AND (hidden = 0 AND `city`.`under_construction` = 0) LEFT OUTER JOIN `source` `source` ON (`articles`.`source_id`=`source`.`id`) AND (user_submitted = 0)  LEFT OUTER JOIN `category` `category` ON (`source`.`category_id`=`category`.`id`)  LEFT OUTER JOIN `city` `city` ON (`source`.`city_id`=`city`.`id`) AND (under_construction = 0)  WHERE (hidden = 0 AND `city`.`under_construction` = 0) ORDER BY `articles_articles`.`timestamp` DESC LIMIT 3. Bound with :ypl0='6'' in /home/topular/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /home/topular/framework/db/CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /home/topular/framework/db/ar/CActiveFinder.php(761): CDbCommand->queryAll()
+#2 /home/topular/framework/db/ar/CActiveFinder.php(489): CJoinElement->runQuery(Object(CJoinQuery))
+#3 /home/topular/framework/db/ar/CActiveFinder.php(163): CJoinElement->lazyFind(Object(User))
+#4 /home/topular/framework/db/ar/CActiveRecord.php(272): CActiveFinder->lazyFind(Object(User))
+#5 /home/topular/framework/db/ar/CActiveRecord.php(215): CActiveRecord->getRelated('articles', false, Array)
+#6 /home/topular/protected-production/views/user/view.php(44): CActiveRecord->__call('articles', Array)
+#7 /home/topular/protected-production/views/user/view.php(44): User->articles(Array)
+#8 /home/topular/framework/web/CBaseController.php(126): require('/home/topular/p...')
+#9 /home/topular/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/topular/p...', Array, true)
+#10 /home/topular/framework/web/CController.php(869): CBaseController->renderFile('/home/topular/p...', Array, true)
+#11 /home/topular/framework/web/CController.php(782): CController->renderPartial('view', Array, true)
+#12 /home/topular/protected-production/controllers/UserController.php(80): CController->render('view', Array)
+#13 [internal function]: UserController->actionView(NULL)
+#14 /home/topular/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(UserController), Array)
+#15 /home/topular/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(UserController), Object(ReflectionMethod), Array)
+#16 /home/topular/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#17 /home/topular/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 /home/topular/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#19 /home/topular/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 /home/topular/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 /home/topular/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 /home/topular/framework/web/CController.php(291): CFilterChain->run()
+#23 /home/topular/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 /home/topular/framework/web/CWebApplication.php(282): CController->run('view')
+#25 /home/topular/framework/web/CWebApplication.php(141): CWebApplication->runController('user/view')
+#26 /home/topular/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#27 /home/topular/topular.in/index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/user/view
+---
+2014/02/12 21:58:30 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'city.under_construction' in 'on clause'. The SQL statement executed was: SELECT `articles`.`id` AS `t1_c0`, `articles`.`url` AS `t1_c1`, `articles`.`bitly_url` AS `t1_c2`, `articles`.`title` AS `t1_c3`, `articles`.`summary` AS `t1_c4`, `articles`.`content` AS `t1_c5`, `articles`.`image_url` AS `t1_c6`, `articles`.`image_width` AS `t1_c7`, `articles`.`image_height` AS `t1_c8`, `articles`.`word_count` AS `t1_c9`, `articles`.`date_published` AS `t1_c10`, `articles`.`source_id` AS `t1_c11`, `articles`.`fb_likes` AS `t1_c12`, `articles`.`fb_shares` AS `t1_c13`, `articles`.`retweets` AS `t1_c14`, `articles`.`linkedin_shares` AS `t1_c15`, `articles`.`score` AS `t1_c16`, `articles`.`rank` AS `t1_c17`, `articles`.`category_rank` AS `t1_c18`, `articles`.`movement_day` AS `t1_c19`, `articles`.`movement_week` AS `t1_c20`, `articles`.`movement_month` AS `t1_c21`, `articles`.`trend` AS `t1_c22`, `articles`.`age` AS `t1_c23`, `articles`.`hidden` AS `t1_c24`, `articles`.`timestamp` AS `t1_c25`, `source`.`id` AS `t2_c0`, `source`.`title` AS `t2_c1`, `source`.`url` AS `t2_c2`, `source`.`feed_url` AS `t2_c3`, `source`.`category_id` AS `t2_c4`, `source`.`type` AS `t2_c5`, `source`.`hide_image` AS `t2_c6`, `source`.`user_submitted` AS `t2_c7`, `source`.`city_id` AS `t2_c8`, `source`.`user_id` AS `t2_c9`, `source`.`score` AS `t2_c10`, `source`.`twitter_handle` AS `t2_c11`, `source`.`facebook_handle` AS `t2_c12`, `source`.`timestamp` AS `t2_c13`, `category`.`id` AS `t3_c0`, `category`.`title` AS `t3_c1`, `category`.`color` AS `t3_c2`, `city`.`id` AS `t4_c0`, `city`.`title` AS `t4_c1`, `city`.`hashtag` AS `t4_c2`, `city`.`under_construction` AS `t4_c3` FROM `article` `articles`  INNER JOIN `user_has_article` `articles_articles` ON (`articles_articles`.`user_id`=:ypl0) AND (`articles`.`id`=`articles_articles`.`article_id`) AND (hidden = 0 AND `city`.`under_construction` = 0) LEFT OUTER JOIN `source` `source` ON (`articles`.`source_id`=`source`.`id`) AND (user_submitted = 0)  LEFT OUTER JOIN `category` `category` ON (`source`.`category_id`=`category`.`id`)  LEFT OUTER JOIN `city` `city` ON (`source`.`city_id`=`city`.`id`) AND (under_construction = 0)  WHERE (hidden = 0 AND `city`.`under_construction` = 0) ORDER BY `articles_articles`.`timestamp` DESC LIMIT 3. Bound with :ypl0='6'.
+in /home/topular/protected-production/views/user/view.php (44)
+in /home/topular/protected-production/views/user/view.php (44)
+in /home/topular/protected-production/controllers/UserController.php (80)
+2014/02/12 21:58:30 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'city.under_construction' in 'on clause'. The SQL statement executed was: SELECT `articles`.`id` AS `t1_c0`, `articles`.`url` AS `t1_c1`, `articles`.`bitly_url` AS `t1_c2`, `articles`.`title` AS `t1_c3`, `articles`.`summary` AS `t1_c4`, `articles`.`content` AS `t1_c5`, `articles`.`image_url` AS `t1_c6`, `articles`.`image_width` AS `t1_c7`, `articles`.`image_height` AS `t1_c8`, `articles`.`word_count` AS `t1_c9`, `articles`.`date_published` AS `t1_c10`, `articles`.`source_id` AS `t1_c11`, `articles`.`fb_likes` AS `t1_c12`, `articles`.`fb_shares` AS `t1_c13`, `articles`.`retweets` AS `t1_c14`, `articles`.`linkedin_shares` AS `t1_c15`, `articles`.`score` AS `t1_c16`, `articles`.`rank` AS `t1_c17`, `articles`.`category_rank` AS `t1_c18`, `articles`.`movement_day` AS `t1_c19`, `articles`.`movement_week` AS `t1_c20`, `articles`.`movement_month` AS `t1_c21`, `articles`.`trend` AS `t1_c22`, `articles`.`age` AS `t1_c23`, `articles`.`hidden` AS `t1_c24`, `articles`.`timestamp` AS `t1_c25`, `source`.`id` AS `t2_c0`, `source`.`title` AS `t2_c1`, `source`.`url` AS `t2_c2`, `source`.`feed_url` AS `t2_c3`, `source`.`category_id` AS `t2_c4`, `source`.`type` AS `t2_c5`, `source`.`hide_image` AS `t2_c6`, `source`.`user_submitted` AS `t2_c7`, `source`.`city_id` AS `t2_c8`, `source`.`user_id` AS `t2_c9`, `source`.`score` AS `t2_c10`, `source`.`twitter_handle` AS `t2_c11`, `source`.`facebook_handle` AS `t2_c12`, `source`.`timestamp` AS `t2_c13`, `category`.`id` AS `t3_c0`, `category`.`title` AS `t3_c1`, `category`.`color` AS `t3_c2`, `city`.`id` AS `t4_c0`, `city`.`title` AS `t4_c1`, `city`.`hashtag` AS `t4_c2`, `city`.`under_construction` AS `t4_c3` FROM `article` `articles`  INNER JOIN `user_has_article` `articles_articles` ON (`articles_articles`.`user_id`=:ypl0) AND (`articles`.`id`=`articles_articles`.`article_id`) AND (hidden = 0 AND `city`.`under_construction` = 0) LEFT OUTER JOIN `source` `source` ON (`articles`.`source_id`=`source`.`id`) AND (user_submitted = 0)  LEFT OUTER JOIN `category` `category` ON (`source`.`category_id`=`category`.`id`)  LEFT OUTER JOIN `city` `city` ON (`source`.`city_id`=`city`.`id`) AND (under_construction = 0)  WHERE (hidden = 0 AND `city`.`under_construction` = 0) ORDER BY `articles_articles`.`timestamp` DESC LIMIT 3. Bound with :ypl0='6'' in /home/topular/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /home/topular/framework/db/CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /home/topular/framework/db/ar/CActiveFinder.php(761): CDbCommand->queryAll()
+#2 /home/topular/framework/db/ar/CActiveFinder.php(489): CJoinElement->runQuery(Object(CJoinQuery))
+#3 /home/topular/framework/db/ar/CActiveFinder.php(163): CJoinElement->lazyFind(Object(User))
+#4 /home/topular/framework/db/ar/CActiveRecord.php(272): CActiveFinder->lazyFind(Object(User))
+#5 /home/topular/framework/db/ar/CActiveRecord.php(215): CActiveRecord->getRelated('articles', false, Array)
+#6 /home/topular/protected-production/views/user/view.php(44): CActiveRecord->__call('articles', Array)
+#7 /home/topular/protected-production/views/user/view.php(44): User->articles(Array)
+#8 /home/topular/framework/web/CBaseController.php(126): require('/home/topular/p...')
+#9 /home/topular/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/topular/p...', Array, true)
+#10 /home/topular/framework/web/CController.php(869): CBaseController->renderFile('/home/topular/p...', Array, true)
+#11 /home/topular/framework/web/CController.php(782): CController->renderPartial('view', Array, true)
+#12 /home/topular/protected-production/controllers/UserController.php(80): CController->render('view', Array)
+#13 [internal function]: UserController->actionView(NULL)
+#14 /home/topular/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(UserController), Array)
+#15 /home/topular/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(UserController), Object(ReflectionMethod), Array)
+#16 /home/topular/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#17 /home/topular/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 /home/topular/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#19 /home/topular/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 /home/topular/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 /home/topular/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 /home/topular/framework/web/CController.php(291): CFilterChain->run()
+#23 /home/topular/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 /home/topular/framework/web/CWebApplication.php(282): CController->run('view')
+#25 /home/topular/framework/web/CWebApplication.php(141): CWebApplication->runController('user/view')
+#26 /home/topular/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#27 /home/topular/topular.in/index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/user/view
+---
+2014/02/12 21:58:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "44/page/4".' in /home/topular/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/topular/framework/web/CWebApplication.php(141): CWebApplication->runController('44/page/4')
+#1 /home/topular/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/topular/topular.in/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/44/page/4
+---
+2014/02/12 21:58:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "44/page/5".' in /home/topular/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/topular/framework/web/CWebApplication.php(141): CWebApplication->runController('44/page/5')
+#1 /home/topular/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/topular/topular.in/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/44/page/5
+---
+2014/02/12 21:58:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "44/page/6".' in /home/topular/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/topular/framework/web/CWebApplication.php(141): CWebApplication->runController('44/page/6')
+#1 /home/topular/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/topular/topular.in/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/44/page/6
+---
+2014/02/12 21:58:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "44/page/2".' in /home/topular/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/topular/framework/web/CWebApplication.php(141): CWebApplication->runController('44/page/2')
+#1 /home/topular/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/topular/topular.in/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/44/page/2
+---

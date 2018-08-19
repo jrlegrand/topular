@@ -1,0 +1,15 @@
+# Turn on the engine:
+RewriteEngine on
+
+# Don't perform redirects for files and directories that exist:
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# For everything else, redirect to index.php:
+RewriteRule . index.php
+RewriteCond %{HTTP_HOST} ^topular\.in$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.topular\.in$
+
+# Redirect to signup while beta testing
+#RewriteRule ^/?$ "http\:\/\/topular\.in\/signup" [R=301,L]
+

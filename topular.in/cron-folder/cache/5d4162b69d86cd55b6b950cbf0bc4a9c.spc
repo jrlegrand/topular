@@ -1,0 +1,1 @@
+a:3:{s:3:"url";s:56:"http://www.chicagobeautyreport.com/feeds/posts/default?#";s:8:"feed_url";s:42:"http://www.chicagobeautyreport.com/feed/?#";s:5:"build";s:14:"20130725002037";}

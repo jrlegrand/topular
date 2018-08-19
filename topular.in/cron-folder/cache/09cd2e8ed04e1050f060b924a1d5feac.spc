@@ -1,0 +1,1 @@
+a:3:{s:3:"url";s:65:"http://www.urbanophile.com/category/cities/indianapolis/feed/TEST";s:8:"feed_url";s:34:"http://www.urbanophile.com/feed/?#";s:5:"build";s:14:"20130725002037";}

@@ -1,0 +1,1 @@
+a:3:{s:3:"url";s:65:"http://www.chicagonow.com/get-out-have-fun-around-chicagoland/rss";s:8:"feed_url";s:31:"http://www.chicagonow.com/rss?#";s:5:"build";s:14:"20130725002037";}

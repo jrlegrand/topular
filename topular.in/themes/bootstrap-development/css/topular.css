@@ -1,0 +1,309 @@
+/* ================= */
+/* Javascript styles */
+/* ================= */
+
+/* ========= */
+/* Main page */
+/* ========= */
+
+body {
+	/*background-color: #eeeeee;*/
+	/*background-color: #99B2B7;*/
+/*	background-color: #4DBCE9;
+	background-image:url('http://topular.in/images/square.png');
+*/	font-family: 'Noto Sans', sans-serif;
+	height: 100%;
+	color: #000;
+	padding: 0 5px;
+}
+
+html {
+	height: 100%;
+}
+
+.row {
+	height: 100%;
+	margin:0;
+	padding: 0;
+}
+
+.tplr-btn {
+	padding: 10px 20px;
+	border-style: none;
+	background-color: #0088cc;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.tplr-btn:hover {
+	background-color: #0178bc;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.coda-font {
+	font-family: 'Roboto Slab', serif;
+}
+
+h1,h2,h3 {
+	font-family: 'Roboto Slab', serif;
+}
+
+#main {
+	margin: 45px auto;
+	float: none;
+	max-width: 800px;
+	padding: 0;
+	background: #fff;
+	background: rgba(255, 255, 255, 0.95);
+	
+	-webkit-box-shadow: -10px -10px 20px -10px #333333;
+	-moz-box-shadow: -10px -10px 20px -10px #333333;
+	box-shadow: -10px -10px 20px -10px #333333;
+}
+
+#footer {
+	padding: 20px;
+	margin-top: 40px;
+}
+
+#footer-inner {
+	border-top: 1px solid #ccc;
+	padding: 40px 0 20px 0;
+	text-align: center;
+}
+
+/* ============ */
+/* User Profile */
+/* ============ */
+.profile-image {
+	height: 100px;
+	width: 100px;
+}
+
+
+/* ================= */
+/* Menu / navigation */
+/* ================= */
+
+/* Under Menu */
+/* ---------- */
+
+.under-menu {
+	background: #000;
+	color: #fff;
+}
+
+.under-menu ul, .under-menu li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.under-menu a {
+	color: #fff;
+}
+
+
+/* Header */
+/* ------ */
+
+#tplr-logo {
+	font-family: 'Roboto Slab', serif;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 30px;
+}
+
+#tplr-logo a {
+	color: #000;
+	text-decoration: none;
+}
+
+#tplr-logo-img img {
+	height: 25px;
+}
+
+.tplr-dropdown a {
+	color: #000;
+}
+
+#tplr-title, .tplr-title {
+	font-family: 'Roboto Slab', serif;
+	font-size: 30px;
+	line-height: 40px;
+}
+
+#tplr-date {
+}
+
+#tplr-user, #tplr-signup-login {
+	font-weight: bold;
+}
+
+#header-wrapper {
+	/*margin-bottom: 25px;*/
+}
+
+#header {
+	border-bottom: 1px solid #000;
+	padding: 20px 0;
+	text-align: center;
+}
+
+#sub-header {
+	font-size: 12px;
+	border-bottom: 2px solid #000;
+	height: 35px;
+	line-height: 30px;
+}
+
+#sub-header a {
+	color: #000;
+}
+
+.dropdown-menu {
+	text-align: left;
+}
+
+/* Header minimized */
+/* ---------------- */
+/*
+#header-wrapper-minimized #sub-header {
+	display: none;
+}
+
+#header-wrapper-minimized #tplr-logo-text {
+	display: none;
+}
+
+#header-wrapper-minimized #bundle-title {
+	font-size: 24px;
+	line-height: 25px;
+}
+
+#header-wrapper-minimized #tplr-logo-img img {
+	height: 25px;
+}
+*/
+
+/* ============ */
+/* Article List */
+/* ============ */
+
+
+.article-wrapper {
+	margin-bottom: 40px;
+}
+
+.article-unit {
+}
+
+.tplr-breadcrumbs {
+	font-size: 12px;
+	margin-bottom: 3px;
+}
+
+.tplr-breadcrumbs a {
+	color: #000;	
+}
+
+h1.article-title {
+	font-family: 'Roboto Slab', serif;
+	font-size: 24px;
+	color: #000;
+	padding: 5px 0;
+	margin: 0px;
+	border-top: 2px #000 solid;
+}
+
+h1.article-title.large {
+	font-size: 36px;
+}
+
+h1.article-title  a {
+	color: #000;
+}
+
+.source-info {
+	padding: 3px 0;
+	margin-bottom: 10px;
+}
+
+.source-info.large {
+	font-size: 16px;
+}
+
+span.source-title a {
+	color: #000;
+	font-weight: bold;
+}
+
+span.date-published {
+	color: #cccccc;
+}
+
+/* =========== */
+/* Admin Tools */
+/* =========== */
+
+.article-admin-tools {
+	margin-top: 15px;
+	width: 100%;
+}
+
+.article-admin-tools a {
+	color: green;
+}
+
+/* ========= */
+/* Score box */
+/* ========= */
+
+.score-unit {
+	margin-top: 20px;
+	background: rgba(238, 238, 238, 0.75);
+	width: 100%;
+	color: #ccc;
+	border-bottom: 2px solid #c3c3c3;
+	min-height: 85px;
+}
+
+.score-unit a {
+	color: #ccc;
+}
+
+.score-inner {
+	padding: 10px 0;
+}
+
+.score-small-text {
+	text-align: center;
+	font-size: 12px;
+	line-height: 15px;
+	margin: 0;
+	font-weight: bold;
+}
+
+.score {
+	color: #ccc;
+	min-height: 205px;
+}
+
+.overall {
+	color: #c3c3c3;
+}
+
+.score-table {
+	padding: 0 25px;
+}
+
+.score-big-text {
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Roboto Slab', serif;
+}
+
+/* ======= */
+/* Bundles */
+/* ======= */

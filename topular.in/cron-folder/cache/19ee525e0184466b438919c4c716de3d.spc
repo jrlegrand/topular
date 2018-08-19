@@ -1,0 +1,278 @@
+a:4:{s:5:"child";a:1:{s:0:"";a:1:{s:3:"rss";a:1:{i:0;a:6:{s:4:"data";s:3:"
+
+
+";s:7:"attribs";a:1:{s:0:"";a:1:{s:7:"version";s:3:"2.0";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:0:"";a:1:{s:7:"channel";a:1:{i:0;a:6:{s:4:"data";s:49:"
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:3:{s:0:"";a:6:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:66:"Local Initiatives Support Corporation of Indianapolis » LISC Blog";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:27:"http://liscindianapolis.org";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:13:"lastBuildDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Thu, 25 Feb 2016 18:07:40 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"language";a:1:{i:0;a:5:{s:4:"data";s:5:"en-US";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"item";a:10:{i:0;a:6:{s:4:"data";s:48:"
+		
+		
+		
+		
+		
+				
+		
+		
+
+		
+		
+				
+			
+		
+		";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:5:{s:0:"";a:7:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:76:"LISC, State Farm Build on 16-Year Partnership to Expand Economic Opportunity";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:112:"http://liscindianapolis.org/2016/02/lisc-state-farm-build-on-16-year-partnership-to-expand-economic-opportunity/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"comments";a:1:{i:0;a:5:{s:4:"data";s:121:"http://liscindianapolis.org/2016/02/lisc-state-farm-build-on-16-year-partnership-to-expand-economic-opportunity/#comments";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Thu, 25 Feb 2016 18:04:26 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:3:{i:0;a:5:{s:4:"data";s:27:"Economic Development: FOCUS";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:1;a:5:{s:4:"data";s:7:"Housing";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:2;a:5:{s:4:"data";s:9:"LISC News";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:35:"http://liscindianapolis.org/?p=3552";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:1229:"<p>State Farm and the Local Initiatives Support Corporation (LISC) have announced an expanded effort to build economic opportunity in struggling communities through programs that encourage business development among entrepreneurs and skills development among low-income workers. A new, two-year $4 million State Farm grant will expand LISC Financial Opportunity Centers (FOCs) in under-resourced neighborhoods—helping people improve their incomes, credit scores and savings through education and long-term financial coaching. At the same time, these efforts will help lift up commercial areas and provide safer and more vibrant places for business owners to set up shop, create jobs and grow local incomes. Click &#8230; <a href="http://liscindianapolis.org/2016/02/lisc-state-farm-build-on-16-year-partnership-to-expand-economic-opportunity/">Continued</a></p>
+<p>The post <a rel="nofollow" href="http://liscindianapolis.org/2016/02/lisc-state-farm-build-on-16-year-partnership-to-expand-economic-opportunity/">LISC, State Farm Build on 16-Year Partnership to Expand Economic Opportunity</a> appeared first on <a rel="nofollow" href="http://liscindianapolis.org">Local Initiatives Support Corporation of Indianapolis</a>.</p>
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:12:"Anne Guthrie";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:40:"http://purl.org/rss/1.0/modules/content/";a:1:{s:7:"encoded";a:1:{i:0;a:5:{s:4:"data";s:1363:"<p>State Farm and the Local Initiatives Support Corporation (LISC) have announced an expanded effort to build economic opportunity in struggling communities through programs that encourage business development among entrepreneurs and skills development among low-income workers.</p>
+<p>A new, two-year $4 million State Farm grant will expand LISC <a href="http://www.lisc.org/our-initiatives/financial-stability/financial-opportunity-centers/">Financial Opportunity Centers</a> (FOCs) in under-resourced neighborhoods—helping people improve their incomes, credit scores and savings through education and long-term financial coaching. At the same time, these efforts will help lift up commercial areas and provide safer and more vibrant places for business owners to set up shop, create jobs and grow local incomes.</p>
+<p><span class="text_exposed_show"><a href="http://www.lisc.org/our-stories/story/lisc-state-farm-build-on-16-year-partnership"> Click here to read more. </a><br />
+</span></p>
+<p>The post <a rel="nofollow" href="http://liscindianapolis.org/2016/02/lisc-state-farm-build-on-16-year-partnership-to-expand-economic-opportunity/">LISC, State Farm Build on 16-Year Partnership to Expand Economic Opportunity</a> appeared first on <a rel="nofollow" href="http://liscindianapolis.org">Local Initiatives Support Corporation of Indianapolis</a>.</p>
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:36:"http://wellformedweb.org/CommentAPI/";a:1:{s:10:"commentRss";a:1:{i:0;a:5:{s:4:"data";s:117:"http://liscindianapolis.org/2016/02/lisc-state-farm-build-on-16-year-partnership-to-expand-economic-opportunity/feed/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:38:"http://purl.org/rss/1.0/modules/slash/";a:1:{s:8:"comments";a:1:{i:0;a:5:{s:4:"data";s:1:"0";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:1;a:6:{s:4:"data";s:51:"
+		
+		
+		
+		
+		
+				
+		
+		
+		
+
+		
+		
+				
+			
+		
+		";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:5:{s:0:"";a:7:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:75:"East Washington and Oxford: Winning Creative Placemaking projects announced";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:111:"http://liscindianapolis.org/2016/02/east-washington-and-oxford-winning-creative-placemaking-projects-announced/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"comments";a:1:{i:0;a:5:{s:4:"data";s:120:"http://liscindianapolis.org/2016/02/east-washington-and-oxford-winning-creative-placemaking-projects-announced/#comments";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Wed, 24 Feb 2016 21:03:13 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:4:{i:0;a:5:{s:4:"data";s:20:"Creative Placemaking";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:1;a:5:{s:4:"data";s:17:"Great Places 2020";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:2;a:5:{s:4:"data";s:9:"LISC News";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:3;a:5:{s:4:"data";s:9:"Near East";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:35:"http://liscindianapolis.org/?p=3546";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:1170:"<p>Neighbors met last week at Englewood Recreation Indianapolis to unveil the winning Creative Placemaking projects. There was a great mix of funded projects including two neighbors within 1/4 mile of the Great Place neighborhood, three Near Eastsiders and two additional Indianapolis-area recipients. More than $17,000 in grants were awarded including:   * Englewood International Amateur Film Festival by Jennifer Hutchinson * Summer Concert Series by Amber Lanman, Tracy Aldrich, Todd Burleson and Andy May * Notes to Self mural by Emily Gable and Paul Pelsue * T-Shirt Design Competition and Printing by Cat Head Press Additional selected projects for a &#8230; <a href="http://liscindianapolis.org/2016/02/east-washington-and-oxford-winning-creative-placemaking-projects-announced/">Continued</a></p>
+<p>The post <a rel="nofollow" href="http://liscindianapolis.org/2016/02/east-washington-and-oxford-winning-creative-placemaking-projects-announced/">East Washington and Oxford: Winning Creative Placemaking projects announced</a> appeared first on <a rel="nofollow" href="http://liscindianapolis.org">Local Initiatives Support Corporation of Indianapolis</a>.</p>
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:12:"Anne Guthrie";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:40:"http://purl.org/rss/1.0/modules/content/";a:1:{s:7:"encoded";a:1:{i:0;a:5:{s:4:"data";s:1736:"<div>
+<div>Neighbors met last week at Englewood Recreation Indianapolis to unveil the winning Creative Placemaking projects.</div>
+<div></div>
+<div>
+<div><span class="hasCaption">There was a great mix of funded projects including two neighbors within 1/4 mile of the Great Place neighborhood, three Near Eastsiders and two additional <span class="hasCaption">Indianapolis-area recipients</span>. <span class="hasCaption">More than $17,000 in grants were awarded including: </span> </span></div>
+<div></div>
+</div>
+<div>
+<div>
+<div>
+<div><span class="hasCaption"><span class="hasCaption"><i>* Englewood International Amateur Film Festival</i> by Jennifer Hutchinson<br />
+<i>* Summer Concert Series</i> by Amber Lanman, Tracy Aldrich, Todd Burleson and Andy May<br />
+<i>* Notes to Self mural</i> by Emily Gable and Paul Pelsue<br />
+<i>* T-Shirt Design Competition and Printing</i> by Cat Head Press</span></span></div>
+<div></div>
+<div>Additional selected projects for a pop-up exhibition:</div>
+<div>* Jamie Pawlus<br />
+* Gautum Rao<br />
+* John Clark</div>
+<div></div>
+<div></div>
+<div><span class="hasCaption"> </span><a href="http://liscindianapolis.org/media/IMG_7624.jpg"><img class="alignnone wp-image-3547 size-large" src="http://liscindianapolis.org/media/IMG_7624-1024x633.jpg" alt="IMG_7624" width="940" height="581" /></a></div>
+</div>
+</div>
+</div>
+</div>
+<p>The post <a rel="nofollow" href="http://liscindianapolis.org/2016/02/east-washington-and-oxford-winning-creative-placemaking-projects-announced/">East Washington and Oxford: Winning Creative Placemaking projects announced</a> appeared first on <a rel="nofollow" href="http://liscindianapolis.org">Local Initiatives Support Corporation of Indianapolis</a>.</p>
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:36:"http://wellformedweb.org/CommentAPI/";a:1:{s:10:"commentRss";a:1:{i:0;a:5:{s:4:"data";s:116:"http://liscindianapolis.org/2016/02/east-washington-and-oxford-winning-creative-placemaking-projects-announced/feed/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:38:"http://purl.org/rss/1.0/modules/slash/";a:1:{s:8:"comments";a:1:{i:0;a:5:{s:4:"data";s:1:"0";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:2;a:6:{s:4:"data";s:54:"
+		
+		
+		
+		
+		
+				
+		
+		
+		
+		
+
+		
+		
+				
+			
+		
+		";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:5:{s:0:"";a:7:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:75:"Feb. 18: Creative Placemaking Projects Unveiled, East Washington and Oxford";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:109:"http://liscindianapolis.org/2016/02/feb-18-creative-placemaking-projects-unveiled-east-washington-and-oxford/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"comments";a:1:{i:0;a:5:{s:4:"data";s:118:"http://liscindianapolis.org/2016/02/feb-18-creative-placemaking-projects-unveiled-east-washington-and-oxford/#comments";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Wed, 17 Feb 2016 15:43:32 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:5:{i:0;a:5:{s:4:"data";s:20:"Creative Placemaking";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:1;a:5:{s:4:"data";s:6:"Events";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:2;a:5:{s:4:"data";s:17:"Great Places 2020";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:3;a:5:{s:4:"data";s:9:"LISC News";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:4;a:5:{s:4:"data";s:9:"Near East";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:35:"http://liscindianapolis.org/?p=3540";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:653:"<p>Near Eastside Neighbors, please join us this Thursday, February 18 for a Launch Party: Great Places Near Eastside at Englewood Recreation Indianapolis 5 p.m.: Cake and punch reception 6 p.m.: Announce the winning proposals for Great Places Near Eastside creative placemaking projects!</p>
+<p>The post <a rel="nofollow" href="http://liscindianapolis.org/2016/02/feb-18-creative-placemaking-projects-unveiled-east-washington-and-oxford/">Feb. 18: Creative Placemaking Projects Unveiled, East Washington and Oxford</a> appeared first on <a rel="nofollow" href="http://liscindianapolis.org">Local Initiatives Support Corporation of Indianapolis</a>.</p>
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:12:"Anne Guthrie";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:40:"http://purl.org/rss/1.0/modules/content/";a:1:{s:7:"encoded";a:1:{i:0;a:5:{s:4:"data";s:990:"<p><span id="fbPhotoSnowliftCaption" class="fbPhotosPhotoCaption" tabindex="0" data-ft="{&quot;tn&quot;:&quot;K&quot;}"><span class="hasCaption">Near Eastside Neighbors, please join us this Thursday, February 18 for a Launch Party: Great Places Near Eastside at <a href="https://www.facebook.com/englewoodrec/" data-hovercard="/ajax/hovercard/page.php?id=478017288889029&amp;extragetparams=%7B%22directed_target_id%22%3A0%7D">Englewood Recreation Indianapolis</a></span></span></p>
+<p>5 p.m.: Cake and punch reception<br />
+6 p.m.: Announce the winning proposals for Great Places Near Eastside creative placemaking projects!</p>
+<p>The post <a rel="nofollow" href="http://liscindianapolis.org/2016/02/feb-18-creative-placemaking-projects-unveiled-east-washington-and-oxford/">Feb. 18: Creative Placemaking Projects Unveiled, East Washington and Oxford</a> appeared first on <a rel="nofollow" href="http://liscindianapolis.org">Local Initiatives Support Corporation of Indianapolis</a>.</p>
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:36:"http://wellformedweb.org/CommentAPI/";a:1:{s:10:"commentRss";a:1:{i:0;a:5:{s:4:"data";s:114:"http://liscindianapolis.org/2016/02/feb-18-creative-placemaking-projects-unveiled-east-washington-and-oxford/feed/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:38:"http://purl.org/rss/1.0/modules/slash/";a:1:{s:8:"comments";a:1:{i:0;a:5:{s:4:"data";s:1:"0";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:3;a:6:{s:4:"data";s:51:"
+		
+		
+		
+		
+		
+				
+		
+		
+		
+
+		
+		
+				
+			
+		
+		";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:5:{s:0:"";a:7:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:96:"Learn more about the 38th &amp; Illinois Great Place neighborhood, cast your vote for rebranding";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:126:"http://liscindianapolis.org/2016/02/learn-more-about-the-38th-illinois-great-place-neighborhood-cast-your-vote-for-rebranding/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"comments";a:1:{i:0;a:5:{s:4:"data";s:135:"http://liscindianapolis.org/2016/02/learn-more-about-the-38th-illinois-great-place-neighborhood-cast-your-vote-for-rebranding/#comments";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Wed, 17 Feb 2016 15:38:40 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:4:{i:0;a:5:{s:4:"data";s:6:"Events";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:1;a:5:{s:4:"data";s:17:"Great Places 2020";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:2;a:5:{s:4:"data";s:9:"LISC News";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:3;a:5:{s:4:"data";s:9:"Mid-North";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:35:"http://liscindianapolis.org/?p=3534";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:704:"<p>Join us this Thursday, Feb. 18 at North United Methodist Church to mingle with IMPD and city officials and learn more about the programs and projects happening in the area. Neighbors are encouraged to weigh in on the neighborhood branding campaign. Can’t make the meeting? Take the survey here.</p>
+<p>The post <a rel="nofollow" href="http://liscindianapolis.org/2016/02/learn-more-about-the-38th-illinois-great-place-neighborhood-cast-your-vote-for-rebranding/">Learn more about the 38th &#038; Illinois Great Place neighborhood, cast your vote for rebranding</a> appeared first on <a rel="nofollow" href="http://liscindianapolis.org">Local Initiatives Support Corporation of Indianapolis</a>.</p>
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:12:"Anne Guthrie";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:40:"http://purl.org/rss/1.0/modules/content/";a:1:{s:7:"encoded";a:1:{i:0;a:5:{s:4:"data";s:1000:"<p>Join us this Thursday, Feb. 18 at North United Methodist Church to mingle with IMPD and city officials and learn more about the programs and projects happening in the area. Neighbors are encouraged to weigh in on the neighborhood branding campaign. Can’t make the meeting? <a href="https://www.surveymonkey.com/r/GreatPlaces2020North">Take the survey here.</a></p>
+<p><a href="http://liscindianapolis.org/media/square-logo.jpg"><img class="alignnone size-medium wp-image-3538" src="http://liscindianapolis.org/media/square-logo-300x300.jpg" alt="square logo" width="300" height="300" /></a></p>
+<p>The post <a rel="nofollow" href="http://liscindianapolis.org/2016/02/learn-more-about-the-38th-illinois-great-place-neighborhood-cast-your-vote-for-rebranding/">Learn more about the 38th &#038; Illinois Great Place neighborhood, cast your vote for rebranding</a> appeared first on <a rel="nofollow" href="http://liscindianapolis.org">Local Initiatives Support Corporation of Indianapolis</a>.</p>
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:36:"http://wellformedweb.org/CommentAPI/";a:1:{s:10:"commentRss";a:1:{i:0;a:5:{s:4:"data";s:131:"http://liscindianapolis.org/2016/02/learn-more-about-the-38th-illinois-great-place-neighborhood-cast-your-vote-for-rebranding/feed/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:38:"http://purl.org/rss/1.0/modules/slash/";a:1:{s:8:"comments";a:1:{i:0;a:5:{s:4:"data";s:1:"0";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:4;a:6:{s:4:"data";s:42:"
+		
+		
+		
+		
+		
+				
+
+		
+		
+				
+			
+		
+		";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:5:{s:0:"";a:7:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:143:"Attention Project Management Consultants: Grant money available for grant and contract administration assistance for Facade Improvement Program";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:179:"http://liscindianapolis.org/2016/02/attention-project-management-consultants-grant-money-available-for-grant-and-contract-administration-assistance-for-facade-improvement-program/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"comments";a:1:{i:0;a:5:{s:4:"data";s:188:"http://liscindianapolis.org/2016/02/attention-project-management-consultants-grant-money-available-for-grant-and-contract-administration-assistance-for-facade-improvement-program/#comments";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 09 Feb 2016 20:40:57 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:9:"LISC News";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:35:"http://liscindianapolis.org/?p=3530";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:1453:"<p>FOCUS is currently soliciting proposals from project management consultants to provide grant and contract administration, general construction and regulatory oversight for privately and publicly funded façade improvement projects. Façade grants are provided to building-owners undertaking improvements partially-funded through the Façade Improvement Program.  Please submit electronically.  Final selection and notification of the applicants will take place on or about February 29, 2016.  LISC will enter into a contract with one or more project management consultants from February 1, 2016 through April 30, 2017.   Please click here to download the application form. To be considered, responses to this RFP must be received &#8230; <a href="http://liscindianapolis.org/2016/02/attention-project-management-consultants-grant-money-available-for-grant-and-contract-administration-assistance-for-facade-improvement-program/">Continued</a></p>
+<p>The post <a rel="nofollow" href="http://liscindianapolis.org/2016/02/attention-project-management-consultants-grant-money-available-for-grant-and-contract-administration-assistance-for-facade-improvement-program/">Attention Project Management Consultants: Grant money available for grant and contract administration assistance for Facade Improvement Program</a> appeared first on <a rel="nofollow" href="http://liscindianapolis.org">Local Initiatives Support Corporation of Indianapolis</a>.</p>
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:12:"Anne Guthrie";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:40:"http://purl.org/rss/1.0/modules/content/";a:1:{s:7:"encoded";a:1:{i:0;a:5:{s:4:"data";s:1685:"<p>FOCUS is currently soliciting proposals from project management consultants to provide grant and contract administration, general construction and regulatory oversight for privately and publicly funded façade improvement projects. Façade grants are provided to building-owners undertaking improvements partially-funded through the Façade Improvement Program.  Please submit electronically.  Final selection and notification of the applicants will take place on or about February 29, 2016.  LISC will enter into a contract with one or more project management consultants from February 1, 2016 through April 30, 2017.   <a href="http://liscindianapolis.org/media/2016-FOCUS-Facade-PM-RFP-v-FINAL.pdf">Please click here to download the application form.</a></p>
+<p>To be considered, responses to this RFP must be received by LISC electronically by 5:30 pm on <strong>February 22nd, 2016.</strong></p>
+<p>Please send all submissions and refer questions to:</p>
+<p>Nicholas Johnson<br />
+Local Initiatives Support Corporation<br />
+202 E. Market Street Indianapolis, IN 46204<br />
+Phone: 317-454-8488<br />
+Email:   <a href="mailto:njohnson@lisc.org">njohnson@lisc.org</a></p>
+<p>The post <a rel="nofollow" href="http://liscindianapolis.org/2016/02/attention-project-management-consultants-grant-money-available-for-grant-and-contract-administration-assistance-for-facade-improvement-program/">Attention Project Management Consultants: Grant money available for grant and contract administration assistance for Facade Improvement Program</a> appeared first on <a rel="nofollow" href="http://liscindianapolis.org">Local Initiatives Support Corporation of Indianapolis</a>.</p>
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:36:"http://wellformedweb.org/CommentAPI/";a:1:{s:10:"commentRss";a:1:{i:0;a:5:{s:4:"data";s:184:"http://liscindianapolis.org/2016/02/attention-project-management-consultants-grant-money-available-for-grant-and-contract-administration-assistance-for-facade-improvement-program/feed/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:38:"http://purl.org/rss/1.0/modules/slash/";a:1:{s:8:"comments";a:1:{i:0;a:5:{s:4:"data";s:1:"0";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:5;a:6:{s:4:"data";s:42:"
+		
+		
+		
+		
+		
+				
+
+		
+		
+				
+			
+		
+		";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:5:{s:0:"";a:7:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:60:"Feb. 25: Crafting a Cultural District Amidst Suburban Sprawl";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:95:"http://liscindianapolis.org/2016/02/feb-25-crafting-a-cultural-district-amidst-suburban-sprawl/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"comments";a:1:{i:0;a:5:{s:4:"data";s:104:"http://liscindianapolis.org/2016/02/feb-25-crafting-a-cultural-district-amidst-suburban-sprawl/#comments";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 09 Feb 2016 16:00:33 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:9:"LISC News";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:35:"http://liscindianapolis.org/?p=3526";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:1113:"<p>Please join us on Feb. 25 for the Urban Land Institute 2016 Breakfast Series focused on Crafting a Cultural District Amidst Suburban Sprawl. Moderated by Tedd Grain, Deputy Director of LISC Indianapolis, guests will hear from: Ben Houle, PE –IMC TAP Panel Chair, founder of Landworx Engineering. Ben has more than 15 years of experience in the industry, and has been a long-time volunteer with ULI and Habitat for Humanity. Kathleen Norris –Expert in strategizing how to bring retail and revitalization to distressed neighborhoods. Her firm, Urban Fast Forward out of Cincinnati, has contributed greatly to the rebirth of the Over-the-Rhine &#8230; <a href="http://liscindianapolis.org/2016/02/feb-25-crafting-a-cultural-district-amidst-suburban-sprawl/">Continued</a></p>
+<p>The post <a rel="nofollow" href="http://liscindianapolis.org/2016/02/feb-25-crafting-a-cultural-district-amidst-suburban-sprawl/">Feb. 25: Crafting a Cultural District Amidst Suburban Sprawl</a> appeared first on <a rel="nofollow" href="http://liscindianapolis.org">Local Initiatives Support Corporation of Indianapolis</a>.</p>
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:12:"Anne Guthrie";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:40:"http://purl.org/rss/1.0/modules/content/";a:1:{s:7:"encoded";a:1:{i:0;a:5:{s:4:"data";s:1971:"<p>Please join us on Feb. 25 for the <a href="http://indiana.uli.org/">Urban Land Institute</a> 2016 Breakfast Series focused on <em>Crafting a Cultural District Amidst Suburban Sprawl. </em>Moderated by Tedd Grain, Deputy Director of LISC Indianapolis, guests will hear from:</p>
+<ul>
+<li>Ben Houle, PE –IMC TAP Panel Chair, founder of <a href="http://landworksengineering.com/">Landworx Engineering</a>. Ben has more than 15 years of experience in the industry, and has been a long-time volunteer with ULI and Habitat for Humanity.</li>
+<li>Kathleen Norris –Expert in strategizing how to bring retail and revitalization to distressed neighborhoods. Her firm, <a href="http://urbanfastforward.com/">Urban Fast Forward</a> out of Cincinnati, has contributed greatly to the rebirth of the Over-the-Rhine neighborhood.</li>
+</ul>
+<p>Learn how communities can create a framework to help businesses and families in Cultural Districts grow and thrive, including how to leverage the existing strength of the neighborhood – its diversity – into even more business and residential growth.</p>
+<p><strong>Thursday, Feb. 25, 2016</strong><br />
+Katz, Sapper &amp; Miller Conference Center<br />
+<a href="https://www.google.com/maps/place/KSM+Consulting/@39.9290239,-86.1458462,17z/data=!3m1!4b1!4m2!3m1!1s0x8814acd008b165f5:0x9947babcbacd4560">800 E. 96th St., Suite 100, Indianapolis, IN 46204</a><br />
+7:30-8:00am &#8211; Registration/Networking/Continental Breakfast<br />
+8:00- 9:00am &#8211; Presentation/Q&amp;A</p>
+<p><strong><a href="http://indiana.uli.org/event/february-breakfast-series/">Click here to register</a></strong></p>
+<p>The post <a rel="nofollow" href="http://liscindianapolis.org/2016/02/feb-25-crafting-a-cultural-district-amidst-suburban-sprawl/">Feb. 25: Crafting a Cultural District Amidst Suburban Sprawl</a> appeared first on <a rel="nofollow" href="http://liscindianapolis.org">Local Initiatives Support Corporation of Indianapolis</a>.</p>
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:36:"http://wellformedweb.org/CommentAPI/";a:1:{s:10:"commentRss";a:1:{i:0;a:5:{s:4:"data";s:100:"http://liscindianapolis.org/2016/02/feb-25-crafting-a-cultural-district-amidst-suburban-sprawl/feed/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:38:"http://purl.org/rss/1.0/modules/slash/";a:1:{s:8:"comments";a:1:{i:0;a:5:{s:4:"data";s:1:"0";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:6;a:6:{s:4:"data";s:48:"
+		
+		
+		
+		
+		
+				
+		
+		
+
+		
+		
+				
+			
+		
+		";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:5:{s:0:"";a:7:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:89:"ACE PREPARATORY ACADEMY CHARTER SCHOOL ADDS VIABLE EDUCATION OPTION TO NORTHEAST CORRIDOR";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:126:"http://liscindianapolis.org/2016/02/ace-preparatory-academy-charter-school-adds-viable-education-option-to-northeast-corridor/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"comments";a:1:{i:0;a:5:{s:4:"data";s:135:"http://liscindianapolis.org/2016/02/ace-preparatory-academy-charter-school-adds-viable-education-option-to-northeast-corridor/#comments";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 05 Feb 2016 20:07:20 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:3:{i:0;a:5:{s:4:"data";s:9:"Education";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:1;a:5:{s:4:"data";s:9:"LISC News";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:2;a:5:{s:4:"data";s:19:"North East Corridor";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:35:"http://liscindianapolis.org/?p=3523";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:914:"<p>BES-Indy LLC, a special purpose entity of Charter School Support Services, a national nonprofit developer, recently closed on construction financing from LISC and IFF to finance the development of a facility located at 5326 Hillside Avenue which will be leased to a new K-5 charter elementary school, ACE Preparatory Academy (“ACE Prep”). The start-up school is founded by Anna Shults. ACE Prep is scheduled to open in the fall of 2016 and will serve a total of 432 students at full enrollment. Read more here.</p>
+<p>The post <a rel="nofollow" href="http://liscindianapolis.org/2016/02/ace-preparatory-academy-charter-school-adds-viable-education-option-to-northeast-corridor/">ACE PREPARATORY ACADEMY CHARTER SCHOOL ADDS VIABLE EDUCATION OPTION TO NORTHEAST CORRIDOR</a> appeared first on <a rel="nofollow" href="http://liscindianapolis.org">Local Initiatives Support Corporation of Indianapolis</a>.</p>
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:12:"Anne Guthrie";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:40:"http://purl.org/rss/1.0/modules/content/";a:1:{s:7:"encoded";a:1:{i:0;a:5:{s:4:"data";s:1087:"<p>BES-Indy LLC, a special purpose entity of Charter School Support Services, a national nonprofit developer, recently closed on construction financing from LISC and IFF to finance the development of a facility located at 5326 Hillside Avenue which will be leased to a new K-5 charter elementary school, <a href="http://aceprepacademy.org">ACE Preparatory Academy</a> (“ACE Prep”). The start-up school is founded by Anna Shults. ACE Prep is scheduled to open in the fall of 2016 and will serve a total of 432 students at full enrollment. <a href="http://liscindianapolis.org/ace-preparatory-academy-charter-school-adds-viable-education-option-to-northeast-corridor/">Read more here.</a></p>
+<p>The post <a rel="nofollow" href="http://liscindianapolis.org/2016/02/ace-preparatory-academy-charter-school-adds-viable-education-option-to-northeast-corridor/">ACE PREPARATORY ACADEMY CHARTER SCHOOL ADDS VIABLE EDUCATION OPTION TO NORTHEAST CORRIDOR</a> appeared first on <a rel="nofollow" href="http://liscindianapolis.org">Local Initiatives Support Corporation of Indianapolis</a>.</p>
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:36:"http://wellformedweb.org/CommentAPI/";a:1:{s:10:"commentRss";a:1:{i:0;a:5:{s:4:"data";s:131:"http://liscindianapolis.org/2016/02/ace-preparatory-academy-charter-school-adds-viable-education-option-to-northeast-corridor/feed/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:38:"http://purl.org/rss/1.0/modules/slash/";a:1:{s:8:"comments";a:1:{i:0;a:5:{s:4:"data";s:1:"0";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:7;a:6:{s:4:"data";s:42:"
+		
+		
+		
+		
+		
+				
+
+		
+		
+				
+			
+		
+		";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:5:{s:0:"";a:7:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:39:"New Art Installation at Holmes and King";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:76:"http://liscindianapolis.org/2016/02/new-art-installation-at-holmes-and-king/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"comments";a:1:{i:0;a:5:{s:4:"data";s:85:"http://liscindianapolis.org/2016/02/new-art-installation-at-holmes-and-king/#comments";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Thu, 04 Feb 2016 06:17:19 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:9:"LISC News";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:35:"http://liscindianapolis.org/?p=3506";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:1049:"<p>GREAT PLACES 2020: WEST MICHIGAN AND KING Artistic and cultural activities strengthen a community, particularly when they reveal and celebrate its character and identity. Creative Placemaking provides a vital spark that brings a neighborhood to life and transforms it into a place where things happen and people want to be. This new art installation was created in partnership with LISC and Keep Indianapolis Beautiful. The design was done by Wil D. Marquez of w/Purpose design. Fabrication was done by Cutting Edge Craftsmen LLC based out of the Brookside Industrial Complex. Planting, clean ups and hardscaping was done by volunteers over &#8230; <a href="http://liscindianapolis.org/2016/02/new-art-installation-at-holmes-and-king/">Continued</a></p>
+<p>The post <a rel="nofollow" href="http://liscindianapolis.org/2016/02/new-art-installation-at-holmes-and-king/">New Art Installation at Holmes and King</a> appeared first on <a rel="nofollow" href="http://liscindianapolis.org">Local Initiatives Support Corporation of Indianapolis</a>.</p>
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:12:"Anne Guthrie";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:40:"http://purl.org/rss/1.0/modules/content/";a:1:{s:7:"encoded";a:1:{i:0;a:5:{s:4:"data";s:1708:"<div>GREAT PLACES 2020: WEST MICHIGAN AND KING</div>
+<div>
+<div>
+<div>Artistic and cultural activities strengthen a community, particularly when they reveal and celebrate its character and identity. Creative Placemaking provides a vital spark that brings a neighborhood to life and transforms it into a place where things happen and people want to be.</p>
+</div>
+<div>This new art installation was created in partnership with LISC and <a href="http://r20.rs6.net/tn.jsp?f=001PZc43HF7p-uiXOnwcAxpoVRpCh39CcNjxV1kh-dIg3AOaLMjyTMXG0EA9DYvJP0FSIGgv-HMkfEgGWsfj93yWOHxW9AcxYQvk_VNg3qNqWJU5YD15cZMjxSI6aK_o0Muo6lorq_oTCGwZA5oWZkkS70Jh4k6UZMJJiMLihb91h4=&amp;c=1gO8VEWYnefEzckG1lyuTncFqGwZYGsXmPm9vwg8FL6l_ekkPEfttQ==&amp;ch=BYu10MNNafKBRcPIPXkXiP0kKm5_B2sBl7L37lbFXSV0HGWh5MM-aA==" target="_blank" shape="rect">Keep Indianapolis Beautiful</a>. The design was done by Wil D. Marquez of w/Purpose design. Fabrication was done by Cutting Edge Craftsmen LLC based out of the Brookside Industrial Complex. Planting, clean ups and hardscaping was done by volunteers over a series of work days led by Keep Indianapolis Beautiful.</div>
+<div></div>
+<div><a href="http://liscindianapolis.org/media/Near_West_Train_II_use.jpg"><img class="alignnone size-medium wp-image-3473" src="http://liscindianapolis.org/media/Near_West_Train_II_use-300x225.jpg" alt="Near_West_Train_II_use" width="300" height="225" /></a></div>
+</div>
+</div>
+<p>The post <a rel="nofollow" href="http://liscindianapolis.org/2016/02/new-art-installation-at-holmes-and-king/">New Art Installation at Holmes and King</a> appeared first on <a rel="nofollow" href="http://liscindianapolis.org">Local Initiatives Support Corporation of Indianapolis</a>.</p>
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:36:"http://wellformedweb.org/CommentAPI/";a:1:{s:10:"commentRss";a:1:{i:0;a:5:{s:4:"data";s:81:"http://liscindianapolis.org/2016/02/new-art-installation-at-holmes-and-king/feed/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:38:"http://purl.org/rss/1.0/modules/slash/";a:1:{s:8:"comments";a:1:{i:0;a:5:{s:4:"data";s:1:"0";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:8;a:6:{s:4:"data";s:45:"
+		
+		
+		
+		
+		
+				
+		
+
+		
+		
+				
+			
+		
+		";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:5:{s:0:"";a:7:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:123:"Attention Design and Architecture professionals: Grant money available for design assistance for Facade Improvement Program";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:159:"http://liscindianapolis.org/2016/02/attention-design-and-architecture-professionals-grant-money-available-for-design-assistance-for-facade-improvement-program/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"comments";a:1:{i:0;a:5:{s:4:"data";s:168:"http://liscindianapolis.org/2016/02/attention-design-and-architecture-professionals-grant-money-available-for-design-assistance-for-facade-improvement-program/#comments";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 02 Feb 2016 14:59:19 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:2:{i:0;a:5:{s:4:"data";s:27:"Economic Development: FOCUS";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:1;a:5:{s:4:"data";s:9:"LISC News";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:35:"http://liscindianapolis.org/?p=3513";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:1336:"<p>FOCUS is currently soliciting proposals from design or architecture professionals to provide design assistance to building-owners undertaking improvements partially funded through the Façade Improvement Program. Please submit electronically. Final selection and notification of the applicants will take place by the end of January. LISC will enter into a contract with the Design Consultant from February 1, 2016 through April 30, 2017. Please click here to download the application form. To be considered, responses to this RFP must be received by LISC electronically by 5:30 pm on February 15, 2016. Please send all submissions and refer questions to: Nicholas Johnson Local &#8230; <a href="http://liscindianapolis.org/2016/02/attention-design-and-architecture-professionals-grant-money-available-for-design-assistance-for-facade-improvement-program/">Continued</a></p>
+<p>The post <a rel="nofollow" href="http://liscindianapolis.org/2016/02/attention-design-and-architecture-professionals-grant-money-available-for-design-assistance-for-facade-improvement-program/">Attention Design and Architecture professionals: Grant money available for design assistance for Facade Improvement Program</a> appeared first on <a rel="nofollow" href="http://liscindianapolis.org">Local Initiatives Support Corporation of Indianapolis</a>.</p>
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:12:"Anne Guthrie";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:40:"http://purl.org/rss/1.0/modules/content/";a:1:{s:7:"encoded";a:1:{i:0;a:5:{s:4:"data";s:1447:"<p>FOCUS is currently soliciting proposals from design or architecture professionals to provide design assistance to building-owners undertaking improvements partially funded through the Façade Improvement Program. Please submit electronically. Final selection and notification of the applicants will take place by the end of January. LISC will enter into a contract with the Design Consultant from February 1, 2016 through April 30, 2017. <a href="http://liscindianapolis.org/media/2016-FOCUS-Facade-DA-RFP.pdf">Please click here to download the application form.</a></p>
+<p>To be considered, responses to this RFP must be received by LISC electronically <strong>by 5:30 pm on February 15, 2016.</strong></p>
+<p>Please send all submissions and refer questions to:</p>
+<p>Nicholas Johnson<br />
+Local Initiatives Support Corporation<br />
+202 E. Market Street Indianapolis, IN 46204<br />
+Phone: 317-454-8488<br />
+Email:   <a href="mailto:njohnson@lisc.org">njohnson@lisc.org</a></p>
+<p>The post <a rel="nofollow" href="http://liscindianapolis.org/2016/02/attention-design-and-architecture-professionals-grant-money-available-for-design-assistance-for-facade-improvement-program/">Attention Design and Architecture professionals: Grant money available for design assistance for Facade Improvement Program</a> appeared first on <a rel="nofollow" href="http://liscindianapolis.org">Local Initiatives Support Corporation of Indianapolis</a>.</p>
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:36:"http://wellformedweb.org/CommentAPI/";a:1:{s:10:"commentRss";a:1:{i:0;a:5:{s:4:"data";s:164:"http://liscindianapolis.org/2016/02/attention-design-and-architecture-professionals-grant-money-available-for-design-assistance-for-facade-improvement-program/feed/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:38:"http://purl.org/rss/1.0/modules/slash/";a:1:{s:8:"comments";a:1:{i:0;a:5:{s:4:"data";s:1:"0";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:9;a:6:{s:4:"data";s:42:"
+		
+		
+		
+		
+		
+				
+
+		
+		
+				
+			
+		
+		";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:5:{s:0:"";a:7:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:33:"#LOVEat38th 5 x 5 Event on Feb. 5";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:68:"http://liscindianapolis.org/2016/02/loveat38th-5-x-5-event-on-feb-5/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"comments";a:1:{i:0;a:5:{s:4:"data";s:77:"http://liscindianapolis.org/2016/02/loveat38th-5-x-5-event-on-feb-5/#comments";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 02 Feb 2016 09:32:55 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:9:"LISC News";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:35:"http://liscindianapolis.org/?p=3503";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:988:"<p>GREAT PLACES 2020: 38th AND ILLINOIS This 5&#215;5 event is a contest sponsored by Local Initiatives Support Corporation (LISC) to foster community building and art-focused innovations in selected Great Places neighborhoods. For this 5&#215;5, five finalists will be given 5 minutes and 5 slides to present an idea using the arts to benefit the 38th and Illinois Street neighborhood. The competition will take place at the Harrison Center for the Arts on Feb. 5 at 7 p.m. One winning project will receive $10,000 to make it happen. The winning project must be complete by June 15, 2016. Click here for &#8230; <a href="http://liscindianapolis.org/2016/02/loveat38th-5-x-5-event-on-feb-5/">Continued</a></p>
+<p>The post <a rel="nofollow" href="http://liscindianapolis.org/2016/02/loveat38th-5-x-5-event-on-feb-5/">#LOVEat38th 5 x 5 Event on Feb. 5</a> appeared first on <a rel="nofollow" href="http://liscindianapolis.org">Local Initiatives Support Corporation of Indianapolis</a>.</p>
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:12:"Anne Guthrie";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:40:"http://purl.org/rss/1.0/modules/content/";a:1:{s:7:"encoded";a:1:{i:0;a:5:{s:4:"data";s:1810:"<div>
+<p><strong>GREAT PLACES 2020: 38th AND ILLINOIS</strong></p>
+<div>This 5&#215;5 event is a contest sponsored by Local Initiatives Support Corporation (LISC) to foster community building and art-focused innovations in selected Great Places neighborhoods. For this 5&#215;5, five finalists will be given 5 minutes and 5 slides to present an idea using the arts to benefit the 38th and Illinois Street neighborhood. The competition will take place at the Harrison Center for the Arts on <span class="aBn" tabindex="0" data-term="goog_1700117074"><span class="aQJ">Feb. 5 at 7 p.m.</span></span> One winning project will receive $10,000 to make it happen. The winning project must be complete by <span class="aBn" tabindex="0" data-term="goog_1700117075"><span class="aQJ">June 15, 2016</span></span>.<a href="http://r20.rs6.net/tn.jsp?f=001PZc43HF7p-uiXOnwcAxpoVRpCh39CcNjxV1kh-dIg3AOaLMjyTMXGzXMNB4ieVO8VhBA9DRCkmpKQ2WF5RkkjjoXM7SMkpqG0CZ5fp8XhXdO1xUiySctw4RapDsdRTzX0BfuBZR_GmrHqs8n6vcTHpY4D2P1k6ai3WhRvwjNEBl1yorZBsKs6sDrR8HFkZh-jmpqisxEG1KfAUIKFkScSffjCiGPPUwd&amp;c=1gO8VEWYnefEzckG1lyuTncFqGwZYGsXmPm9vwg8FL6l_ekkPEfttQ==&amp;ch=BYu10MNNafKBRcPIPXkXiP0kKm5_B2sBl7L37lbFXSV0HGWh5MM-aA==" target="_blank" shape="rect"> Click here for more information, including a list of finalists.</a></div>
+<div><a href="http://liscindianapolis.org/media/unnamed3.jpg"><img class="alignnone size-medium wp-image-3496" src="http://liscindianapolis.org/media/unnamed3-300x184.jpg" alt="unnamed3" width="300" height="184" /></a></div>
+</div>
+<p>The post <a rel="nofollow" href="http://liscindianapolis.org/2016/02/loveat38th-5-x-5-event-on-feb-5/">#LOVEat38th 5 x 5 Event on Feb. 5</a> appeared first on <a rel="nofollow" href="http://liscindianapolis.org">Local Initiatives Support Corporation of Indianapolis</a>.</p>
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:36:"http://wellformedweb.org/CommentAPI/";a:1:{s:10:"commentRss";a:1:{i:0;a:5:{s:4:"data";s:73:"http://liscindianapolis.org/2016/02/loveat38th-5-x-5-event-on-feb-5/feed/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:38:"http://purl.org/rss/1.0/modules/slash/";a:1:{s:8:"comments";a:1:{i:0;a:5:{s:4:"data";s:1:"0";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:27:"http://www.w3.org/2005/Atom";a:1:{s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:4:"href";s:38:"http://liscindianapolis.org/blog/feed/";s:3:"rel";s:4:"self";s:4:"type";s:19:"application/rss+xml";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:44:"http://purl.org/rss/1.0/modules/syndication/";a:2:{s:12:"updatePeriod";a:1:{i:0;a:5:{s:4:"data";s:6:"hourly";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:15:"updateFrequency";a:1:{i:0;a:5:{s:4:"data";s:1:"1";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}}}}}}s:4:"type";i:128;s:7:"headers";a:11:{s:12:"x-powered-by";s:10:"PHP/5.4.33";s:10:"x-pingback";s:38:"http://liscindianapolis.org/xmlrpc.php";s:13:"last-modified";s:29:"Sun, 08 Feb 2015 18:51:54 GMT";s:4:"etag";s:34:""fe18658f6f233d4f0176017d003180a7"";s:12:"x-robots-tag";s:15:"noindex, follow";s:12:"content-type";s:34:"application/rss+xml; charset=UTF-8";s:4:"date";s:29:"Thu, 25 Feb 2016 18:09:41 GMT";s:13:"accept-ranges";s:5:"bytes";s:6:"server";s:9:"LiteSpeed";s:15:"x-ua-compatible";s:16:"IE=edge,chrome=1";s:10:"connection";s:5:"close";}s:5:"build";s:14:"20130725002037";}
